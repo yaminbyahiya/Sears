@@ -1,0 +1,86 @@
+{% set componentName = "wiloke-hero-slider" %}
+
+{% if item.textContentPosition == 'left' %}
+	{% set position = 'justify-content: flex-start !important;' %}
+{% endif %}
+{% if item.textContentPosition == 'center' %}
+	{% set position = 'justify-content: center !important;' %}
+{% endif %}
+{% if item.textContentPosition == 'right' %}
+	{% set position = 'justify-content: flex-end !important;' %}
+{% endif %}
+
+{% if item.featuredImage %}
+	<div data-animated-in="{{item.imgAniIn}}" data-animated-out="{{item.imgAniOut}}" class="veda-image-cover p:0! pos:absolute ins:0 z:-2 {{componentName}}-2__boxImage" style="{{aspectRatio}}">
+		<img class="veda-lazyloaded" src="{{item.featuredImage}}" data-intrinsic-width="3556" data-intrinsic-height="2000" alt="" class="{{componentName}}-2__image">
+	</div>
+{% endif %}
+<div class=" d:flex ai:center h:100% container w:100% mr:auto ml:auto">
+	<div class="pos:relative d:flex w:100% pt:30px pb:50px" style="{{position}}">
+		<div class="w:40% w:100%@+md! m:0_60px m:0_20px@+md {{item.textContentPosition == 'center' ? 'ta:center!' : ''}}">
+			<div>
+				{% if item.subTitle %}
+					<div data-animated-in-class="animate__delay-02s" data-animated-out-class="animate__delay-02s" data-animated-in="{{item.subTitleAniIn}}" data-animated-out="{{item.subTitleAniOut}}" class="subTitleTypo fz:pfs(18px,22px) fw:500 mb:5px c:#17174f animdel:0.2s {{componentName}}-2__subTitle" style="{{subTitleTypo}}{{colorGray9}}">
+						{{item.subTitle}}
+					</div>
+				{% endif %}
+
+				{% if item.title %}
+					<h2 data-animated-in-class="animate__delay-04s" data-animated-out-class="animate__delay-04s" data-animated-in="{{item.titleAniIn}}" data-animated-out="{{item.titleAniOut}}" class="titleTypo fz:pfs(40px,70px) fw:600 lh:1.3! mb:20px c:#17174f animdel:0.4s {{componentName}}-2__title" style="{{titleTypo}}{{colorGray9}}">
+						{{item.title}}
+					</h2>
+				{% endif %}
+				{% if item.text %}
+					<div data-animated-in-class="animate__delay-06s" data-animated-out-class="animate__delay-06s" data-animated-in="{{item.textAniIn}}" data-animated-out="{{item.textAniOut}}" class="textTypo  fz:pfs(14px,18px) c:#494880 animdel:0.6s {{componentName}}-2__text" style="{{textTypo}}{{colorGray7}}">
+						{{item.text}}
+					</div>
+				{% endif %}
+			</div>
+			{% if itemButton %}
+				<div data-animated-in-class="animate__delay-08s" data-animated-out-class="animate__delay-08s" data-animated-in="{{settingButton.buttonAniIn}}" data-animated-out="{{settingButton.buttonAniOut}}" class="d:inline-flex fxw:wrap animdel:0.8s mt:pfs(23px,30px)">
+					<div class="d:flex fxw:wrap@+sm flxs:0 ml:-10px">
+						{% for item in itemButton %}
+							{% set buttonTarget = item.openIn ? 'target="_' ~ item.openIn ~ '"' : '' %}
+							{% set buttonLink = item.link ? 'href="' ~ item.link ~ '"' : '' %}
+
+							{% set buttonBorderWidth = item.buttonBorderWidth ? 'border-width: ' ~ item.buttonBorderWidth ~ 'px;' : '' %}
+							{% set buttonBorderStyle = item.buttonBorderStyle ? 'border-style: ' ~ item.buttonBorderStyle ~ ';': '' %}
+							{% set buttonBorderColor = item.buttonBorderColor ? 'border-color: ' ~ item.buttonBorderColor ~ ';' : '' %}
+
+							{% set buttonPaddingTop = item.buttonPaddingTop ? 'padding-top: ' ~ item.buttonPaddingTop ~ 'px;' ~ '' %}
+							{% set buttonPaddingRight = item.buttonPaddingRight ? 'padding-right: ' ~ item.buttonPaddingRight ~ 'px;' ~ '' %}
+							{% set buttonPaddingBottom = item.buttonPaddingBottom ? 'padding-bottom: ' ~ item.buttonPaddingBottom ~ 'px;' ~ '' %}
+							{% set buttonPaddingLeft = item.buttonPaddingLeft ? 'padding-left: ' ~ item.buttonPaddingLeft ~ 'px;' ~ '' %}
+
+							{% set buttonTopLeftRadius = item.buttonTopLeftRadius ? 'border-top-left-radius: ' ~ item.buttonTopLeftRadius ~ 'px;' ~ '' %}
+							{% set buttonTopRightRadius = item.buttonTopRightRadius ? 'border-top-right-radius: ' ~ item.buttonTopRightRadius ~ 'px;' ~ '' %}
+							{% set buttonBottomLeftRadius = item.buttonBottomLeftRadius ? 'border-bottom-left-radius: ' ~ item.buttonBottomLeftRadius ~ 'px;' ~ '' %}
+							{% set buttonBottomRightRadius = item.buttonBottomRightRadius ? 'border-bottom-right-radius: ' ~ item.buttonBottomRightRadius ~ 'px;' ~ '' %}
+							{% set backgroundPrimary = item.primary ? 'bgc:#F57070!' : '' %}
+							{% set colorPrimary = item.primary ? 'c:#fff' : '' %}
+							{% set backgroundHoverPrimary = item.primary ? 'bgc:#17174F|h!' : '' %}
+							{% set colorHoverPrimary = item.primary ? 'c:#fff*group-hover!' : '' %}
+							<div>
+								<a {{buttonLink}} {{buttonTarget}} class="wiloke-button group* cur:pointer td:none! d:inline-flex ai:center ta:center fw:500 ml:10px@md mt:10px@+md mr:10px@+md m:5px_0 trs:0.3s p:12px_25px bdrs:6px bxsh:1px_1px_1px_1px_rgba(0,0,0,0.2) {{buttonBorderWidth ? 'bd:1px_solid' : ''}} {{backgroundPrimary}} {{colorPrimary}} {{backgroundHoverPrimary}} {{colorHoverPrimary}} {{componentName}}-2__button" style="{{colorPrimaryVariable}} {{colorGray9Variable}} {{colorLightVariable}} {{buttonBorderWidth}} {{buttonBorderStyle}} {{buttonBorderColor}} {{buttonPaddingTop}} {{buttonPaddingRight}} {{buttonPaddingBottom}} {{buttonPaddingLeft}} {{buttonTopLeftRadius}} {{buttonTopRightRadius}} {{buttonBottomLeftRadius}} {{buttonBottomRightRadius}}">
+									<span class="wiloke-buttonTitle buttonTitleTypo fz:16px va:middle whs:nowrap {{colorPrimary}} {{colorHoverPrimary}} trs:0.3s {{ componentName }}-2__button-title" style="{{buttonTitleTypo}}">
+										{{item.title}}
+									</span>
+									{% if item.icon %}
+										<span class="ml:10px va:middle">
+											{% if item.icon.url %}
+												<img class=" w:12.25px 15.11px ar:12.25/11 {{ componentName }}-2__button-image" src="{{ item.icon.url }}" alt="">
+											{% else %}
+												<i class="{{ item.icon }} wiloke-buttonIcon buttonIconTypo fz:16px fw:400 trs:0.3s {{colorPrimary}} {{colorHoverPrimary}} {{ componentName }}-2__button-icon" style="{{ buttonIconTypo }} {{colorLightVariable}}"></i>
+											{% endif %}
+										</span>
+									{% endif %}
+								</a>
+							</div>
+						{% endfor %}
+					</div>
+				</div>
+			{% endif %}
+
+		</div>
+	</div>
+</div>

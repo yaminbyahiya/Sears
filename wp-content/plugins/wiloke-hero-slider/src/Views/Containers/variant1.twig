@@ -1,0 +1,45 @@
+{% set componentName = "wiloke-hero-slider" %}
+{% set componentFile = 'component1.twig' %}
+
+
+{% if content|length == 0 %}
+	<div class="{{ componentName }}-wrapper">
+		<div class="p:40px fz:20px ta:center bgc:#eee cur:pointer">Click here to set up the slider</div>
+	</div>
+{% else %}
+	<div class="{{ componentName }}-wrapper lh:1.5">
+    <div class="wil-animated-slider">
+      <div class="wil-animated-slider__inner pos:relative mih:450px mih:700px@md mih:800px@lg mah:100vh@lg">
+        {% for item in content %}
+          <div class="swiper-slide wil-animated-slider__slide mih:100%! d:flex! fld:column!">
+            {% include "Shared/" ~ componentFile %}
+          </div>
+        {% endfor %}
+        <div class="d:flex jc:center ai:center pos:absolute z:3 b:20px l:50% trf:translateX(-50%)">
+          <div class="wil-animated-slider__pagination" data-animated-pagination-active-class="wil-animated-slider__pagination-item--active wiloke-1__pagination-item--active trf:scale(2)" style="{{colorGray9Variable}}{{colorLightVariable}}">
+            {% for item in content %}
+              <div class="wil-animated-slider__pagination-item wiloke-1__pagination-item w:5px h:5px m:5px trs:0.3s"></div>
+            {% endfor %}
+          </div>
+        </div>
+
+        <div class="wil-animated-slider__arrow d:none@+md">
+          <div class="veda-animated-slider__arrow pos:absolute l:0 t:50% trf:translateY(-50%) z:9">
+            <button class="wil-animated-slider__arrow-left wiloke-1__arrow-left cur:pointer">
+              <span class="d:flex jc:center ai:center fz:22px c:#000">
+                <i class="{{iconArrowLeft}}"></i>
+              </span>
+            </button>
+          </div>
+          <div class="pos:absolute r:0 t:50% trf:translateY(-50%) z:9">
+            <button class="wil-animated-slider__arrow-right wiloke-1__arrow-right cur:pointer">
+              <span class="d:flex jc:center ai:center fz:22px c:#000">
+                <i class="{{iconArrowRight}}"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+{% endif %}

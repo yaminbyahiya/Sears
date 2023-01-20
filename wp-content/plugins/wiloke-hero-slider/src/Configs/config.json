@@ -1,0 +1,23 @@
+{
+  "name": "wiloke-hero-slider",
+  "title": "Wiloke Hero Slider",
+  "icon": "eicon-products-archive",
+  "category": {
+    "title": "Wiloke",
+    "key": "wiloke-category",
+    "icon": "eicon-font"
+  },
+  "keywords": [
+    "card",
+    "wiloke",
+    "table",
+    "team card",
+    "team member",
+    "list"
+  ],
+  "filename": "elementor-wil-hero-slider",
+  "libs": {
+    "css": [],
+    "js": []
+  }
+}

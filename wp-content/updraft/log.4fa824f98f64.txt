@@ -1,0 +1,543 @@
+0000.000 (0) Opened log file at time: Sat, 31 Dec 2022 14:02:26 +0000 on https://searsbd.com
+0000.000 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 7.4.33 (litespeed, Linux s575.use6.mysecurecloudhost.com 4.18.0-372.9.1.1.lve.el8.x86_64 #1 SMP Tue May 24 07:49:22 EDT 2022 x86_64) MySQL: 10.5.18-MariaDB-cll-lve (max packet size=268435456) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 7.5M | 4M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.016 (0) Free space on disk containing Updraft's temporary directory: 377326.4 MB
+0000.016 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.018 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.018 (0) Set semaphore last lock (fd) time to 2022-12-31 14:02:26
+0000.019 (0) Semaphore lock (fd) complete
+0000.020 (0) Backup run: resumption=0, nonce=4fa824f98f64, file_nonce=4fa824f98f64 begun at=1672495346 (0s ago), job type=backup
+0000.020 (0) Scheduling a resumption (1) after 300 seconds (1672495646) in case this run gets aborted
+0000.032 (0) Checking if we have a zip executable available
+0000.033 (0) Testing: /usr/bin/zip
+0000.036 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.036 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.036 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.037 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.037 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.039 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.039 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.040 (0) Working binary zip found: /usr/bin/zip
+0000.040 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.040 (0) Creation of backups of directories: beginning
+0000.041 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.264 (0) Total entities for the zip file: 1314 directories, 6345 files (0 skipped as non-modified), 118.5 MB
+0000.266 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.267 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.268 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.268 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.271 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.272 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.273 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.274 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.275 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 6345 files batched, 836 (836) added so far); re-opening (prior size: 0 KB)
+0001.154 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: size is now: 8.50 MB
+0001.155 (0) A useful amount of data was added after this amount of zip processing: 1.1 s (normalised: 1.1 s, rate: 23146.4 KB/s)
+0001.155 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.1060190200806, normalised_time=1.1060015531676, max_time=1.1548449993134, data points known=1, old_max_bytes=26214400, new_max_bytes=142211735)
+0001.156 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 900 files added (on-disk size: 8704.8 KB)
+0001.157 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 1000 files added (on-disk size: 8704.8 KB)
+0001.158 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 1100 files added (on-disk size: 8704.8 KB)
+0001.159 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 1200 files added (on-disk size: 8704.8 KB)
+0001.160 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 1300 files added (on-disk size: 8704.8 KB)
+0001.161 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 1400 files added (on-disk size: 8704.8 KB)
+0001.162 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 1500 files added (on-disk size: 8704.8 KB)
+0001.163 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 1600 files added (on-disk size: 8704.8 KB)
+0001.164 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 1700 files added (on-disk size: 8704.8 KB)
+0001.165 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 1800 files added (on-disk size: 8704.8 KB)
+0001.166 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (8.1 MB, 6345 files batched, 1001 (1837) added so far); re-opening (prior size: 8704.8 KB)
+0002.173 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: size is now: 12.60 MB
+0002.175 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 1900 files added (on-disk size: 12851.4 KB)
+0002.176 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 2000 files added (on-disk size: 12851.4 KB)
+0002.177 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 2100 files added (on-disk size: 12851.4 KB)
+0002.178 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 2200 files added (on-disk size: 12851.4 KB)
+0002.179 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 2300 files added (on-disk size: 12851.4 KB)
+0002.180 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 2400 files added (on-disk size: 12851.4 KB)
+0002.181 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 2500 files added (on-disk size: 12851.4 KB)
+0002.182 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 2600 files added (on-disk size: 12851.4 KB)
+0002.183 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 2700 files added (on-disk size: 12851.4 KB)
+0002.183 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 2800 files added (on-disk size: 12851.4 KB)
+0002.184 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (27.2 MB, 6345 files batched, 1001 (2838) added so far); re-opening (prior size: 12851.4 KB)
+0003.318 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: size is now: 27.40 MB
+0003.319 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 2900 files added (on-disk size: 28063.2 KB)
+0003.320 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 3000 files added (on-disk size: 28063.2 KB)
+0003.321 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 3100 files added (on-disk size: 28063.2 KB)
+0003.322 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 3200 files added (on-disk size: 28063.2 KB)
+0003.323 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 3300 files added (on-disk size: 28063.2 KB)
+0003.324 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 3400 files added (on-disk size: 28063.2 KB)
+0003.325 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 3500 files added (on-disk size: 28063.2 KB)
+0003.326 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 3600 files added (on-disk size: 28063.2 KB)
+0003.327 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 3700 files added (on-disk size: 28063.2 KB)
+0003.328 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 3800 files added (on-disk size: 28063.2 KB)
+0003.329 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.1 MB, 6345 files batched, 1001 (3839) added so far); re-opening (prior size: 28063.2 KB)
+0004.006 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: size is now: 33.60 MB
+0004.007 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 3900 files added (on-disk size: 34409.2 KB)
+0004.008 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 4000 files added (on-disk size: 34409.2 KB)
+0004.009 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 4100 files added (on-disk size: 34409.2 KB)
+0004.010 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 4200 files added (on-disk size: 34409.2 KB)
+0004.011 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 4300 files added (on-disk size: 34409.2 KB)
+0004.012 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 4400 files added (on-disk size: 34409.2 KB)
+0004.012 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 4500 files added (on-disk size: 34409.2 KB)
+0004.013 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 4600 files added (on-disk size: 34409.2 KB)
+0004.014 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 4700 files added (on-disk size: 34409.2 KB)
+0004.015 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 4800 files added (on-disk size: 34409.2 KB)
+0004.016 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.1 MB, 6345 files batched, 1001 (4840) added so far); re-opening (prior size: 34409.2 KB)
+0004.902 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 4900 files added (on-disk size: 37686 KB)
+0004.903 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 5000 files added (on-disk size: 37686 KB)
+0004.903 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 5100 files added (on-disk size: 37686 KB)
+0004.904 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 5200 files added (on-disk size: 37686 KB)
+0004.905 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 5300 files added (on-disk size: 37686 KB)
+0004.906 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 5400 files added (on-disk size: 37686 KB)
+0004.907 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 5500 files added (on-disk size: 37686 KB)
+0004.908 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 5600 files added (on-disk size: 37686 KB)
+0004.909 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 5700 files added (on-disk size: 37686 KB)
+0004.910 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 5800 files added (on-disk size: 37686 KB)
+0004.911 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.1 MB, 6345 files batched, 1001 (5841) added so far); re-opening (prior size: 37686 KB)
+0006.048 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 5900 files added (on-disk size: 44523.5 KB)
+0006.049 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 6000 files added (on-disk size: 44523.5 KB)
+0006.050 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 6100 files added (on-disk size: 44523.5 KB)
+0006.051 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 6200 files added (on-disk size: 44523.5 KB)
+0006.052 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.tmp: 6300 files added (on-disk size: 44523.5 KB)
+0006.926 (0) Creating zip file manifest (backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip.list-temp.tmp)
+0006.933 (0) Successfully created zip file manifest (size: 556096)
+0007.180 (0) Created plugins zip (0) - 46487.2 KB in 7.1 s (6522.7 KB/s) (sha1: 1750608d017f347eff7cf1fb08efaf826a377185, sha256: e30d9973f686dbf011398a865fe39e07e03ce551b7d0bdeb86e63cbb14d1684f)
+0007.183 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0007.183 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8f03c99328617b0b2fac82bccb58f4e1)
+0009.043 (0) Google Drive: quota usage: used=439.3 MB, total=15360 MB, available=14920.7 MB
+0009.044 (0) Google Drive: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip: Attempting to upload to Google Drive (into folder id: 1yJQo5et2oM5xN36ZYrWfj3MLHT7gTMCu)
+0009.598 (0) Googledrive chunked upload: 2.2 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 9.6 / 14)
+0010.054 (0) Googledrive chunked upload: 6.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 9.6 / 14)
+0010.651 (0) Googledrive chunked upload: 15.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 9.6 / 14)
+0011.487 (0) Googledrive chunked upload: 33 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 9.6 / 14)
+0012.678 (0) Googledrive chunked upload: 68.3 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 9.6 / 14)
+0014.948 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0014.949 (0) Google Drive: OK: Archive backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip uploaded in 5.9 seconds
+0014.949 (0) Recording as successfully uploaded: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip
+0014.958 (0) Deleting local file: backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip: OK
+0014.959 (0) Beginning creation of dump of themes (split every: 400 MB)
+0015.011 (0) Total entities for the zip file: 303 directories, 2258 files (0 skipped as non-modified), 116.5 MB
+0015.013 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.014 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.016 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.017 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0015.018 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0015.020 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0015.021 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0015.022 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0015.023 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0015.024 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0015.024 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (74.1 MB, 2258 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0015.937 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: size is now: 12.40 MB
+0015.939 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 1100 files added (on-disk size: 12718.2 KB)
+0015.941 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 1200 files added (on-disk size: 12718.2 KB)
+0015.942 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 1300 files added (on-disk size: 12718.2 KB)
+0015.943 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 1400 files added (on-disk size: 12718.2 KB)
+0015.944 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 1500 files added (on-disk size: 12718.2 KB)
+0015.946 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 1600 files added (on-disk size: 12718.2 KB)
+0015.947 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 1700 files added (on-disk size: 12718.2 KB)
+0015.948 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 1800 files added (on-disk size: 12718.2 KB)
+0015.950 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 1900 files added (on-disk size: 12718.2 KB)
+0015.951 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 2000 files added (on-disk size: 12718.2 KB)
+0015.951 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (39.6 MB, 2258 files batched, 1001 (2002) added so far); re-opening (prior size: 12718.2 KB)
+0017.417 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: size is now: 31.20 MB
+0017.419 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 2100 files added (on-disk size: 31991.2 KB)
+0017.420 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.tmp: 2200 files added (on-disk size: 31991.2 KB)
+0018.015 (0) Creating zip file manifest (backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip.list-temp.tmp)
+0018.020 (0) Successfully created zip file manifest (size: 163217)
+0018.202 (0) Created themes zip (0) - 32579 KB in 3.2 s (10091.5 KB/s) (sha1: 00cb1722773ee8b3b059588da6067f28224b6a57, sha256: 61576335b54e506698da6efae026060df0ddd35df52261702e22c8cdae8510d3)
+0018.204 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0018.204 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8f03c99328617b0b2fac82bccb58f4e1)
+0018.331 (0) Google Drive: quota usage: used=484.7 MB, total=15360 MB, available=14875.3 MB
+0018.332 (0) Google Drive: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip: Attempting to upload to Google Drive (into folder id: 1yJQo5et2oM5xN36ZYrWfj3MLHT7gTMCu)
+0018.882 (0) Googledrive chunked upload: 3.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 9 / 14)
+0019.264 (0) Googledrive chunked upload: 9.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 9 / 14)
+0019.987 (0) Googledrive chunked upload: 22 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 9 / 14)
+0020.872 (0) Googledrive chunked upload: 47.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 9 / 14)
+0022.138 (0) Googledrive chunked upload: 97.4 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 9 / 14)
+0023.225 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0023.226 (0) Google Drive: OK: Archive backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip uploaded in 4.89 seconds
+0023.226 (0) Recording as successfully uploaded: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip
+0023.231 (0) Deleting local file: backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip: OK
+0023.232 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0023.232 (0) Looking for candidates to backup in: /home/searsbdc/public_html/wp-content/uploads
+0023.232 (0) finding files: 2022: adding to list (1)
+0023.233 (0) finding files: essential-addons-elementor: adding to list (2)
+0023.233 (0) finding files: redux: adding to list (3)
+0023.233 (0) finding files: template-kits: adding to list (4)
+0023.233 (0) finding files: elementor: adding to list (5)
+0023.233 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0023.255 (0) Total entities for the zip file: 13 directories, 1175 files (0 skipped as non-modified), 139.8 MB
+0023.256 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0023.257 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0023.258 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0023.259 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0023.260 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0023.261 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0023.262 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0023.263 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0023.264 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0023.265 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0023.265 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (129.3 MB, 1175 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0027.155 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip.tmp: size is now: 129.50 MB
+0027.157 (0) Zip: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip.tmp: 1100 files added (on-disk size: 132595.4 KB)
+0030.130 (0) Creating zip file manifest (backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip.list-temp.tmp)
+0030.131 (0) Successfully created zip file manifest (size: 63724)
+0030.900 (0) Created uploads zip (0) - 141275.3 KB in 7.7 s (18459.7 KB/s) (sha1: 853b0930501c4f410bea4500a3a9e2494572dfa7, sha256: 86d84f951c42f91b4dcb14a85570e06347937031dfa832cab38d6ecbe0a75738)
+0030.901 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0030.901 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8f03c99328617b0b2fac82bccb58f4e1)
+0031.031 (0) Google Drive: quota usage: used=516.6 MB, total=15360 MB, available=14843.4 MB
+0031.032 (0) Google Drive: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip: Attempting to upload to Google Drive (into folder id: 1yJQo5et2oM5xN36ZYrWfj3MLHT7gTMCu)
+0031.593 (0) Googledrive chunked upload: 0.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 8.8 / 14)
+0032.025 (0) Googledrive chunked upload: 2.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 8.8 / 14)
+0032.597 (0) Googledrive chunked upload: 5.1 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 8.8 / 14)
+0033.579 (0) Googledrive chunked upload: 10.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 8.8 / 14)
+0035.065 (0) Googledrive chunked upload: 22.5 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 8.8 / 14)
+0036.671 (0) Googledrive chunked upload: 45.7 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 8.8 / 14)
+0041.249 (0) Googledrive chunked upload: 92.1 % uploaded (133169152)
+0042.991 (0) Googledrive chunked upload: 100 % uploaded (133169152)
+0042.992 (0) Google Drive: OK: Archive backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip uploaded in 11.96 seconds
+0042.992 (0) Recording as successfully uploaded: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip
+0043.008 (0) Deleting local file: backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip: OK
+0043.010 (0) Beginning backup of other directories found in the content directory (index: 0)
+0043.010 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0043.010 (0) Looking for candidates to backup in: /home/searsbdc/public_html/wp-content
+0043.010 (0) finding files: plugins: skipping: this is the plugins directory
+0043.010 (0) finding files: updraft: skipping: this is the updraft directory
+0043.010 (0) finding files: uploads: skipping: this is the uploads directory
+0043.011 (0) finding files: upgrade: skipping: excluded by options
+0043.011 (0) finding files: themes: skipping: this is the themes directory
+0043.011 (0) finding files: index.php: adding to list (1)
+0043.028 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0043.033 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-others.zip.tmp: size is now: 0.00 MB
+0043.033 (0) Creating zip file manifest (backup_2022-12-31-1402_Sears_4fa824f98f64-others.zip.list-temp.tmp)
+0043.034 (0) Successfully created zip file manifest (size: 43)
+0043.035 (0) Created others zip (0) - 0.2 KB in 0 s (27.7 KB/s) (sha1: d06bf8ef84ac13425b959dc1d1126a91af135c4d, sha256: 65227f9cd7879981371794484c10909ea3d51b34828762655112e827fd2bb88d)
+0043.036 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0043.036 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8f03c99328617b0b2fac82bccb58f4e1)
+0043.186 (0) Google Drive: quota usage: used=654.5 MB, total=15360 MB, available=14705.5 MB
+0043.186 (0) Google Drive: backup_2022-12-31-1402_Sears_4fa824f98f64-others.zip: Attempting to upload to Google Drive (into folder id: 1yJQo5et2oM5xN36ZYrWfj3MLHT7gTMCu)
+0044.106 (0) Googledrive chunked upload: 100 % uploaded
+0044.107 (0) Google Drive: OK: Archive backup_2022-12-31-1402_Sears_4fa824f98f64-others.zip uploaded in 0.92 seconds
+0044.107 (0) Recording as successfully uploaded: backup_2022-12-31-1402_Sears_4fa824f98f64-others.zip
+0044.108 (0) Deleting local file: backup_2022-12-31-1402_Sears_4fa824f98f64-others.zip: OK
+0044.110 (0) Saving backup status to database (elements: 8)
+0044.110 (0) Beginning creation of database dump (WordPress DB)
+0044.111 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0044.111 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0044.121 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpbf_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1445 bytes total)
+0044.122 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0044.125 (0) Table wpbf_options: Total expected rows (via COUNT): 283
+0044.125 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.146 (0) Table wpbf_options: Rows added in this batch (next record: 8303): 279 (uncompressed bytes in this segment=966528) in 0.02 seconds
+0044.149 (0) Table wpbf_options: finishing file(s) (2, 119.6 KB)
+0044.151 (0) Table wpbf_users: Total expected rows (via COUNT): 1
+0044.151 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.152 (0) Table wpbf_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1160) in 0.00 seconds
+0044.153 (0) Table wpbf_users: finishing file(s) (2, 0.6 KB)
+0044.154 (0) Table wpbf_usermeta: Total expected rows (via COUNT): 27
+0044.155 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.156 (0) Table wpbf_usermeta: Rows added in this batch (next record: 27): 27 (uncompressed bytes in this segment=2625) in 0.00 seconds
+0044.157 (0) Table wpbf_usermeta: finishing file(s) (2, 1.4 KB)
+0044.166 (0) Table wpbf_commentmeta: Total expected rows (via COUNT): 0
+0044.167 (0) Table wpbf_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=636) in 0.00 seconds
+0044.169 (0) Table wpbf_commentmeta: finishing file(s) (2, 0.4 KB)
+0044.170 (0) Table wpbf_comments: Total expected rows (via COUNT): 1
+0044.171 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.171 (0) Table wpbf_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1889) in 0.00 seconds
+0044.173 (0) Table wpbf_comments: finishing file(s) (2, 0.7 KB)
+0044.180 (0) Table wpbf_links: Total expected rows (via COUNT): 0
+0044.181 (0) Table wpbf_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1029) in 0.00 seconds
+0044.182 (0) Table wpbf_links: finishing file(s) (2, 0.5 KB)
+0044.183 (0) Table wpbf_postmeta: Total expected rows (approximate): 8554
+0044.407 (0) Table wpbf_postmeta: binary mysqldump finished (writes: 47, bytes 15957813, return code 0) in 0.22 seconds
+0044.409 (0) Table wpbf_postmeta: finishing file(s) (1, 980.4 KB)
+0044.421 (0) Table wpbf_posts: Total expected rows (via COUNT): 989
+0044.556 (0) Table wpbf_posts: Rows added in this batch (next record: 1279): 989 (uncompressed bytes in this segment=15206254) in 0.15 seconds
+0044.558 (0) Table wpbf_posts: finishing file(s) (2, 764.1 KB)
+0044.559 (0) Table wpbf_term_relationships: Total expected rows (approximate): 46
+0044.560 (0) Table wpbf_term_relationships: Rows added in this batch (next record: 100000): 55 (uncompressed bytes in this segment=1447) in 0.00 seconds
+0044.562 (0) Table wpbf_term_relationships: finishing file(s) (2, 0.5 KB)
+0044.564 (0) Table wpbf_term_taxonomy: Total expected rows (via COUNT): 5
+0044.564 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.566 (0) Table wpbf_term_taxonomy: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1015) in 0.00 seconds
+0044.568 (0) Table wpbf_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0044.570 (0) Table wpbf_termmeta: Total expected rows (via COUNT): 0
+0044.571 (0) Table wpbf_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=609) in 0.00 seconds
+0044.573 (0) Table wpbf_termmeta: finishing file(s) (2, 0.4 KB)
+0044.575 (0) Table wpbf_terms: Total expected rows (via COUNT): 5
+0044.575 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.576 (0) Table wpbf_terms: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=820) in 0.00 seconds
+0044.577 (0) Table wpbf_terms: finishing file(s) (2, 0.5 KB)
+0044.588 (0) Table wpbf_actionscheduler_actions: Total expected rows (via COUNT): 39
+0044.588 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.590 (0) Table wpbf_actionscheduler_actions: Rows added in this batch (next record: 47): 39 (uncompressed bytes in this segment=15189) in 0.00 seconds
+0044.591 (0) Table wpbf_actionscheduler_actions: finishing file(s) (2, 1.7 KB)
+0044.601 (0) Table wpbf_actionscheduler_claims: Total expected rows (via COUNT): 0
+0044.602 (0) Table wpbf_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.00 seconds
+0044.603 (0) Table wpbf_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0044.612 (0) Table wpbf_actionscheduler_groups: Total expected rows (via COUNT): 3
+0044.613 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.614 (0) Table wpbf_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=736) in 0.00 seconds
+0044.615 (0) Table wpbf_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0044.625 (0) Table wpbf_actionscheduler_logs: Total expected rows (via COUNT): 115
+0044.625 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.627 (0) Table wpbf_actionscheduler_logs: Rows added in this batch (next record: 115): 115 (uncompressed bytes in this segment=10784) in 0.00 seconds
+0044.628 (0) Table wpbf_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0044.661 (0) Table wpbf_e_events: Total expected rows (via COUNT): 10
+0044.661 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.663 (0) Table wpbf_e_events: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=2526) in 0.01 seconds
+0044.664 (0) Table wpbf_e_events: finishing file(s) (2, 0.7 KB)
+0044.674 (0) Table wpbf_taber_elementor_cache: Total expected rows (via COUNT): 2
+0044.674 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.676 (0) Table wpbf_taber_elementor_cache: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=17276) in 0.00 seconds
+0044.678 (0) Table wpbf_taber_elementor_cache: finishing file(s) (2, 4.2 KB)
+0044.688 (0) Table wpbf_wc_admin_note_actions: Total expected rows (via COUNT): 47
+0044.688 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.689 (0) Table wpbf_wc_admin_note_actions: Rows added in this batch (next record: 785): 47 (uncompressed bytes in this segment=8885) in 0.00 seconds
+0044.690 (0) Table wpbf_wc_admin_note_actions: finishing file(s) (2, 2.1 KB)
+0044.699 (0) Table wpbf_wc_admin_notes: Total expected rows (via COUNT): 40
+0044.699 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.700 (0) Table wpbf_wc_admin_notes: Rows added in this batch (next record: 40): 40 (uncompressed bytes in this segment=19734) in 0.00 seconds
+0044.702 (0) Table wpbf_wc_admin_notes: finishing file(s) (2, 5.2 KB)
+0044.718 (0) Table wpbf_wc_category_lookup: Total expected rows (approximate): 7
+0044.732 (0) Table wpbf_wc_category_lookup: Rows added in this batch (next record: 1000): 7 (uncompressed bytes in this segment=669) in 0.02 seconds
+0044.733 (0) Table wpbf_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0044.741 (0) Table wpbf_wc_customer_lookup: Total expected rows (via COUNT): 0
+0044.741 (0) Table wpbf_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1030) in 0.00 seconds
+0044.742 (0) Table wpbf_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0044.750 (0) Table wpbf_wc_download_log: Total expected rows (via COUNT): 0
+0044.751 (0) Table wpbf_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.00 seconds
+0044.752 (0) Table wpbf_wc_download_log: finishing file(s) (2, 0.4 KB)
+0044.758 (0) Table wpbf_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0044.759 (0) Table wpbf_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=727) in 0.00 seconds
+0044.760 (0) Table wpbf_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0044.767 (0) Table wpbf_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0044.768 (0) Table wpbf_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1227) in 0.00 seconds
+0044.769 (0) Table wpbf_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0044.776 (0) Table wpbf_wc_order_stats: Total expected rows (via COUNT): 0
+0044.776 (0) Table wpbf_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1091) in 0.00 seconds
+0044.777 (0) Table wpbf_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0044.783 (0) Table wpbf_wc_order_tax_lookup: Total expected rows (approximate): 0
+0044.783 (0) Table wpbf_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=805) in 0.00 seconds
+0044.784 (0) Table wpbf_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0044.790 (0) Table wpbf_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0044.790 (0) Table wpbf_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=843) in 0.00 seconds
+0044.791 (0) Table wpbf_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0044.796 (0) Table wpbf_wc_product_download_directories: Total expected rows (via COUNT): 2
+0044.797 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.797 (0) Table wpbf_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=893) in 0.00 seconds
+0044.798 (0) Table wpbf_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0044.804 (0) Table wpbf_wc_product_meta_lookup: Total expected rows (via COUNT): 33
+0044.805 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.806 (0) Table wpbf_wc_product_meta_lookup: Rows added in this batch (next record: 1172): 33 (uncompressed bytes in this segment=4371) in 0.00 seconds
+0044.807 (0) Table wpbf_wc_product_meta_lookup: finishing file(s) (2, 0.8 KB)
+0044.813 (0) Table wpbf_wc_rate_limits: Total expected rows (via COUNT): 0
+0044.814 (0) Table wpbf_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0.00 seconds
+0044.815 (0) Table wpbf_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0044.820 (0) Table wpbf_wc_reserved_stock: Total expected rows (approximate): 0
+0044.820 (0) Table wpbf_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=675) in 0.00 seconds
+0044.821 (0) Table wpbf_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0044.826 (0) Table wpbf_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0044.826 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.834 (0) Table wpbf_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=764) in 0.01 seconds
+0044.841 (0) Table wpbf_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0044.848 (0) Table wpbf_wc_webhooks: Total expected rows (via COUNT): 0
+0044.849 (0) Table wpbf_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1083) in 0.00 seconds
+0044.856 (0) Table wpbf_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0044.863 (0) Table wpbf_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0044.864 (0) Table wpbf_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=885) in 0.00 seconds
+0044.865 (0) Table wpbf_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0044.871 (0) Table wpbf_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0044.871 (0) Table wpbf_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=847) in 0.00 seconds
+0044.872 (0) Table wpbf_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0044.879 (0) Table wpbf_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0044.879 (0) Table wpbf_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1422) in 0.00 seconds
+0044.880 (0) Table wpbf_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0044.887 (0) Table wpbf_woocommerce_log: Total expected rows (via COUNT): 0
+0044.887 (0) Table wpbf_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=654) in 0.00 seconds
+0044.889 (0) Table wpbf_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0044.896 (0) Table wpbf_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0044.897 (0) Table wpbf_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=734) in 0.00 seconds
+0044.899 (0) Table wpbf_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0044.907 (0) Table wpbf_woocommerce_order_items: Total expected rows (via COUNT): 0
+0044.908 (0) Table wpbf_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.00 seconds
+0044.909 (0) Table wpbf_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0044.917 (0) Table wpbf_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0044.918 (0) Table wpbf_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.00 seconds
+0044.919 (0) Table wpbf_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0044.933 (0) Table wpbf_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0044.934 (0) Table wpbf_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=756) in 0.01 seconds
+0044.935 (0) Table wpbf_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0044.943 (0) Table wpbf_woocommerce_sessions: Total expected rows (via COUNT): 1
+0044.943 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.944 (0) Table wpbf_woocommerce_sessions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2113) in 0.00 seconds
+0044.945 (0) Table wpbf_woocommerce_sessions: finishing file(s) (2, 0.8 KB)
+0044.952 (0) Table wpbf_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0044.953 (0) Table wpbf_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=824) in 0.00 seconds
+0044.954 (0) Table wpbf_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0044.960 (0) Table wpbf_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0044.960 (0) Table wpbf_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=754) in 0.00 seconds
+0044.962 (0) Table wpbf_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0044.970 (0) Table wpbf_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0044.970 (0) Table wpbf_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=614) in 0.00 seconds
+0044.971 (0) Table wpbf_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0044.978 (0) Table wpbf_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0044.979 (0) Table wpbf_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0044.980 (0) Table wpbf_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0044.986 (0) Table wpbf_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0044.987 (0) Table wpbf_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1154) in 0.00 seconds
+0044.988 (0) Table wpbf_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0044.989 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_options.table.tmpr8304.gz (1/48/fopen): adding to final database dump
+0044.989 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_options.table.gz (2/48/fopen): adding to final database dump
+0044.990 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_users.table.tmpr2.gz (3/48/fopen): adding to final database dump
+0044.990 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_users.table.gz (4/48/fopen): adding to final database dump
+0044.990 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_usermeta.table.tmpr28.gz (5/48/fopen): adding to final database dump
+0044.990 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_usermeta.table.gz (6/48/fopen): adding to final database dump
+0044.991 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_commentmeta.table.tmpr0.gz (7/48/fopen): adding to final database dump
+0044.991 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_commentmeta.table.gz (8/48/fopen): adding to final database dump
+0044.991 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_comments.table.tmpr2.gz (9/48/fopen): adding to final database dump
+0044.991 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_comments.table.gz (10/48/fopen): adding to final database dump
+0044.992 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_links.table.tmpr0.gz (11/48/fopen): adding to final database dump
+0044.992 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_links.table.gz (12/48/fopen): adding to final database dump
+0044.992 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_postmeta.table.gz (13/48/fopen): adding to final database dump
+0044.997 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_posts.table.tmpr1280.gz (14/48/fopen): adding to final database dump
+0045.001 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_posts.table.gz (15/48/fopen): adding to final database dump
+0045.001 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_term_relationships.table.tmpr100001.gz (16/48/fopen): adding to final database dump
+0045.001 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_term_relationships.table.gz (17/48/fopen): adding to final database dump
+0045.002 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_term_taxonomy.table.tmpr6.gz (18/48/fopen): adding to final database dump
+0045.002 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_term_taxonomy.table.gz (19/48/fopen): adding to final database dump
+0045.002 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_termmeta.table.tmpr0.gz (20/48/fopen): adding to final database dump
+0045.003 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_termmeta.table.gz (21/48/fopen): adding to final database dump
+0045.003 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_terms.table.tmpr6.gz (22/48/fopen): adding to final database dump
+0045.003 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_terms.table.gz (23/48/fopen): adding to final database dump
+0045.003 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_actionscheduler_actions.table.tmpr48.gz (24/48/fopen): adding to final database dump
+0045.003 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_actionscheduler_actions.table.gz (25/48/fopen): adding to final database dump
+0045.004 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_actionscheduler_claims.table.tmpr0.gz (26/48/fopen): adding to final database dump
+0045.004 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_actionscheduler_claims.table.gz (27/48/fopen): adding to final database dump
+0045.004 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_actionscheduler_groups.table.tmpr4.gz (28/48/fopen): adding to final database dump
+0045.004 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_actionscheduler_groups.table.gz (29/48/fopen): adding to final database dump
+0045.005 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_actionscheduler_logs.table.tmpr116.gz (30/48/fopen): adding to final database dump
+0045.005 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_actionscheduler_logs.table.gz (31/48/fopen): adding to final database dump
+0045.005 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_e_events.table.tmpr11.gz (32/48/fopen): adding to final database dump
+0045.008 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_e_events.table.gz (33/48/fopen): adding to final database dump
+0045.008 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_taber_elementor_cache.table.tmpr3.gz (34/48/fopen): adding to final database dump
+0045.009 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_taber_elementor_cache.table.gz (35/48/fopen): adding to final database dump
+0045.009 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_admin_note_actions.table.tmpr786.gz (36/48/fopen): adding to final database dump
+0045.009 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_admin_note_actions.table.gz (37/48/fopen): adding to final database dump
+0045.010 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_admin_notes.table.tmpr41.gz (38/48/fopen): adding to final database dump
+0045.010 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_admin_notes.table.gz (39/48/fopen): adding to final database dump
+0045.010 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_category_lookup.table.tmpr1001.gz (40/48/fopen): adding to final database dump
+0045.010 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_category_lookup.table.gz (41/48/fopen): adding to final database dump
+0045.010 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_customer_lookup.table.tmpr0.gz (42/48/fopen): adding to final database dump
+0045.011 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_customer_lookup.table.gz (43/48/fopen): adding to final database dump
+0045.012 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_download_log.table.tmpr0.gz (44/48/fopen): adding to final database dump
+0045.012 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_download_log.table.gz (45/48/fopen): adding to final database dump
+0045.012 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_order_coupon_lookup.table.tmpr1.gz (46/48/fopen): adding to final database dump
+0045.013 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_order_coupon_lookup.table.gz (47/48/fopen): adding to final database dump
+0045.013 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_order_product_lookup.table.tmpr0.gz (48/48/fopen): adding to final database dump
+0045.013 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_order_product_lookup.table.gz (49/48/fopen): adding to final database dump
+0045.013 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_order_stats.table.tmpr0.gz (50/48/fopen): adding to final database dump
+0045.014 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_order_stats.table.gz (51/48/fopen): adding to final database dump
+0045.014 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_order_tax_lookup.table.tmpr1.gz (52/48/fopen): adding to final database dump
+0045.014 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_order_tax_lookup.table.gz (53/48/fopen): adding to final database dump
+0045.014 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_product_attributes_lookup.table.tmpr1.gz (54/48/fopen): adding to final database dump
+0045.015 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_product_attributes_lookup.table.gz (55/48/fopen): adding to final database dump
+0045.015 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_product_download_directories.table.tmpr3.gz (56/48/fopen): adding to final database dump
+0045.015 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_product_download_directories.table.gz (57/48/fopen): adding to final database dump
+0045.015 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_product_meta_lookup.table.tmpr1173.gz (58/48/fopen): adding to final database dump
+0045.016 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_product_meta_lookup.table.gz (59/48/fopen): adding to final database dump
+0045.016 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_rate_limits.table.tmpr0.gz (60/48/fopen): adding to final database dump
+0045.016 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_rate_limits.table.gz (61/48/fopen): adding to final database dump
+0045.016 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_reserved_stock.table.tmpr1.gz (62/48/fopen): adding to final database dump
+0045.017 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_reserved_stock.table.gz (63/48/fopen): adding to final database dump
+0045.017 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_tax_rate_classes.table.tmpr3.gz (64/48/fopen): adding to final database dump
+0045.017 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_tax_rate_classes.table.gz (65/48/fopen): adding to final database dump
+0045.017 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_webhooks.table.tmpr0.gz (66/48/fopen): adding to final database dump
+0045.018 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_wc_webhooks.table.gz (67/48/fopen): adding to final database dump
+0045.018 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_api_keys.table.tmpr0.gz (68/48/fopen): adding to final database dump
+0045.018 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_api_keys.table.gz (69/48/fopen): adding to final database dump
+0045.018 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_attribute_taxonomies.table.tmpr0.gz (70/48/fopen): adding to final database dump
+0045.019 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_attribute_taxonomies.table.gz (71/48/fopen): adding to final database dump
+0045.019 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_downloadable_product_permissions.table.tmpr0.gz (72/48/fopen): adding to final database dump
+0045.019 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_downloadable_product_permissions.table.gz (73/48/fopen): adding to final database dump
+0045.019 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_log.table.tmpr0.gz (74/48/fopen): adding to final database dump
+0045.020 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_log.table.gz (75/48/fopen): adding to final database dump
+0045.020 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_order_itemmeta.table.tmpr0.gz (76/48/fopen): adding to final database dump
+0045.020 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_order_itemmeta.table.gz (77/48/fopen): adding to final database dump
+0045.020 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_order_items.table.tmpr0.gz (78/48/fopen): adding to final database dump
+0045.021 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_order_items.table.gz (79/48/fopen): adding to final database dump
+0045.021 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_payment_tokenmeta.table.tmpr0.gz (80/48/fopen): adding to final database dump
+0045.021 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_payment_tokenmeta.table.gz (81/48/fopen): adding to final database dump
+0045.021 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_payment_tokens.table.tmpr0.gz (82/48/fopen): adding to final database dump
+0045.022 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_payment_tokens.table.gz (83/48/fopen): adding to final database dump
+0045.022 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_sessions.table.tmpr2.gz (84/48/fopen): adding to final database dump
+0045.022 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_sessions.table.gz (85/48/fopen): adding to final database dump
+0045.022 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_shipping_zone_locations.table.tmpr0.gz (86/48/fopen): adding to final database dump
+0045.023 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_shipping_zone_locations.table.gz (87/48/fopen): adding to final database dump
+0045.023 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_shipping_zone_methods.table.tmpr0.gz (88/48/fopen): adding to final database dump
+0045.023 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_shipping_zone_methods.table.gz (89/48/fopen): adding to final database dump
+0045.023 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_shipping_zones.table.tmpr0.gz (90/48/fopen): adding to final database dump
+0045.024 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_shipping_zones.table.gz (91/48/fopen): adding to final database dump
+0045.024 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_tax_rate_locations.table.tmpr0.gz (92/48/fopen): adding to final database dump
+0045.024 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_tax_rate_locations.table.gz (93/48/fopen): adding to final database dump
+0045.024 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_tax_rates.table.tmpr0.gz (94/48/fopen): adding to final database dump
+0045.024 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db-table-wpbf_woocommerce_tax_rates.table.gz (95/48/fopen): adding to final database dump
+0045.026 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db.gz: finished writing out complete database file (1897.4 KB)
+0045.041 (0) Total database tables backed up: 48 (backup_2022-12-31-1402_Sears_4fa824f98f64-db.gz, size: 1943059, sha1: 857f4234196180c93b9ef9fedaab9797387f433c, sha256: b09cf11cb62edfe034a0b309c516978ccb95f9ccd7dacb0221909c6ac21ad429)
+0045.043 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-plugins.zip: plugins: This file has already been successfully uploaded
+0045.043 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-themes.zip: themes: This file has already been successfully uploaded
+0045.044 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-uploads.zip: uploads: This file has already been successfully uploaded
+0045.044 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-others.zip: others: This file has already been successfully uploaded
+0045.044 (0) backup_2022-12-31-1402_Sears_4fa824f98f64-db.gz: db: This file has not yet been successfully uploaded: will queue
+0045.044 (0) Saving backup history. Total backup size: 217 MB
+0045.045 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0045.046 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0045.047 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8f03c99328617b0b2fac82bccb58f4e1)
+0045.222 (0) Google Drive: quota usage: used=654.5 MB, total=15360 MB, available=14705.5 MB
+0045.222 (0) Google Drive: backup_2022-12-31-1402_Sears_4fa824f98f64-db.gz: Attempting to upload to Google Drive (into folder id: 1yJQo5et2oM5xN36ZYrWfj3MLHT7gTMCu)
+0045.801 (0) Googledrive chunked upload: 54 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 8.6 / 36)
+0046.841 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0046.842 (0) Google Drive: OK: Archive backup_2022-12-31-1402_Sears_4fa824f98f64-db.gz uploaded in 1.62 seconds
+0046.842 (0) Recording as successfully uploaded: backup_2022-12-31-1402_Sears_4fa824f98f64-db.gz
+0046.843 (0) Deleting local file: backup_2022-12-31-1402_Sears_4fa824f98f64-db.gz: OK
+0046.844 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0046.844 (0) Number of backup sets in history: 3; groups (db): 1
+0046.844 (0) Examining (for databases) backup set with group_id=0, nonce=4fa824f98f64, datestamp=1672495346 (Dec 31 2022 14:02:26)
+0046.844 (0) This backup set is the backup set just made, so will not be deleted.
+0046.844 (0) Examining (for databases) backup set with group_id=0, nonce=fdfdc7e851bc, datestamp=1670773809 (Dec 11 2022 15:50:09)
+0046.844 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.845 (0) Examining (for databases) backup set with group_id=0, nonce=23ff1caaf089, datestamp=1670769203 (Dec 11 2022 14:33:23)
+0046.845 (0) 1670769203: db: this set includes a database (backup_2022-12-11-1433_Sears_23ff1caaf089-db.gz); db count is now 2
+0046.845 (0) 1670769203: db: over retain limit (2); will delete this database
+0046.845 (0) Delete file: backup_2022-12-11-1433_Sears_23ff1caaf089-db.gz, service=googledrive
+0047.601 (0) Google Drive: backup_2022-12-11-1433_Sears_23ff1caaf089-db.gz: Deletion successful
+0047.602 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0047.602 (0) Number of backup sets in history: 3; groups (files): 1
+0047.603 (0) Examining (for files) backup set with nonce=4fa824f98f64, datestamp=1672495346 (Dec 31 2022 14:02:26)
+0047.603 (0) This backup set is the backup set just made, so will not be deleted.
+0047.603 (0) This backup set is the backup set just made, so will not be deleted.
+0047.603 (0) This backup set is the backup set just made, so will not be deleted.
+0047.603 (0) This backup set is the backup set just made, so will not be deleted.
+0047.603 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.603 (0) Examining (for files) backup set with nonce=fdfdc7e851bc, datestamp=1670773809 (Dec 11 2022 15:50:09)
+0047.603 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.603 (0) Examining (for files) backup set with nonce=23ff1caaf089, datestamp=1670769203 (Dec 11 2022 14:33:23)
+0047.603 (0) plugins: over retain limit (2); will delete this file entity
+0047.603 (0) themes: over retain limit (2); will delete this file entity
+0047.603 (0) uploads: over retain limit (2); will delete this file entity
+0047.603 (0) others: over retain limit (2); will delete this file entity
+0047.603 (0) Delete file: backup_2022-12-11-1433_Sears_23ff1caaf089-plugins.zip, service=googledrive
+0047.603 (0) Delete file: backup_2022-12-11-1433_Sears_23ff1caaf089-themes.zip, service=googledrive
+0047.604 (0) Delete file: backup_2022-12-11-1433_Sears_23ff1caaf089-uploads.zip, service=googledrive
+0047.604 (0) Delete file: backup_2022-12-11-1433_Sears_23ff1caaf089-others.zip, service=googledrive
+0048.153 (0) Google Drive: backup_2022-12-11-1433_Sears_23ff1caaf089-others.zip: Deletion successful
+0048.556 (0) Google Drive: backup_2022-12-11-1433_Sears_23ff1caaf089-uploads.zip: Deletion successful
+0048.932 (0) Google Drive: backup_2022-12-11-1433_Sears_23ff1caaf089-themes.zip: Deletion successful
+0049.410 (0) Google Drive: backup_2022-12-11-1433_Sears_23ff1caaf089-plugins.zip: Deletion successful
+0049.411 (0) This backup set is now empty; will remove from history
+0049.411 (0) Deleting log file (log.23ff1caaf089.txt)
+0049.411 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0049.412 (0) Resume backup (4fa824f98f64, 0): finish run
+0049.413 (0) Decremented the semaphore (fd) by 1
+0049.413 (0) Semaphore (fd) unlocked
+0049.413 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0049.414 (0) No email will/can be sent - the user has not configured an email address.
+0049.414 (0) The backup apparently succeeded and is now complete

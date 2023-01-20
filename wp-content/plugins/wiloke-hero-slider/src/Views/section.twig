@@ -1,0 +1,40 @@
+{% set componentName = "wiloke-hero-slider" %}
+
+{% set columnStyles = '--col-xs:' ~ data.responsive.xs ~ ';--col-sm:' ~ data.responsive.sm ~ ';--col-md:' ~ data.responsive.md ~ ';--col-lg:' ~ data.responsive.lg %}
+{% set gapStyles = '--gap-xs:' ~ data.responsive.gapXs ~ 'px;--gap-sm:' ~ data.responsive.gapSm ~ 'px;--gap-md:' ~ data.responsive.gapMd ~ 'px;--gap-lg:' ~ data.responsive.gapLg ~ 'px' %}
+
+{% set settingButton = data.settingButton %}
+{% set itemButton = data.settingButton.itemButton %}
+{% set content = data.general.content %}
+{% set typography = data.typography %}
+{% set colors = data.colors %}
+
+{% set iconArrowLeft = data.general.iconArrowLeft ? data.general.iconArrowLeft : ''  %}
+{% set iconArrowRight = data.general.iconArrowRight ? data.general.iconArrowRight : ''  %}
+{% set aspectRatio = data.general.aspectRatio ? '--aspect-ratio:' ~ data.general.aspectRatio ~ ';' : ''  %}
+
+{% set backgroundPrimary = colors.primary ? 'background-color:' ~ colors.primary ~ ';' ~ '--color-primary:' ~ colors.primary ~ ';' : '' %}
+
+{% set colorPrimarySvgCss = colors.primary ? colors.primary : '#000' %}
+{% set colorGray9SvgCss = colors.gray9 ? colors.gray9 : '#000' %}
+
+{% set colorPrimaryCssVariable = colors.primary ? 'color:' ~ colors.primary ~ ';' ~ '--color-primary:' ~ colors.primary ~ ';' : '' %}
+{% set colorGray9CssVariable = colors.gray9 ? 'color:' ~ colors.gray9 ~ ';' ~ '--color-gray9:' ~ colors.gray9 ~ ';' : '' %}
+
+{% set colorPrimaryVariable = colors.primary ? '--color-primary:' ~ colors.primary ~ ';' : '' %}
+{% set colorSecondaryVariable = colors.secondary ? '--color-secondary:' ~ colors.secondary ~ ';' : '' %}
+{% set colorLightVariable = colors.light ? '--color-light:' ~ colors.light ~ ';' : '' %}
+{% set colorGray2Variable = colors.gray2 ? '--color-gray2:' ~ colors.gray2 ~ ';' : '' %}
+{% set colorGray7Variable = colors.gray7 ? '--color-gray7:' ~ colors.gray7 ~ ';' : '' %}
+{% set colorGray9Variable = colors.gray9 ? '--color-gray9:' ~ colors.gray9 ~ ';' : '' %}
+
+{% set colorLight = colors.light ? 'color:' ~ colors.light ~ ';' : '' %}
+{% set colorGray2 = colors.gray2 ? 'color:' ~ colors.gray2 ~ ';' : '' %}
+{% set colorGray7 = colors.gray7 ? 'color:' ~ colors.gray7 ~ ';' : '' %}
+{% set colorGray9 = colors.gray9 ? 'color:' ~ colors.gray9 ~ ';' : '' %}
+
+
+<style>{{ data.customCSS.code }}</style>
+{% include "Containers/" ~ data.general.variant ~ ".twig" %}
+
+

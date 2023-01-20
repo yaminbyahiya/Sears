@@ -1,0 +1,229 @@
+[02-Nov-2022 15:58:52 UTC] PHP Warning:  mysqli_query(): (HY000/1021): Disk full (/tmp/#sql-temptable-2b3a97-7bd47a-7c945.MAI); waiting for someone to free some space... (errno: 28 &quot;No space left on device&quot;) in /home/searsbdc/public_html/wp-includes/class-wpdb.php on line 2187
+[02-Nov-2022 15:58:52 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd47a-7c945.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query 
+			SELECT   wpd8_posts.*
+			FROM wpd8_posts  LEFT JOIN wpd8_term_relationships ON (wpd8_posts.ID = wpd8_term_relationships.object_id)
+			WHERE 1=1  AND ( 
+  wpd8_term_relationships.term_taxonomy_id IN (44)
+) AND wpd8_posts.post_type = 'wp_template_part' AND ((wpd8_posts.post_status = 'publish'))
+			GROUP BY wpd8_posts.ID
+			ORDER BY wpd8_posts.post_date DESC
+			
+		 made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[02-Nov-2022 15:58:53 UTC] PHP Warning:  mysqli_query(): (HY000/1021): Disk full (/tmp/#sql-temptable-2b3a97-7bd47a-7c949.MAI); waiting for someone to free some space... (errno: 28 &quot;No space left on device&quot;) in /home/searsbdc/public_html/wp-includes/class-wpdb.php on line 2187
+[02-Nov-2022 15:58:53 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd47a-7c949.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query 
+			SELECT   wpd8_posts.*
+			FROM wpd8_posts  INNER JOIN wpd8_postmeta ON ( wpd8_posts.ID = wpd8_postmeta.post_id )
+			WHERE 1=1  AND ( 
+  ( wpd8_postmeta.meta_key = 'elementskit_template_activation' AND wpd8_postmeta.meta_value = 'yes' )
+) AND wpd8_posts.post_type = 'elementskit_template' AND ((wpd8_posts.post_status = 'publish'))
+			GROUP BY wpd8_posts.ID
+			ORDER BY wpd8_posts.post_date DESC
+			
+		 made by require('wp-blog-header.php'), wp, WP->main, do_action_ref_array('wp'), WP_Hook->do_action, WP_Hook->apply_filters, ElementsKit_Lite\Modules\Header_Footer\Activator->hooks, ElementsKit_Lite\Modules\Header_Footer\Activator::template_ids, ElementsKit_Lite\Modules\Header_Footer\Activator->the_filter, get_posts, WP_Query->query, WP_Query->get_posts
+[02-Nov-2022 15:58:53 UTC] PHP Warning:  mysqli_query(): (HY000/1021): Disk full (/tmp/#sql-temptable-2b3a97-7bd48c-882e8.MAI); waiting for someone to free some space... (errno: 28 &quot;No space left on device&quot;) in /home/searsbdc/public_html/wp-includes/class-wpdb.php on line 2187
+[02-Nov-2022 15:58:53 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd48c-882e8.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query 
+			SELECT   wpd8_posts.*
+			FROM wpd8_posts  LEFT JOIN wpd8_term_relationships ON (wpd8_posts.ID = wpd8_term_relationships.object_id)
+			WHERE 1=1  AND ( 
+  wpd8_term_relationships.term_taxonomy_id IN (44)
+) AND wpd8_posts.post_type = 'wp_template_part' AND ((wpd8_posts.post_status = 'publish'))
+			GROUP BY wpd8_posts.ID
+			ORDER BY wpd8_posts.post_date DESC
+			
+		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[02-Nov-2022 15:58:53 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd48c-882e9.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `wpd8_options` made by wp_reschedule_event, wp_schedule_event, _set_cron_array, update_option
+[02-Nov-2022 15:58:53 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[02-Nov-2022 15:58:53 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd48c-882ea.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `wpd8_options` made by wp_unschedule_event, _set_cron_array, update_option
+[02-Nov-2022 15:58:53 UTC] Cron unschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[02-Nov-2022 15:58:53 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd48c-882eb.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `wpd8_options` made by wp_reschedule_event, wp_schedule_event, _set_cron_array, update_option
+[02-Nov-2022 15:58:53 UTC] Cron reschedule event error for hook: elementor/tracker/send_event, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[02-Nov-2022 15:58:53 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd48c-882ec.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `wpd8_options` made by wp_unschedule_event, _set_cron_array, update_option
+[02-Nov-2022 15:58:53 UTC] Cron unschedule event error for hook: elementor/tracker/send_event, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[02-Nov-2022 15:58:53 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd48c-882ed.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `wpd8_options` made by delete_transient, delete_option
+[02-Nov-2022 15:58:58 UTC] PHP Warning:  mysqli_query(): (HY000/1021): Disk full (/tmp/#sql-temptable-2b3a97-7bd52f-90283.MAI); waiting for someone to free some space... (errno: 28 &quot;No space left on device&quot;) in /home/searsbdc/public_html/wp-includes/class-wpdb.php on line 2187
+[02-Nov-2022 15:58:58 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd52f-90283.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query 
+			SELECT   wpd8_posts.*
+			FROM wpd8_posts  LEFT JOIN wpd8_term_relationships ON (wpd8_posts.ID = wpd8_term_relationships.object_id)
+			WHERE 1=1  AND ( 
+  wpd8_term_relationships.term_taxonomy_id IN (44)
+) AND wpd8_posts.post_type = 'wp_template_part' AND ((wpd8_posts.post_status = 'publish'))
+			GROUP BY wpd8_posts.ID
+			ORDER BY wpd8_posts.post_date DESC
+			
+		 made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, register_block_core_template_part, build_template_part_block_variations, build_template_part_block_instance_variations, get_block_templates, WP_Query->__construct, WP_Query->query, WP_Query->get_posts
+[02-Nov-2022 15:58:58 UTC] PHP Warning:  mysqli_query(): (HY000/1021): Disk full (/tmp/#sql-temptable-2b3a97-7bd52f-90284.MAI); waiting for someone to free some space... (errno: 28 &quot;No space left on device&quot;) in /home/searsbdc/public_html/wp-includes/class-wpdb.php on line 2187
+[02-Nov-2022 15:58:58 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd52f-90284.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query 
+			SELECT   wpd8_posts.*
+			FROM wpd8_posts  INNER JOIN wpd8_postmeta ON ( wpd8_posts.ID = wpd8_postmeta.post_id )
+			WHERE 1=1  AND ( 
+  ( wpd8_postmeta.meta_key = 'elementskit_template_activation' AND wpd8_postmeta.meta_value = 'yes' )
+) AND wpd8_posts.post_type = 'elementskit_template' AND ((wpd8_posts.post_status = 'publish'))
+			GROUP BY wpd8_posts.ID
+			ORDER BY wpd8_posts.post_date DESC
+			
+		 made by require('wp-blog-header.php'), wp, WP->main, do_action_ref_array('wp'), WP_Hook->do_action, WP_Hook->apply_filters, ElementsKit_Lite\Modules\Header_Footer\Activator->hooks, ElementsKit_Lite\Modules\Header_Footer\Activator::template_ids, ElementsKit_Lite\Modules\Header_Footer\Activator->the_filter, get_posts, WP_Query->query, WP_Query->get_posts
+[02-Nov-2022 15:58:58 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd52f-90285.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `wpd8_options` made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/salient/page.php'), get_header, locate_template, load_template, require_once('/themes/salient/header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_scripts, do_action('wp_enqueue_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_global_styles, wp_get_global_stylesheet, get_transient, delete_option
+[02-Nov-2022 15:58:58 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd52f-90286.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `wpd8_options` made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/salient/page.php'), get_header, locate_template, load_template, require_once('/themes/salient/header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_scripts, do_action('wp_enqueue_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_global_styles, wp_get_global_stylesheet, get_transient, delete_option
+[02-Nov-2022 15:58:58 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd52f-90287.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `wpd8_options` made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/salient/page.php'), get_header, locate_template, load_template, require_once('/themes/salient/header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_scripts, do_action('wp_enqueue_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_global_styles, wp_get_global_stylesheet, set_transient, update_option
+[02-Nov-2022 15:58:58 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd52f-90288.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `wpd8_options` made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/salient/page.php'), get_header, locate_template, load_template, require_once('/themes/salient/header.php'), nectar_hook_after_body_open, do_action('nectar_hook_after_body_open'), WP_Hook->do_action, WP_Hook->apply_filters, wp_body_open, do_action('wp_body_open'), WP_Hook->do_action, WP_Hook->apply_filters, wp_global_styles_render_svg_filters, wp_get_global_styles_svg_filters, get_transient, delete_option
+[02-Nov-2022 15:58:58 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd52f-90289.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `wpd8_options` made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/salient/page.php'), get_header, locate_template, load_template, require_once('/themes/salient/header.php'), nectar_hook_after_body_open, do_action('nectar_hook_after_body_open'), WP_Hook->do_action, WP_Hook->apply_filters, wp_body_open, do_action('wp_body_open'), WP_Hook->do_action, WP_Hook->apply_filters, wp_global_styles_render_svg_filters, wp_get_global_styles_svg_filters, get_transient, delete_option
+[02-Nov-2022 15:58:58 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd52f-9028a.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query SHOW FULL COLUMNS FROM `wpd8_options` made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/salient/page.php'), get_header, locate_template, load_template, require_once('/themes/salient/header.php'), nectar_hook_after_body_open, do_action('nectar_hook_after_body_open'), WP_Hook->do_action, WP_Hook->apply_filters, wp_body_open, do_action('wp_body_open'), WP_Hook->do_action, WP_Hook->apply_filters, wp_global_styles_render_svg_filters, wp_get_global_styles_svg_filters, set_transient, update_option
+[02-Nov-2022 15:58:58 UTC] PHP Warning:  mysqli_query(): (HY000/1021): Disk full (/tmp/#sql-temptable-2b3a97-7bd52f-9028b.MAI); waiting for someone to free some space... (errno: 28 &quot;No space left on device&quot;) in /home/searsbdc/public_html/wp-includes/class-wpdb.php on line 2187
+[02-Nov-2022 15:58:58 UTC] WordPress database error Disk full (/tmp/#sql-temptable-2b3a97-7bd52f-9028b.MAI); waiting for someone to free some space... (errno: 28 "No space left on device") for query 
+			SELECT   wpd8_posts.*
+			FROM wpd8_posts  LEFT JOIN wpd8_term_relationships ON (wpd8_posts.ID = wpd8_term_relationships.object_id)
+			WHERE 1=1  AND ( 
+  wpd8_term_relationships.term_taxonomy_id IN (39)
+) AND wpd8_posts.post_type = 'nav_menu_item' AND ((wpd8_posts.post_status = 'publish'))
+			GROUP BY wpd8_posts.ID
+			ORDER BY wpd8_posts.menu_order ASC
+			
+		 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/salient/page.php'), get_header, locate_template, load_template, require_once('/themes/salient/header.php'), get_template_part, locate_template, load_template, require('/themes/salient/includes/partials/header/header-menu.php'), nectar_hook_mobile_header_menu_items, do_action('nectar_hook_mobile_header_menu_items'), WP_Hook->do_action, WP_Hook->apply_filters, nectar_mobile_header_persistent_items, wp_nav_menu, wp_get_nav_menu_items, get_posts, WP_Query->query, WP_Query->get_posts
+[02-Nov-2022 16:41:48 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[14-Nov-2022 04:17:55 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `wp1p_options` WHERE `option_name` = '_transient_global_styles_hello-elementor' made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/hello-elementor/index.php'), get_header, do_action('get_header'), WP_Hook->do_action, WP_Hook->apply_filters, ElementsKit_Lite\Modules\Header_Footer\Theme_Hooks\Theme_Support->get_header, require('/plugins/elementskit-lite/modules/header-footer/views/theme-support-header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_scripts, do_action('wp_enqueue_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_global_styles, wp_get_global_stylesheet, get_transient, delete_option
+[14-Nov-2022 04:17:55 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `wp1p_options` WHERE `option_name` = '_transient_global_styles_svg_filters_hello-elementor' made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/hello-elementor/index.php'), get_header, do_action('get_header'), WP_Hook->do_action, WP_Hook->apply_filters, ElementsKit_Lite\Modules\Header_Footer\Theme_Hooks\Theme_Support->get_header, require('/plugins/elementskit-lite/modules/header-footer/views/theme-support-header.php'), wp_body_open, do_action('wp_body_open'), WP_Hook->do_action, WP_Hook->apply_filters, wp_global_styles_render_svg_filters, wp_get_global_styles_svg_filters, get_transient, delete_option
+[03-Dec-2022 07:53:27 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[03-Dec-2022 09:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_shop() in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php:285
+Stack trace:
+#0 /home/searsbdc/public_html/wp-includes/template.php(783): require_once()
+#1 /home/searsbdc/public_html/wp-includes/template.php(718): load_template('/home/searsbdc/...', true, Array)
+#2 /home/searsbdc/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/searsbdc/public_html/wp-content/themes/manufacturer/index.php(10): get_header()
+#4 /home/searsbdc/public_html/wp-includes/template-loader.php(106): include('/home/searsbdc/...')
+#5 /home/searsbdc/public_html/wp-blog-header.php(19): require_once('/home/searsbdc/...')
+#6 /home/searsbdc/public_html/index.php(17): require('/home/searsbdc/...')
+#7 {main}
+  thrown in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php on line 285
+[03-Dec-2022 09:31:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_shop() in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php:285
+Stack trace:
+#0 /home/searsbdc/public_html/wp-includes/template.php(783): require_once()
+#1 /home/searsbdc/public_html/wp-includes/template.php(718): load_template('/home/searsbdc/...', true, Array)
+#2 /home/searsbdc/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/searsbdc/public_html/wp-content/themes/manufacturer/index.php(10): get_header()
+#4 /home/searsbdc/public_html/wp-includes/template-loader.php(106): include('/home/searsbdc/...')
+#5 /home/searsbdc/public_html/wp-blog-header.php(19): require_once('/home/searsbdc/...')
+#6 /home/searsbdc/public_html/index.php(17): require('/home/searsbdc/...')
+#7 {main}
+  thrown in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php on line 285
+[03-Dec-2022 09:31:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_shop() in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php:285
+Stack trace:
+#0 /home/searsbdc/public_html/wp-includes/template.php(783): require_once()
+#1 /home/searsbdc/public_html/wp-includes/template.php(718): load_template('/home/searsbdc/...', true, Array)
+#2 /home/searsbdc/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/searsbdc/public_html/wp-content/themes/manufacturer/index.php(10): get_header()
+#4 /home/searsbdc/public_html/wp-includes/template-loader.php(106): include('/home/searsbdc/...')
+#5 /home/searsbdc/public_html/wp-blog-header.php(19): require_once('/home/searsbdc/...')
+#6 /home/searsbdc/public_html/index.php(17): require('/home/searsbdc/...')
+#7 {main}
+  thrown in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php on line 285
+[03-Dec-2022 09:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_shop() in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php:285
+Stack trace:
+#0 /home/searsbdc/public_html/wp-includes/template.php(783): require_once()
+#1 /home/searsbdc/public_html/wp-includes/template.php(718): load_template('/home/searsbdc/...', true, Array)
+#2 /home/searsbdc/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/searsbdc/public_html/wp-content/themes/manufacturer/index.php(10): get_header()
+#4 /home/searsbdc/public_html/wp-includes/template-loader.php(106): include('/home/searsbdc/...')
+#5 /home/searsbdc/public_html/wp-blog-header.php(19): require_once('/home/searsbdc/...')
+#6 /home/searsbdc/public_html/index.php(17): require('/home/searsbdc/...')
+#7 {main}
+  thrown in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php on line 285
+[03-Dec-2022 09:31:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_shop() in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php:285
+Stack trace:
+#0 /home/searsbdc/public_html/wp-includes/template.php(783): require_once()
+#1 /home/searsbdc/public_html/wp-includes/template.php(718): load_template('/home/searsbdc/...', true, Array)
+#2 /home/searsbdc/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/searsbdc/public_html/wp-content/themes/manufacturer/index.php(10): get_header()
+#4 /home/searsbdc/public_html/wp-includes/template-loader.php(106): include('/home/searsbdc/...')
+#5 /home/searsbdc/public_html/wp-blog-header.php(19): require_once('/home/searsbdc/...')
+#6 /home/searsbdc/public_html/index.php(17): require('/home/searsbdc/...')
+#7 {main}
+  thrown in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php on line 285
+[03-Dec-2022 09:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_shop() in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php:285
+Stack trace:
+#0 /home/searsbdc/public_html/wp-includes/template.php(783): require_once()
+#1 /home/searsbdc/public_html/wp-includes/template.php(718): load_template('/home/searsbdc/...', true, Array)
+#2 /home/searsbdc/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/searsbdc/public_html/wp-content/themes/manufacturer/index.php(10): get_header()
+#4 /home/searsbdc/public_html/wp-includes/template-loader.php(106): include('/home/searsbdc/...')
+#5 /home/searsbdc/public_html/wp-blog-header.php(19): require_once('/home/searsbdc/...')
+#6 /home/searsbdc/public_html/index.php(17): require('/home/searsbdc/...')
+#7 {main}
+  thrown in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php on line 285
+[03-Dec-2022 09:32:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_shop() in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php:285
+Stack trace:
+#0 /home/searsbdc/public_html/wp-includes/template.php(783): require_once()
+#1 /home/searsbdc/public_html/wp-includes/template.php(718): load_template('/home/searsbdc/...', true, Array)
+#2 /home/searsbdc/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/searsbdc/public_html/wp-content/themes/manufacturer/index.php(10): get_header()
+#4 /home/searsbdc/public_html/wp-includes/template-loader.php(106): include('/home/searsbdc/...')
+#5 /home/searsbdc/public_html/wp-blog-header.php(19): require_once('/home/searsbdc/...')
+#6 /home/searsbdc/public_html/index.php(17): require('/home/searsbdc/...')
+#7 {main}
+  thrown in /home/searsbdc/public_html/wp-content/themes/manufacturer/header.php on line 285
+[03-Dec-2022 09:38:15 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/service_block.php:126
+Stack trace:
+#0 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): SmWidgets\Widgets\Service_Block->_register_controls()
+#1 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#5 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+ in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/service_block.php on line 126
+[03-Dec-2022 09:38:17 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/service_block.php:126
+Stack trace:
+#0 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): SmWidgets\Widgets\Service_Block->_register_controls()
+#1 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#5 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+ in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/service_block.php on line 126
+[03-Dec-2022 09:57:43 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/service_block.php:126
+Stack trace:
+#0 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): SmWidgets\Widgets\Service_Block->_register_controls()
+#1 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#5 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+ in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/service_block.php on line 126
+[03-Dec-2022 10:02:26 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/logo.php:159
+Stack trace:
+#0 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): SmWidgets\Widgets\Logo->_register_controls()
+#1 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#5 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 /home/searsbdc/ in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/logo.php on line 159
+[03-Dec-2022 10:02:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/logo.php:159
+Stack trace:
+#0 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): SmWidgets\Widgets\Logo->_register_controls()
+#1 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#5 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 /home/searsbdc/ in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/logo.php on line 159
+[03-Dec-2022 10:02:33 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/logo.php:159
+Stack trace:
+#0 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): SmWidgets\Widgets\Logo->_register_controls()
+#1 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#5 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 /home/searsbdc/ in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/logo.php on line 159
+[03-Dec-2022 10:02:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Elementor\Scheme_Typography' not found in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/logo.php:159
+Stack trace:
+#0 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): SmWidgets\Widgets\Logo->_register_controls()
+#1 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(2414): Elementor\Controls_Stack->get_controls()
+#5 /home/searsbdc/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php(1107): Elementor\Controls_Stack->sanitize_settings(Array)
+#6 /home/searsbdc/ in /home/searsbdc/public_html/wp-content/plugins/elementor-sm-widgets/widgets/logo.php on line 159
+[03-Dec-2022 10:03:25 UTC] WordPress database error Table 'searsbdc_wp864.wp_postmeta' doesn't exist for query SELECT max(cast(meta_value as unsigned)) FROM wp_postmeta WHERE meta_key='_price' made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/manufacturer/woocommerce.php'), dynamic_sidebar, WP_Widget->display_callback, WC_Widget_Price_Filter->widget, apply_filters('woocommerce_price_filter_widget_max_amount'), WP_Hook->apply_filters, {closure}
+[04-Dec-2022 17:25:20 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[09-Jan-2023 21:33:14 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `wpbf_options` WHERE `option_name` = '_transient_global_styles_hello-elementor' made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/hello-elementor/index.php'), get_header, do_action('get_header'), WP_Hook->do_action, WP_Hook->apply_filters, ElementsKit_Lite\Modules\Header_Footer\Theme_Hooks\Theme_Support->get_header, require('/plugins/elementskit-lite/modules/header-footer/views/theme-support-header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_scripts, do_action('wp_enqueue_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_global_styles, wp_get_global_stylesheet, get_transient, delete_option
+[09-Jan-2023 21:33:14 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `wpbf_options` WHERE `option_name` = '_transient_global_styles_hello-elementor' made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/hello-elementor/index.php'), get_header, do_action('get_header'), WP_Hook->do_action, WP_Hook->apply_filters, ElementsKit_Lite\Modules\Header_Footer\Theme_Hooks\Theme_Support->get_header, require('/plugins/elementskit-lite/modules/header-footer/views/theme-support-header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_scripts, do_action('wp_enqueue_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_global_styles, wp_get_global_stylesheet, get_transient, delete_option

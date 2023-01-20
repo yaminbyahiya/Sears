@@ -1,0 +1,110 @@
+<?php
+Redux::set_section( Minimog_Redux::OPTION_NAME, array(
+	'title'      => esc_html__( 'Category Menu', 'minimog' ),
+	'id'         => 'category_menu',
+	'subsection' => true,
+	'fields'     => array(
+		array(
+			'id'      => 'header_category_menu_enable',
+			'type'    => 'button_set',
+			'title'   => esc_html__( 'Enable', 'minimog' ),
+			'options' => array(
+				'0' => esc_html__( 'No', 'minimog' ),
+				'1' => esc_html__( 'Yes', 'minimog' ),
+			),
+			'default' => Minimog_Redux::get_default_setting( 'header_category_menu_enable' ),
+		),
+		array(
+			'id'      => 'header_category_menu_sticky_homepage',
+			'type'    => 'button_set',
+			'title'   => esc_html__( 'Sticky on homepage?', 'minimog' ),
+			'options' => array(
+				'0' => esc_html__( 'No', 'minimog' ),
+				'1' => esc_html__( 'Yes', 'minimog' ),
+			),
+			'default' => Minimog_Redux::get_default_setting( 'header_category_menu_sticky_homepage' ),
+		),
+		array(
+			'id'          => 'header_category_menu_toggle_color',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Toggler Color', 'minimog' ),
+			'color_alpha' => true,
+		),
+		array(
+			'id'          => 'header_category_menu_toggle_background_color',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Toggler Background', 'minimog' ),
+			'color_alpha' => true,
+		),
+		array(
+			'id'          => 'header_category_menu_toggle_hover_color',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Toggler Hover Color', 'minimog' ),
+			'color_alpha' => true,
+		),
+		array(
+			'id'          => 'header_category_menu_toggle_hover_background_color',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Toggler Hover Background', 'minimog' ),
+			'color_alpha' => true,
+		),
+		array(
+			'id'          => 'header_category_menu_background_color',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Menu Background Color', 'minimog' ),
+			'color_alpha' => true,
+		),
+		array(
+			'id'          => 'header_category_menu_border_color',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Menu Border Color', 'minimog' ),
+			'color_alpha' => true,
+		),
+		array(
+			'id'          => 'header_category_menu_link_color',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Link Color', 'minimog' ),
+			'color_alpha' => true,
+		),
+		array(
+			'id'          => 'header_category_menu_link_hover_color',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Link Hover Color', 'minimog' ),
+			'color_alpha' => true,
+		),
+		array(
+			'id'          => 'header_category_menu_link_hover_background',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Link Hover Background', 'minimog' ),
+			'color_alpha' => true,
+		),
+		array(
+			'id'          => 'header_category_menu_link_arrow_color',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Link Arrow Color', 'minimog' ),
+			'color_alpha' => true,
+		),
+		array(
+			'id'          => 'header_category_menu_link_hover_arrow_color',
+			'type'        => 'color',
+			'title'       => esc_html__( 'Link Hover Arrow Color', 'minimog' ),
+			'color_alpha' => true,
+		),
+		array(
+			'id'      => 'header_category_menu_link_hover_shadow',
+			'type'    => 'switch',
+			'title'   => esc_html__( 'Link Hover Shadow', 'minimog' ),
+			'default' => false,
+		),
+		array(
+			'id'            => 'header_category_menu_link_rounded',
+			'type'          => 'slider',
+			'title'         => esc_html__( 'Link Hover Rounded', 'minimog' ),
+			'default'       => 5,
+			'min'           => 0,
+			'step'          => 1,
+			'max'           => 50,
+			'display_value' => 'text',
+		),
+	),
+) );

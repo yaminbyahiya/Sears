@@ -1,0 +1,4831 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elementor Addon Components\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-21 14:53+0000\n"
+"PO-Revision-Date: 2022-12-04 17:50+0000\n"
+"Last-Translator: Achille Talon\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.1.1"
+
+#: widgets/chart.php:479 widgets/chart.php:480
+msgid " %"
+msgstr " %"
+
+#: widgets/wc-product-grid.php:2486
+msgid " Avis clients"
+msgstr " Customer reviews"
+
+#: widgets/chart.php:297 widgets/chart.php:298
+msgid " €"
+msgstr "£"
+
+#: includes/proxy/proxy_osm.php:18 includes/proxy/proxy_pdf.php:18
+msgid "\"allow_url_fopen\" est désactivé"
+msgstr "\"allow_url_fopen\" is disable"
+
+#: widgets/table-of-contents.php:237
+msgid "'toc-heading-anchor-X' sinon le titre est utilisé"
+msgstr "'toc-heading-anchor-X' otherwise the title is used"
+
+#: includes/elementor/controls/eac-select2-control.php:68
+msgid "-- Rechercher --"
+msgstr "-- CHOOSE --"
+
+#: widgets/acf-relationship.php:214 widgets/post-grid.php:474
+#: widgets/wc-product-grid.php:466
+msgid "-1 = Tous"
+msgstr "-1 = All"
+
+#: widgets/off-canvas.php:305
+msgid "0 = Tous"
+msgstr "0 = All"
+
+#: widgets/author-infobox.php:377
+#| msgid ""
+#| "<a href='https://elementor-addon-components.com/elementor-dynamic-social-"
+#| "medias/' target='_blank'>Suivez ce lien</a> pour ajouter des réseaux "
+#| "sociaux aux profils utilisateurs."
+msgid ""
+"<a href='https://elementor-addon-components.com/elementor-dynamic-social-"
+"medias/' target='_blank' rel='noopener noreferrer'>Suivez ce lien</a> pour "
+"ajouter des réseaux sociaux aux profils utilisateurs."
+msgstr ""
+"<a href='https://elementor-addon-components.com/elementor-dynamic-social-"
+"medias/' target='_blank' rel='noopener noreferrer'>Follow this link</a> to "
+"add social networks to user profiles"
+
+#: widgets/open-streetmap.php:422 widgets/open-streetmap.php:506
+#| msgid ""
+#| "<span style=\"font-size:10px;\">Cliquez <a href=\"https://www.coordonnees-"
+#| "gps.fr/\" target=\"_blank\" rel=\"nofollow\" >ici</a> pour obtenir des "
+#| "coordonnées de localisation</span>"
+msgid ""
+"<span style=\"font-size:10px;\">Cliquez <a href=\"https://www.coordonnees-"
+"gps.fr/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\" >ici</a> "
+"pour obtenir des coordonnées de localisation</span>"
+msgstr ""
+"<span style=\"font-size:10px;\">Click <a href=\"https://www.coordonnees-gps."
+"fr/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">here</a> for "
+"location coordinates</span>"
+
+#: widgets/syntax-highlighter.php:258
+msgid ""
+"<span style=\"font-size:11px;font-style:italic;color:#B7B2B2;line-height:1."
+"4em\">Ne modifier pas la taille de la fonte si les numéros de ligne sont "
+"affichés</span>"
+msgstr ""
+"<span style=\"font-size:11px;font-style:italic;color:#B7B2B2;line-height:1."
+"4em\">Do not change the font-size if line numbers are displayed</span>"
+
+#: widgets/open-streetmap.php:383 widgets/open-streetmap.php:471
+msgid ""
+"<span style='font-size:10px;'>Entrer l'adresse puis bouton 'Search'</span>"
+msgstr ""
+"<span style='font-size:10px;'>Enter the address then button 'Search'</span>"
+
+#: widgets/chart.php:228
+msgid "Abscisse (X)"
+msgstr "X Axis"
+
+#: widgets/chart.php:238
+msgid "Abscisses"
+msgstr "X axis"
+
+#: core/eac-load-config.php:1204
+msgid "Accès page d&#039;options"
+msgstr "Grant access Options Page"
+
+#: includes/proxy/proxy_osm.php:34 includes/proxy/proxy_pdf.php:34
+#: includes/proxy/proxy_rss.php:144
+msgid "Accès refusé."
+msgstr "Unauthorized."
+
+#: includes/elementor/dynamic-tags/acf/eac-acf-tags.php:90
+msgid "ACF"
+msgstr "ACF"
+
+#: core/eac-load-config.php:1050
+msgid "ACF balises dynamiques"
+msgstr "ACF dynamic tags"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-keys.php:32
+msgid "ACF Clés des champs"
+msgstr "ACF field keys"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-color.php:33
+msgid "ACF Couleur"
+msgstr "ACF Color"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-file.php:28
+msgid "ACF Fichier"
+msgstr "ACF File"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-group-color.php:34
+msgid "ACF Groupe Couleur"
+msgstr "ACF Group Color"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-group-file.php:28
+msgid "ACF Groupe Fichier"
+msgstr "ACF Group File"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-group-image.php:34
+msgid "ACF Groupe Image"
+msgstr "ACF Group Image"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-group-number.php:33
+msgid "ACF Groupe Nombre"
+msgstr "ACF Group Number"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-group-text.php:35
+msgid "ACF Groupe Texte"
+msgstr "ACF Group Text"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-group-url.php:34
+msgid "ACF Groupe Url"
+msgstr "ACF Group Url"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-image.php:34
+msgid "ACF Image"
+msgstr "ACF Image"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-number.php:32
+msgid "ACF Nombre"
+msgstr "ACF Number"
+
+#: includes/acf/options-page/eac-acf-options-page.php:426
+#: includes/acf/options-page/eac-acf-options-page.php:427
+msgid "ACF Options"
+msgstr "ACF Options"
+
+#: core/eac-load-config.php:1072
+msgid "ACF page d&#039;options"
+msgstr "ACF options page"
+
+#: includes/acf/options-page/eac-acf-options-page.php:473
+msgid "ACF Pages d'Options"
+msgstr "ACF Options Pages"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-relational.php:51
+msgid "ACF Relational"
+msgstr "ACF Relational"
+
+#: core/eac-load-config.php:439
+msgid "ACF relationship"
+msgstr "ACF relationship"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-text.php:36
+msgid "ACF Texte"
+msgstr "ACF Text"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-url.php:34
+msgid "ACF Url"
+msgstr "ACF Url"
+
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-values.php:38
+msgid "ACF Valeurs des champs"
+msgstr "ACF field values"
+
+#: includes/elementor/injection/eac-injection-effect.php:196
+#: includes/elementor/injection/eac-injection-sticky.php:176
+msgid "Actif avec"
+msgstr "Active with"
+
+#: widgets/modal-box.php:501
+msgid "Actif dans l'éditeur"
+msgstr "Enable in editor"
+
+#: includes/elementor/injection/eac-injection-lottie.php:153
+msgid "Active uniquement dans la partie visible de la fenêtre"
+msgstr "Active only in the visible part of the window"
+
+#: core/eac-load-config.php:425
+msgid "Active/Désactive tous les composants"
+msgstr "Enable/disable all elements"
+
+#: includes/elementor/injection/eac-injection-lottie.php:152
+msgid "Activer dans la fenêtre"
+msgstr "Activate in Window"
+
+#: includes/elementor/injection/eac-injection-sticky.php:155
+msgid "Activer l'effect sticky"
+msgstr "Active sticky effect"
+
+#: widgets/author-infobox.php:393
+msgid "Activer l'intégration"
+msgstr "Enable embedding"
+
+#: widgets/off-canvas.php:204
+msgid "Activer l'overlay"
+msgstr "Enable overlay"
+
+#: widgets/image-gallery.php:446
+msgid "Activer le mode Metro"
+msgstr "Enable Metro mode"
+
+#: widgets/acf-relationship.php:429 widgets/image-gallery.php:715
+#: widgets/post-grid.php:927 widgets/wc-product-grid.php:1176
+msgid "Activer le ratio image"
+msgstr "Enable image ratio"
+
+#: includes/elementor/injection/eac-injection-lottie.php:94
+msgid "Activer Lottie"
+msgstr "Activate Lottie"
+
+#: widgets/open-streetmap.php:390 widgets/open-streetmap.php:477
+msgid "Adresse"
+msgstr "Address"
+
+#: widgets/html-sitemap.php:489 widgets/html-sitemap.php:609
+#: widgets/post-grid.php:280 widgets/wc-product-grid.php:281
+msgid "Affichage"
+msgstr "Display"
+
+#: widgets/image-promotion.php:592 widgets/wc-product-grid.php:781
+#: includes/elementor/dynamic-tags/woo/tags/product-stock.php:51
+msgid "Afficher"
+msgstr "Display"
+
+#: widgets/chart.php:714
+#: includes/elementor/dynamic-tags/woo/tags/product-onsale.php:47
+msgid "Afficher en pourcentage"
+msgstr "Display percent"
+
+#: widgets/modal-box.php:197
+msgid "Afficher l'entête"
+msgstr "Enable modal header"
+
+#: widgets/pdf-viewer.php:406
+msgid "Afficher la barre d'outils de droite"
+msgstr "Display right toolbar"
+
+#: widgets/pdf-viewer.php:395
+msgid "Afficher la barre d'outils de gauche"
+msgstr "Display left toolbar"
+
+#: widgets/html-sitemap.php:401 widgets/html-sitemap.php:521
+msgid "Afficher la date"
+msgstr "Display date"
+
+#: widgets/image-gallery.php:536
+msgid "Afficher la description"
+msgstr "Display description"
+
+#: widgets/kenburn-slider.php:204
+msgid "Afficher la navigation."
+msgstr "Display arrows"
+
+#: widgets/post-grid.php:410 widgets/wc-product-grid.php:406
+msgid "Afficher la requête"
+msgstr "Display query content"
+
+#: widgets/pdf-viewer.php:428
+msgid "Afficher le bouton 'Imprimer'"
+msgstr "Display 'Print' button"
+
+#: widgets/pdf-viewer.php:417
+msgid "Afficher le bouton 'Télécharger'"
+msgstr "Display 'Download' button"
+
+#: widgets/html-sitemap.php:269
+msgid "Afficher le nom complet"
+msgstr "Display full name"
+
+#: widgets/html-sitemap.php:258 widgets/html-sitemap.php:345
+#: widgets/html-sitemap.php:412
+msgid "Afficher le nombre d'articles"
+msgstr "Display posts count"
+
+#: widgets/html-sitemap.php:423 widgets/html-sitemap.php:532
+msgid "Afficher le nombre de commentaires"
+msgstr "Display comments count"
+
+#: widgets/image-gallery.php:525
+msgid "Afficher le titre"
+msgstr "Display title"
+
+#: widgets/html-sitemap.php:543
+msgid "Afficher les catégories"
+msgstr "Display categories"
+
+#: admin/settings/eac-nav-menu.php:297
+msgid "Afficher les champs"
+msgstr "Show fields"
+
+#: core/utils/eac-plugin-updater.php:261
+msgid "Afficher les détails"
+msgstr "View details"
+
+#: widgets/image-gallery.php:485
+msgid "Afficher les filtres"
+msgstr "Display filters"
+
+#: widgets/html-sitemap.php:457 widgets/html-sitemap.php:577
+#: widgets/post-grid.php:435 widgets/wc-product-grid.php:431
+msgid "Afficher les IDs"
+msgstr "Display IDs"
+
+#: widgets/image-hotspots.php:536
+msgid "Afficher les infobulles"
+msgstr "Display tooltips"
+
+#: widgets/chart.php:579
+msgid "Afficher les valeurs"
+msgstr "Display values"
+
+#: widgets/open-streetmap.php:649
+msgid "Afficher tous les marqueurs dans le viewport."
+msgstr "Display all markers in the viewport."
+
+#: widgets/wc-product-grid.php:1062
+msgid ""
+"Ajoute au bouton 'Ajouter au panier' un badge indiquant la quantité du "
+"produit dans le panier"
+msgstr ""
+"Adds to the 'Add to cart' button a badge indicating the quantity of the "
+"product in the cart"
+
+#: admin/settings/eac-admin_popup-menu.php:107
+#: includes/acf/options-page/eac-acf-options-page.php:432
+msgid "Ajouter"
+msgstr "Add New"
+
+#: widgets/html-sitemap.php:434 widgets/html-sitemap.php:554
+msgid "Ajouter 'nofollow' aux liens"
+msgstr "Add 'nofollow' to links"
+
+#: widgets/author-infobox.php:297
+msgid "Ajouter 'À propos de' au nom"
+msgstr "Add 'About' to name"
+
+#: widgets/wc-product-grid.php:913
+#: widgets/traits/button-add-to-cart-trait.php:24
+msgid "Ajouter au panier"
+msgstr "Add to cart"
+
+#: includes/woocommerce/eac-woo-hooks.php:408
+msgid "Ajouter au panier!!"
+msgstr ""
+
+#. Description of the plugin
+#: admin/settings/eac-components_header.php:8
+#| msgid ""
+#| "Ajouter des composants et des fonctionnalités avancées pour la version "
+#| "free d'Elementor"
+msgid ""
+"Ajouter des composants et des fonctionnalités avancées pour la version "
+"gratuite d'Elementor"
+msgstr "Add Widgets and Advanced Features for Elementor free version"
+
+#: widgets/kenburn-slider.php:137
+msgid "Ajouter des images"
+msgstr "Add images"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-gallery-images.php:47
+msgid "Ajouter l'image du produit"
+msgstr "Add product image"
+
+#: widgets/author-infobox.php:319
+msgid "Ajouter la biographie"
+msgstr "Display biography"
+
+#: admin/settings/eac-admin_popup-menu.php:87
+msgid "Ajouter la miniature de l'article"
+msgstr "Add post thumbnail"
+
+#: widgets/site-thumbnail.php:187
+msgid "Ajouter le lien vers le site"
+msgstr "Add link to site"
+
+#: widgets/author-infobox.php:308
+msgid "Ajouter le rôle"
+msgstr "Display role"
+
+#: widgets/author-infobox.php:330
+msgid "Ajouter les réseaux sociaux"
+msgstr "Display social networks"
+
+#: widgets/lottie-animations.php:261
+msgid "Ajouter un lien sur l'animation"
+msgstr "Add a link to the animation"
+
+#: widgets/table-of-contents.php:250
+msgid "Ajouter un numéro de rang"
+msgstr "Add rank number"
+
+#: widgets/image-promotion.php:166 widgets/modal-box.php:336
+#: widgets/off-canvas.php:410 widgets/pdf-viewer.php:325
+#: widgets/traits/button-add-to-cart-trait.php:30
+#: widgets/traits/button-read-more-trait.php:30
+msgid "Ajouter un pictogramme"
+msgstr "Add a pictogram"
+
+#: widgets/image-promotion.php:491
+msgid "Ajouter un ruban"
+msgstr "Add ribbon"
+
+#: widgets/chart.php:282 widgets/chart.php:465
+msgid "Ajouter un suffixe"
+msgstr "Add suffix"
+
+#: widgets/image-promotion.php:155
+msgid "Ajouter une image"
+msgstr "Add image"
+
+#: widgets/chart.php:350
+msgid "Ajouter une ligne (Section suivante)"
+msgstr "Add line (Next section)"
+
+#: widgets/site-thumbnail.php:199
+msgid "Ajouter une légende"
+msgstr "Add caption"
+
+#: includes/acf/options-page/eac-acf-options-page.php:434
+msgid "Ajouter une Page d'Options"
+msgstr "Add Options Page"
+
+#: includes/elementor/custom-attributes/eac-custom-attributes.php:65
+msgid "Ajouter vos attributs"
+msgstr "Add your attributes"
+
+#: includes/elementor/custom-css/eac-custom-css.php:66
+msgid "Ajoutez votre propre CSS"
+msgstr "Add your own CSS"
+
+#: widgets/acf-relationship.php:499 widgets/author-infobox.php:259
+#: widgets/html-sitemap.php:744 widgets/image-effects.php:354
+#: widgets/image-effects_SELECT2.php:381 widgets/image-gallery.php:498
+#: widgets/image-hotspots.php:184 widgets/image-hotspots.php:661
+#: widgets/image-promotion.php:243 widgets/image-promotion.php:513
+#: widgets/image-promotion.php:620 widgets/lottie-animations.php:238
+#: widgets/modal-box.php:455 widgets/off-canvas.php:374
+#: widgets/off-canvas.php:470 widgets/open-streetmap.php:880
+#: widgets/pdf-viewer.php:227 widgets/pdf-viewer.php:302
+#: widgets/table-of-contents.php:309 widgets/wc-product-grid.php:654
+#: widgets/wc-product-grid.php:925
+msgid "Alignement"
+msgstr "Alignment"
+
+#: widgets/post-grid.php:675
+msgid "Alignement des filtres"
+msgstr "Filter alignment"
+
+#: widgets/wc-product-grid.php:820
+msgid "Alignement horizontal"
+msgstr "Horizontal alignment"
+
+#: widgets/wc-product-grid.php:844
+msgid "Alignement vertical"
+msgstr "Vertical alignment"
+
+#: widgets/chart.php:453
+msgid "Aligner les échelles"
+msgstr "Align scales"
+
+#: widgets/off-canvas.php:297
+#, php-format
+msgid ""
+"Aller à <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">"
+"Apparence/Menus</a> pour gérer vos menus."
+msgstr ""
+"Go to <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">"
+"Appearance/Menus</a> to manage your menus."
+
+#: includes/elementor/dynamic-tags/tags/featured-image-data.php:55
+msgid "Alt"
+msgstr "Alt"
+
+#: core/eac-load-config.php:1083
+msgid "ALT attribut"
+msgstr "ALT attribute"
+
+#: includes/elementor/dynamic-tags/tags/featured-image.php:43
+#: includes/elementor/dynamic-tags/tags/site-logo.php:42
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-group-image.php:63
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-image.php:63
+msgid "Alternative"
+msgstr "Fallback"
+
+#: widgets/table-of-contents.php:236
+msgid "Ancre générée automatiquement"
+msgstr "Auto generated anchor"
+
+#: widgets/table-of-contents.php:228
+msgid "Ancres"
+msgstr "Anchors"
+
+#: widgets/lottie-animations.php:299 widgets/lottie-animations.php:416
+#: widgets/modal-box.php:947 widgets/team-members.php:673
+msgid "Animation"
+msgstr "Animation"
+
+#: includes/elementor/injection/eac-injection-effect.php:146
+msgid "Animations d'entrée"
+msgstr "Entrance animations"
+
+#: widgets/html-sitemap.php:362
+msgid "Annuelle"
+msgstr "Annual"
+
+#: widgets/modal-box.php:364 widgets/off-canvas.php:439
+#: widgets/pdf-viewer.php:354 widgets/traits/button-add-to-cart-trait.php:60
+#: widgets/traits/button-read-more-trait.php:60
+msgid "Après"
+msgstr "After"
+
+#: widgets/author-infobox.php:433
+msgid "Après le contenu"
+msgstr "After content"
+
+#: widgets/html-sitemap.php:848
+msgid "Archive"
+msgstr "Archive"
+
+#: widgets/html-sitemap.php:337
+msgid "Archives"
+msgstr "Archives"
+
+#: widgets/modal-box.php:595
+msgid "Arrière-plan"
+msgstr "Background"
+
+#: widgets/html-sitemap.php:926 widgets/post-grid.php:702
+#: includes/elementor/dynamic-tags/eac-dynamic-tags.php:110
+msgid "Article"
+msgstr "Post"
+
+#: widgets/acf-relationship.php:613 widgets/html-sitemap.php:513
+#: widgets/image-gallery.php:881 widgets/pinterest-rss.php:619
+#: widgets/post-grid.php:1091 widgets/rss-reader.php:552
+#: widgets/team-members.php:722
+#: includes/elementor/dynamic-tags/tags/site-stats.php:65
+#: includes/elementor/dynamic-tags/tags/url-post.php:32
+#: includes/elementor/dynamic-tags/tags/url-post_SELECT2.php:34
+msgid "Articles"
+msgstr "Posts"
+
+#: includes/elementor/dynamic-tags/tags/url-cpt.php:36
+msgid "Articles personnalisés"
+msgstr "Custom posts"
+
+#: widgets/off-canvas.php:1114
+msgid "Articles récents"
+msgstr "Recent articles"
+
+#: includes/elementor/dynamic-tags/tags/url-cpt.php:54
+#: includes/elementor/dynamic-tags/tags/url-post.php:50
+msgid "Articles Url"
+msgstr "Post Url"
+
+#: widgets/html-sitemap.php:492 widgets/html-sitemap.php:612
+#: widgets/post-grid.php:283 widgets/wc-product-grid.php:284
+msgid "Ascendant"
+msgstr "Top-bottom"
+
+#: widgets/post-grid.php:249
+msgid "Associées au type d'article"
+msgstr "Associated with post type"
+
+#: widgets/post-grid.php:262
+msgid "Associées aux catégories"
+msgstr "Associated with categories"
+
+#: widgets/webradio-player.php:156
+#| msgid ""
+#| "Atlas des flux audio des radios de langue Française - <a href='http:"
+#| "//fluxradios.blogspot.com/' target='_blank' rel='nofolow'>Consulter ce "
+#| "site</a>"
+msgid ""
+"Atlas des flux audio des radios de langue Française - <a href='http:"
+"//fluxradios.blogspot.com/' target='_blank' rel='nofolow noopener "
+"noreferrer'>Consulter ce site</a>"
+msgstr ""
+"French language's radios - <a href='http://fluxradios.blogspot.com/' "
+"target='_blank' rel='nofolow' rel='nofolow noopener noreferrer'>Go to the "
+"website</a>"
+
+#: widgets/news-ticker.php:168 widgets/rss-reader.php:176
+#| msgid ""
+#| "Atlas des flux RSS des journaux de langue Française - <a href='http:"
+#| "//atlasflux.saynete.net/' target='_blank' rel='nofolow'>Consulter ce "
+#| "site</a>"
+msgid ""
+"Atlas des flux RSS des journaux de langue Française - <a href='http:"
+"//atlasflux.saynete.net/' target='_blank' rel='nofolow noopener noreferrer'>"
+"Consulter ce site</a>"
+msgstr ""
+"French newspapers - <a href='http://atlasflux.saynete.net/' target='_blank' "
+"rel='nofolow noopener noreferrer'>Go to the website</a>"
+
+#: widgets/modal-box.php:433
+msgid "Attachement"
+msgstr "Attachment"
+
+#: widgets/image-diaporama.php:141
+msgid "Attention. Six images, pas plus pas moins."
+msgstr "Warning. Six images, no more no less."
+
+#: widgets/kenburn-slider.php:216
+msgid "Attribut 'ALT' ou 'Légende' de l'image"
+msgstr "Image's 'ALT' or 'Caption' attribute"
+
+#: widgets/image-gallery.php:233
+#: includes/elementor/injection/eac-injection-image.php:68
+#: includes/elementor/injection/eac-injection-image.php:104
+msgid "Attribut ALT"
+msgstr "ALT attribute"
+
+#: core/eac-load-config.php:1094
+msgid "Attributs personnalisés"
+msgstr "Custom attributes"
+
+#: widgets/modal-box.php:923
+msgid "Au Survol"
+msgstr "Hover"
+
+#: widgets/lottie-animations.php:377
+msgid "Au survol"
+msgstr "Hover"
+
+#: widgets/image-effects.php:223 widgets/image-effects_SELECT2.php:250
+#: widgets/image-promotion.php:447 widgets/lottie-animations.php:376
+#: widgets/open-streetmap.php:571 core/utils/eac-tools.php:422
+msgid "Aucun"
+msgstr "None"
+
+#: widgets/post-grid.php:1741 widgets/wc-product-grid.php:2656
+msgid "Aucun article à charger"
+msgstr "No more post"
+
+#: includes/elementor/controls/eac-select2-actions.php:73
+#: includes/elementor/controls/eac-select2-actions.php:132
+#: includes/elementor/controls/eac-select2-actions.php:157
+#: includes/elementor/controls/eac-select2-actions.php:230
+msgid "Aucun résultat trouvé"
+msgstr "No result found"
+
+#: widgets/modal-box.php:432
+msgid "Aucune"
+msgstr "None"
+
+#: widgets/html-sitemap.php:770 widgets/post-grid.php:785
+#: widgets/wc-product-grid.php:983 core/utils/eac-tools.php:942
+#: includes/elementor/dynamic-tags/eac-dynamic-tags.php:109
+msgid "Auteur"
+msgstr "Author"
+
+#: includes/elementor/dynamic-tags/tags/author-social-network.php:32
+msgid "Auteur réseaux sociaux"
+msgstr ""
+"Author social networks\n"
+
+#: widgets/html-sitemap.php:250
+#: includes/elementor/dynamic-tags/tags/post-by-user.php:29
+msgid "Auteurs"
+msgstr "Authors"
+
+#: widgets/pdf-viewer.php:446
+msgid "Automatique"
+msgstr "Automatic"
+
+#: admin/settings/eac-components_tabs-nav.php:3
+msgid "Avancés"
+msgstr "Advanced"
+
+#: widgets/modal-box.php:363 widgets/off-canvas.php:438
+#: widgets/pdf-viewer.php:353 widgets/traits/button-add-to-cart-trait.php:56
+#: widgets/traits/button-read-more-trait.php:56
+msgid "Avant"
+msgstr "Before"
+
+#: widgets/author-infobox.php:432
+msgid "Avant le contenu"
+msgstr "Before content"
+
+#: widgets/post-grid.php:1261 widgets/wc-product-grid.php:1931
+msgid "Avatar"
+msgstr "Avatar"
+
+#: widgets/wc-product-grid.php:994
+msgid "Avatar auteur"
+msgstr "Author avatar"
+
+#: widgets/post-grid.php:797
+msgid "Avatar de l'auteur"
+msgstr "Author avatar"
+
+#: widgets/wc-product-grid.php:711 widgets/wc-product-grid.php:1664
+msgid "Avis"
+msgstr "Reviews"
+
+#: widgets/chart.php:431
+msgid "Axe de droite"
+msgstr "Right axis"
+
+#: admin/settings/eac-admin_popup-menu.php:55
+msgid "Badge"
+msgstr "Badge"
+
+#: widgets/wc-product-grid.php:1077 widgets/wc-product-grid.php:1349
+#: widgets/wc-product-grid.php:2080
+msgid "Badge nouveau produit"
+msgstr "Badge new product"
+
+#: widgets/wc-product-grid.php:1033 widgets/wc-product-grid.php:1293
+#: widgets/wc-product-grid.php:2053
+msgid "Badge promotion"
+msgstr "Badge sale"
+
+#: widgets/wc-product-grid.php:1061
+msgid "Badge quantité dans le panier"
+msgstr "Badge quantity in cart"
+
+#: widgets/wc-product-grid.php:1319
+msgid "Badge quantité du panier"
+msgstr "Badge cart quantity"
+
+#: widgets/wc-product-grid.php:1047 widgets/wc-product-grid.php:1306
+#: widgets/wc-product-grid.php:2066
+msgid "Badge stock"
+msgstr "Badge stock"
+
+#: widgets/wc-product-grid.php:1026
+msgid "Badges"
+msgstr "Badges"
+
+#: widgets/table-of-contents.php:208
+msgid "Balises de titre"
+msgstr "Title tags"
+
+#: core/eac-load-config.php:1116
+msgid "Balises dynamiques"
+msgstr "Dynamic tags"
+
+#: widgets/post-grid.php:302 widgets/wc-product-grid.php:302
+msgid "Balises dynamiques 'Article/Auteurs'"
+msgstr "Dynamic Tags 'Post/Authors'"
+
+#: widgets/post-grid.php:328
+msgid ""
+"Balises dynamiques 'Article|ACF Clés' ou entrer la clé dans le champ "
+"(sensible à la casse)."
+msgstr ""
+"Dynamic Tags 'Post|ACF keys' or add the key in the field (case sensitive)"
+
+#: widgets/post-grid.php:369
+msgid ""
+"Balises dynamiques 'Article|ACF Valeurs' ou entrer les valeurs dans le champ "
+"(insensible à la casse) et utiliser le pipe '|' comme séparateur."
+msgstr ""
+"Dynamic Tags 'Post|ACF values' or add the values in the field (case "
+"insensitive) and use pipe '|' as separator."
+
+#: widgets/wc-product-grid.php:327
+msgid ""
+"Balises dynamiques 'WooCommerce|Clés des champs' ou entrer la clé dans le "
+"champ (sensible à la casse)."
+msgstr ""
+"Dynamic tags 'WooCommerce|Field keys' or enter the key in the field (case "
+"sensitive)."
+
+#: widgets/wc-product-grid.php:367
+msgid ""
+"Balises dynamiques 'WooCommerce|Valeurs des champs' ou entrer les valeurs "
+"dans le champ (insensible à la casse) et utiliser le pipe '|' comme "
+"séparateur."
+msgstr ""
+"Dynamic tags 'WooCommerce|Field values' or enter the values ​​in the field "
+"(case insensitive) and use the pipe '|' as a separator."
+
+#: widgets/post-grid.php:765 widgets/wc-product-grid.php:1794
+msgid "Balises meta"
+msgstr "Meta tags"
+
+#: widgets/chart.php:211
+msgid "Barre"
+msgstr "Bar"
+
+#: widgets/traits/slider-trait.php:255
+msgid "Barre de défilement"
+msgstr "Scrollbar"
+
+#: widgets/chart.php:212
+msgid "Barre horizontale"
+msgstr "Horizontal bar"
+
+#: core/eac-load-config.php:565
+msgid "Barre latérale"
+msgstr "Off-canvas"
+
+#: widgets/image-effects.php:326 widgets/image-effects_SELECT2.php:353
+#: widgets/image-gallery.php:647 widgets/image-hotspots.php:371
+#: widgets/images-comparison.php:175 widgets/images-comparison.php:223
+#: widgets/off-canvas.php:191 widgets/wc-product-grid.php:856
+#: includes/elementor/injection/eac-injection-effect.php:186
+msgid "Bas"
+msgstr "Bottom"
+
+#: widgets/kenburn-slider.php:249
+msgid "Bas Droit"
+msgstr "Bottom right"
+
+#: widgets/modal-box.php:585
+msgid "Bas droite"
+msgstr "Bottom right"
+
+#: widgets/kenburn-slider.php:250
+msgid "Bas Gauche"
+msgstr "Bottom left"
+
+#: widgets/modal-box.php:584
+msgid "Bas gauche"
+msgstr "Bottom left"
+
+#: admin/settings/eac-components_tabs-nav.php:4
+msgid "Basiques"
+msgstr "Basic"
+
+#: includes/elementor/dynamic-tags/tags/author-info.php:61
+#: includes/elementor/dynamic-tags/tags/user-info.php:64
+msgid "Bio"
+msgstr "Bio"
+
+#: widgets/author-infobox.php:628 widgets/team-members.php:213
+#: widgets/team-members.php:832
+msgid "Biographie"
+msgstr "Biography"
+
+#: widgets/modal-box.php:391 widgets/off-canvas.php:364
+#: widgets/pdf-viewer.php:293
+msgid "Bloc"
+msgstr "Block"
+
+#: widgets/acf-relationship.php:769 widgets/modal-box.php:312
+#: widgets/off-canvas.php:337 widgets/pdf-viewer.php:265
+#: widgets/post-grid.php:743
+msgid "Bouton"
+msgstr "Button"
+
+#: widgets/wc-product-grid.php:1280 widgets/wc-product-grid.php:2040
+msgid "Bouton 'Ajouter au panier'"
+msgstr "Button 'Add to cart'"
+
+#: widgets/acf-relationship.php:382 widgets/image-promotion.php:427
+#: widgets/image-promotion.php:812 widgets/post-grid.php:753
+#: widgets/wc-product-grid.php:1267 widgets/wc-product-grid.php:2027
+msgid "Bouton 'En savoir plus'"
+msgstr "Button 'Read more'"
+
+#: widgets/author-infobox.php:341
+msgid "Bouton 'Voir les archives'"
+msgstr "Button 'Consult archives'"
+
+#: widgets/news-ticker.php:380
+msgid "Bouton Avancer/Reculer"
+msgstr "Forward/Backward button"
+
+#: widgets/off-canvas.php:398
+msgid "Bouton collant"
+msgstr "Sticky button"
+
+#: widgets/modal-box.php:781 widgets/off-canvas.php:838
+#: widgets/pdf-viewer.php:537
+msgid "Bouton déclencheur"
+msgstr "Trigger button"
+
+#: widgets/image-gallery.php:1082
+msgid "Bouton lien"
+msgstr "Link button"
+
+#: widgets/image-gallery.php:1163
+msgid "Bouton visionneuse"
+msgstr "Lightbox button"
+
+#: widgets/wc-product-grid.php:895
+msgid "Boutons"
+msgstr "Buttons"
+
+#: core/eac-load-config.php:453
+msgid "Boîte auteur"
+msgstr "Author infobox"
+
+#: widgets/modal-box.php:519 widgets/pdf-viewer.php:187
+#: widgets/pdf-viewer.php:460 core/eac-load-config.php:537
+msgid "Boîte modale"
+msgstr "Modal box"
+
+#: widgets/wc-product-grid.php:785
+#: includes/elementor/dynamic-tags/woo/tags/product-stock.php:55
+msgid "Cacher"
+msgstr "Hide"
+
+#: widgets/image-diaporama.php:211
+msgid "Cacher le calque"
+msgstr "Hide the overlay"
+
+#: widgets/off-canvas.php:1111
+msgid "Calendrier"
+msgstr "Calendar"
+
+#: widgets/image-effects.php:313 widgets/image-effects_SELECT2.php:340
+msgid "Calque"
+msgstr "Overlay"
+
+#: widgets/chart.php:214
+msgid "Camembert"
+msgstr "Pie"
+
+#: widgets/lottie-animations.php:361
+msgid "Canvas"
+msgstr "Canvas"
+
+#: widgets/post-grid.php:346 widgets/wc-product-grid.php:345
+msgid "Caractère"
+msgstr "Char"
+
+#: widgets/image-promotion.php:337 widgets/image-promotion.php:356
+#: widgets/image-promotion.php:712
+msgid "Caractéristiques"
+msgstr "Features"
+
+#: core/eac-load-config.php:747
+msgid "Carrousel Ken Burn"
+msgstr "Ken Burn slideshow"
+
+#: widgets/image-promotion.php:610
+msgid "Carrée"
+msgstr "Square"
+
+#: widgets/open-streetmap.php:312 widgets/open-streetmap.php:807
+msgid "Carte"
+msgstr "Map"
+
+#: widgets/image-gallery.php:619
+msgid "Carte "
+msgstr "Card"
+
+#: widgets/wc-product-grid.php:1397
+msgid "Catalogue"
+msgstr "Catalog"
+
+#: includes/woocommerce/eac-woo-hooks.php:288
+#: includes/woocommerce/eac-woo-hooks.php:308
+msgid "Catégorie: "
+msgid_plural "Catégories: "
+msgstr[0] "Category: "
+msgstr[1] "Categories: "
+
+#: widgets/off-canvas.php:1120
+#: includes/elementor/dynamic-tags/tags/site-stats.php:72
+msgid "Catégories"
+msgstr "Categories"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:76
+msgid "Catégories Elementor"
+msgstr "Elementor categories"
+
+#: includes/woocommerce/eac-woo-hooks.php:288
+msgid "Catégories: "
+msgstr "Categories: "
+
+#: widgets/acf-relationship.php:507 widgets/author-infobox.php:267
+#: widgets/html-sitemap.php:752 widgets/image-effects.php:325
+#: widgets/image-effects.php:362 widgets/image-effects_SELECT2.php:352
+#: widgets/image-effects_SELECT2.php:389 widgets/image-gallery.php:506
+#: widgets/image-hotspots.php:192 widgets/image-hotspots.php:670
+#: widgets/image-promotion.php:251 widgets/image-promotion.php:628
+#: widgets/lottie-animations.php:246 widgets/modal-box.php:463
+#: widgets/off-canvas.php:382 widgets/off-canvas.php:478
+#: widgets/open-streetmap.php:889 widgets/pdf-viewer.php:235
+#: widgets/pdf-viewer.php:310 widgets/post-grid.php:683
+#: widgets/table-of-contents.php:318 widgets/wc-product-grid.php:662
+#: widgets/wc-product-grid.php:828 widgets/wc-product-grid.php:852
+#: widgets/wc-product-grid.php:933
+msgid "Centre"
+msgstr "Center"
+
+#: elementor-addon-components.php:190
+msgid "Centre d'aide"
+msgstr "Help center"
+
+#: includes/proxy/proxy_osm.php:49 includes/proxy/proxy_pdf.php:49
+#: includes/proxy/proxy_rss.php:159
+msgid "Certificat SSL invalide."
+msgstr "SSL certificate error"
+
+#: includes/proxy/proxy_osm.php:52 includes/proxy/proxy_pdf.php:52
+#: includes/proxy/proxy_rss.php:162
+msgid "Certificat SSL requis."
+msgstr "SSL certificate required"
+
+#: widgets/wc-product-grid.php:1371
+msgid "Ces options doivent être déactivées avant de supprimer le widget"
+msgstr "These options must be disabled before deleting the widget"
+
+#: admin/settings/eac-admin_popup-grant-option.php:5
+msgid ""
+"Ces rôles pourront accéder au sous-menu 'ACF Page d'Options' et modifier les "
+"champs globaux ACF."
+msgstr ""
+"These roles will be able to access the 'ACF Options Page' sub-menu and "
+"modify the ACF global fields."
+
+#: admin/settings/eac-admin_popup-grant-option.php:4
+msgid ""
+"Cette fonctionnalité ajoute une nouvelle capacité aux rôles 'editor' et "
+"'shop_manager'."
+msgstr ""
+"This feature adds a new capability to the 'editor' and 'shop_manager' roles."
+
+#: admin/settings/eac-admin_popup-acf.php:3
+msgid ""
+"Cette fonctionnalité va créer le dossier 'acf-json' dans le plugin s'il "
+"n'existe pas dans le thème courant."
+msgstr ""
+"This feature will create the 'acf-json' folder in the plugin if it does not "
+"exist in the current theme."
+
+#: includes/elementor/dynamic-tags/tags/author-info.php:55
+#: includes/elementor/dynamic-tags/tags/user-info.php:54
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-color.php:53
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-group-color.php:54
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-group-image.php:54
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-group-number.php:54
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-group-text.php:55
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-group-url.php:54
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-image.php:54
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-number.php:53
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-relational.php:71
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-text.php:56
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-url.php:54
+msgid "Champ"
+msgstr "Field"
+
+#: widgets/acf-relationship.php:193
+msgid "Champ relationnel"
+msgstr "Relational field"
+
+#: includes/acf/options-page/eac-acf-options-page.php:501
+#: includes/elementor/dynamic-tags/tags/author-social-network.php:53
+msgid "Champs"
+msgstr "Fields"
+
+#: includes/elementor/controls/file-viewer-control.php:82
+msgid "Changer"
+msgstr "Change"
+
+#: includes/acf/options-page/eac-acf-options-page.php:437
+msgid "Chercher dans les Pages d'Options"
+msgstr "Search in the Options Pages"
+
+#: widgets/image-effects.php:144 widgets/image-effects_SELECT2.php:172
+#: widgets/image-promotion.php:201
+msgid "Choix de l'image"
+msgstr "Select image"
+
+#: widgets/image-effects.php:258 widgets/image-effects_SELECT2.php:285
+#: widgets/image-promotion.php:188
+msgid "Choix du pictogramme"
+msgstr "Choose pictogram"
+
+#: widgets/syntax-highlighter.php:239
+msgid "Choix du thème"
+msgstr "Select theme"
+
+#: widgets/table-of-contents.php:190
+msgid "Cible"
+msgstr "Target"
+
+#: widgets/table-of-contents.php:192
+msgid "Cible de l'analyse"
+msgstr "Target of analysis"
+
+#: widgets/open-streetmap.php:791
+msgid "Clicker pour fermer les info-bulles"
+msgstr "Click to close the tooltips"
+
+#: widgets/traits/slider-trait.php:236
+msgid "Cliquable"
+msgstr "Clickable"
+
+#: widgets/author-infobox.php:416
+#: includes/elementor/dynamic-tags/tags/author-info.php:71
+#: includes/elementor/dynamic-tags/tags/post-by-user.php:50
+#: includes/elementor/dynamic-tags/tags/post-custom-field-keys.php:65
+#: includes/elementor/dynamic-tags/tags/post-custom-field-values.php:74
+#: includes/elementor/dynamic-tags/tags/post-elementor-tmpl.php:63
+#: includes/elementor/dynamic-tags/tags/post-elementor-tmpl.php:73
+#: includes/elementor/dynamic-tags/tags/site-server.php:54
+#: includes/elementor/dynamic-tags/tags/user-info.php:74
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-keys.php:63
+#: includes/elementor/dynamic-tags/woo/tags/product-field-keys.php:63
+msgid "Clé"
+msgstr "Key"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-field-keys.php:32
+msgid "Clés des champs"
+msgstr "Field keys"
+
+#: includes/elementor/dynamic-tags/tags/post-custom-field-keys.php:34
+msgid "Clés des champs personnalisés"
+msgstr "Custom field keys"
+
+#: includes/elementor/custom-attributes/eac-custom-attributes.php:67
+msgid "Clé|Valeur"
+msgstr "Key|Value"
+
+#: widgets/syntax-highlighter.php:205
+msgid "Code"
+msgstr "Code"
+
+#: widgets/site-thumbnail.php:166
+msgid "Coller l'URL complète/relative du site"
+msgstr "Paste the full/relative URL of the site"
+
+#: widgets/site-thumbnail.php:214
+msgid "Coller la légende"
+msgstr "Paste caption"
+
+#: widgets/open-streetmap.php:582
+msgid "Coller le chemin absolu du fichier 'geoJSON'"
+msgstr "Paste the absolute path of the 'geoJSON' file"
+
+#: core/eac-load-config.php:635
+msgid "Coloration syntaxique"
+msgstr "Syntax highlighter"
+
+#: widgets/image-diaporama.php:186
+msgid "Com-pos-ition"
+msgstr "Com-pos-ition"
+
+#: widgets/post-grid.php:819
+#: includes/elementor/dynamic-tags/tags/site-stats.php:70
+msgid "Commentaires"
+msgstr "Comments"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:71
+msgid "Commentaires en attente"
+msgstr "Comments pending"
+
+#: core/eac-load-config.php:719
+msgid "Comparaison d&#039;images"
+msgstr "Images comparison"
+
+#: admin/settings/eac-admin_popup-acf.php:7
+msgid ""
+"Consulter la <a href='https://www.advancedcustomfields.com/resources/local-"
+"json/' target='_autre'>documentation officielle</a>"
+msgstr ""
+"Consult the <a href='https://www.advancedcustomfields.com/resources/local-"
+"json/' target='_autre'>official documentation</a>"
+
+#: widgets/acf-relationship.php:318 widgets/author-infobox.php:290
+#: widgets/chart.php:526 widgets/html-sitemap.php:177
+#: widgets/image-gallery.php:247 widgets/image-gallery.php:477
+#: widgets/image-hotspots.php:384 widgets/image-hotspots.php:630
+#: widgets/modal-box.php:189 widgets/news-ticker.php:500
+#: widgets/off-canvas.php:217 widgets/pinterest-rss.php:461
+#: widgets/post-grid.php:644 widgets/rss-reader.php:351
+#: widgets/syntax-highlighter.php:163 widgets/table-of-contents.php:265
+#: widgets/wc-product-grid.php:627
+msgid "Contenu"
+msgstr "Content"
+
+#: widgets/modal-box.php:746
+msgid "Contenu boîte modale"
+msgstr "Modal box content"
+
+#: widgets/image-hotspots.php:386 widgets/open-streetmap.php:440
+#: widgets/open-streetmap.php:442 widgets/open-streetmap.php:530
+#: widgets/open-streetmap.php:532 widgets/open-streetmap.php:905
+msgid "Contenu de l'infobulle"
+msgstr "Tooltip content"
+
+#: admin/settings/eac-admin_popup-menu.php:58
+msgid "Contenu du badge"
+msgstr "Badge content"
+
+#: widgets/off-canvas.php:625
+msgid "Contenu menu"
+msgstr "Menu content"
+
+#: widgets/off-canvas.php:682
+msgid "Contenu texte"
+msgstr "Text content"
+
+#: widgets/off-canvas.php:728
+msgid "Contenu widget"
+msgstr "Widget content"
+
+#: widgets/post-grid.php:613 widgets/wc-product-grid.php:599
+msgid "Contenu à gauche Image à droite"
+msgstr "Content on the left Image on the right"
+
+#: widgets/open-streetmap.php:729
+msgid "Controls"
+msgstr "Controls"
+
+#: widgets/acf-relationship.php:858 widgets/image-gallery.php:1052
+#: widgets/post-grid.php:1379 widgets/wc-product-grid.php:1998
+msgid "Contrôles du slider"
+msgstr "Slider controls"
+
+#: includes/elementor/dynamic-tags/tags/cookies.php:30
+msgid "Cookies"
+msgstr "Cookies"
+
+#: widgets/chart.php:181
+msgid "Copier/Coller le chemin absolu du fichier: Format JSON"
+msgstr "Copy/Paste the absolute path of the file: JSON format"
+
+#: widgets/acf-relationship.php:676 widgets/acf-relationship.php:710
+#: widgets/acf-relationship.php:744 widgets/acf-relationship.php:778
+#: widgets/author-infobox.php:576 widgets/author-infobox.php:606
+#: widgets/author-infobox.php:636 widgets/html-sitemap.php:687
+#: widgets/html-sitemap.php:719 widgets/image-diaporama.php:301
+#: widgets/image-effects.php:379 widgets/image-effects.php:429
+#: widgets/image-effects.php:488 widgets/image-effects_SELECT2.php:406
+#: widgets/image-effects_SELECT2.php:456 widgets/image-effects_SELECT2.php:515
+#: widgets/image-gallery.php:913 widgets/image-gallery.php:950
+#: widgets/image-gallery.php:1022 widgets/image-gallery.php:1090
+#: widgets/image-gallery.php:1188 widgets/image-hotspots.php:434
+#: widgets/image-hotspots.php:473 widgets/image-hotspots.php:636
+#: widgets/image-promotion.php:559 widgets/image-promotion.php:659
+#: widgets/image-promotion.php:685 widgets/image-promotion.php:719
+#: widgets/image-promotion.php:776 widgets/image-promotion.php:819
+#: widgets/image-promotion.php:875 widgets/modal-box.php:754
+#: widgets/modal-box.php:789 widgets/modal-box.php:968
+#: widgets/modal-box.php:1023 widgets/news-ticker.php:447
+#: widgets/news-ticker.php:507 widgets/news-ticker.php:571
+#: widgets/news-ticker.php:589 widgets/off-canvas.php:584
+#: widgets/off-canvas.php:690 widgets/off-canvas.php:860
+#: widgets/off-canvas.php:934 widgets/open-streetmap.php:857
+#: widgets/open-streetmap.php:912 widgets/pdf-viewer.php:545
+#: widgets/pdf-viewer.php:618 widgets/pinterest-rss.php:647
+#: widgets/pinterest-rss.php:679 widgets/pinterest-rss.php:710
+#: widgets/post-grid.php:1122 widgets/post-grid.php:1158
+#: widgets/post-grid.php:1225 widgets/post-grid.php:1348
+#: widgets/rss-reader.php:580 widgets/rss-reader.php:612
+#: widgets/rss-reader.php:644 widgets/site-thumbnail.php:273
+#: widgets/team-members.php:781 widgets/team-members.php:810
+#: widgets/team-members.php:839 widgets/wc-product-grid.php:1551
+#: widgets/wc-product-grid.php:1613 widgets/wc-product-grid.php:1642
+#: widgets/wc-product-grid.php:1673 widgets/wc-product-grid.php:1710
+#: widgets/wc-product-grid.php:1741 widgets/wc-product-grid.php:1772
+#: widgets/wc-product-grid.php:1824 widgets/traits/badge-new-trait.php:59
+#: widgets/traits/badge-promo-trait.php:69
+#: widgets/traits/badge-stock-trait.php:50
+#: widgets/traits/button-add-to-cart-trait.php:87
+#: widgets/traits/button-read-more-trait.php:87
+#: widgets/traits/slider-trait.php:298
+msgid "Couleur"
+msgstr "Color"
+
+#: widgets/chart.php:678
+msgid "Couleur de la grille"
+msgstr "Grid color"
+
+#: widgets/traits/slider-trait.php:329
+msgid "Couleur de la puce active"
+msgstr "Active bullet color"
+
+#: widgets/table-of-contents.php:386
+msgid "Couleur des entrées"
+msgstr "Entries color"
+
+#: widgets/html-sitemap.php:791 widgets/html-sitemap.php:830
+#: widgets/html-sitemap.php:869 widgets/html-sitemap.php:908
+#: widgets/html-sitemap.php:947 widgets/wc-product-grid.php:1892
+msgid "Couleur des pictogrammes"
+msgstr "Color of the pictograms"
+
+#: widgets/traits/slider-trait.php:318
+msgid "Couleur des puces"
+msgstr "Bullets color"
+
+#: widgets/chart.php:663
+msgid "Couleur des étiquettes"
+msgstr "Labels color"
+
+#: widgets/modal-box.php:662
+msgid "Couleur du bouton de fermeture"
+msgstr "Upper close button color"
+
+#: admin/settings/eac-admin_popup-menu.php:66 widgets/acf-relationship.php:600
+#: widgets/acf-relationship.php:621 widgets/acf-relationship.php:802
+#: widgets/author-infobox.php:482 widgets/author-infobox.php:683
+#: widgets/chart.php:602 widgets/html-sitemap.php:778
+#: widgets/html-sitemap.php:817 widgets/html-sitemap.php:856
+#: widgets/html-sitemap.php:895 widgets/html-sitemap.php:934
+#: widgets/image-effects.php:395 widgets/image-effects_SELECT2.php:422
+#: widgets/image-gallery.php:868 widgets/image-gallery.php:890
+#: widgets/image-gallery.php:1112 widgets/image-gallery.php:1210
+#: widgets/image-hotspots.php:496 widgets/image-hotspots.php:576
+#: widgets/image-promotion.php:798 widgets/image-promotion.php:841
+#: widgets/image-promotion.php:898 widgets/images-comparison.php:308
+#: widgets/lottie-animations.php:423 widgets/modal-box.php:727
+#: widgets/modal-box.php:812 widgets/modal-box.php:991
+#: widgets/news-ticker.php:466 widgets/news-ticker.php:534
+#: widgets/off-canvas.php:607 widgets/off-canvas.php:672
+#: widgets/off-canvas.php:827 widgets/off-canvas.php:883
+#: widgets/off-canvas.php:957 widgets/pdf-viewer.php:568
+#: widgets/pinterest-rss.php:605 widgets/pinterest-rss.php:626
+#: widgets/post-grid.php:1078 widgets/post-grid.php:1099
+#: widgets/rss-reader.php:538 widgets/rss-reader.php:559
+#: widgets/syntax-highlighter.php:274 widgets/table-of-contents.php:364
+#: widgets/table-of-contents.php:409 widgets/team-members.php:711
+#: widgets/team-members.php:729 widgets/wc-product-grid.php:1514
+#: widgets/wc-product-grid.php:1532 widgets/webradio-player.php:294
+#: widgets/traits/badge-new-trait.php:68
+#: widgets/traits/badge-promo-trait.php:78
+#: widgets/traits/badge-stock-trait.php:59
+#: widgets/traits/button-add-to-cart-trait.php:106
+#: widgets/traits/button-read-more-trait.php:106
+msgid "Couleur du fond"
+msgstr "Background color"
+
+#: widgets/off-canvas.php:766
+msgid "Couleur du fond du titre"
+msgstr "Title background color"
+
+#: widgets/off-canvas.php:797
+msgid "Couleur du lien au survol"
+msgstr "Link color on hover"
+
+#: admin/settings/eac-admin_popup-menu.php:62 widgets/images-comparison.php:292
+#: widgets/off-canvas.php:633 widgets/off-canvas.php:776
+msgid "Couleur du texte"
+msgstr "Text color"
+
+#: widgets/off-canvas.php:646
+msgid "Couleur du texte Hover"
+msgstr "Hover text color"
+
+#: widgets/modal-box.php:686 widgets/off-canvas.php:736
+#: widgets/table-of-contents.php:341
+msgid "Couleur du titre"
+msgstr "Title color"
+
+#: widgets/chart.php:642
+msgid "Couleurs aléatoires"
+msgstr "Random color"
+
+#: widgets/chart.php:629
+msgid "Couleurs globales"
+msgstr "Global colors"
+
+#: widgets/share-post.php:251
+msgid "Courriel"
+msgstr "E-mail"
+
+#: widgets/traits/slider-trait.php:104
+msgid "Créatif"
+msgstr "Creative"
+
+#: core/eac-load-config.php:1105
+#: includes/elementor/custom-css/eac-custom-css.php:74
+msgid "CSS personnalisé"
+msgstr "Custom CSS"
+
+#: widgets/post-grid.php:585 widgets/wc-product-grid.php:574
+msgid "Côte à côte"
+msgstr "Side by side"
+
+#: widgets/post-grid.php:503 widgets/wc-product-grid.php:494
+#| msgid ""
+#| "<strong>Pagination:</strong> Dans l'éditeur, vous devez systématiquement "
+#| "enregistrer la page pour voir les modifications apportées au widget"
+msgid ""
+"Dans l'éditeur, vous devez systématiquement enregistrer la page pour voir "
+"les modifications apportées au widget"
+msgstr ""
+"In the editor, you must always save the page to see the changes made to the "
+"widget"
+
+#: includes/elementor/dynamic-tags/tags/featured-image-data.php:50
+msgid "Data"
+msgstr "Data"
+
+#: widgets/acf-relationship.php:336 widgets/acf-relationship.php:701
+#: widgets/news-ticker.php:563 widgets/post-grid.php:349
+#: widgets/post-grid.php:808 widgets/wc-product-grid.php:1005
+#: core/utils/eac-tools.php:944
+msgid "Date"
+msgstr "Date"
+
+#: widgets/wc-product-grid.php:756
+msgid "Date de fin de promo"
+msgstr "Sale end date"
+
+#: widgets/news-ticker.php:344
+msgid "Date de publication"
+msgstr "Publishing date"
+
+#: widgets/pinterest-rss.php:514 widgets/rss-reader.php:381
+msgid "Date de Publication/Auteur"
+msgstr "Publication/Author date"
+
+#: widgets/off-canvas.php:1115
+msgid "Derniers commentaires"
+msgstr "Last comments"
+
+#: core/utils/eac-tools.php:945
+msgid "Dernière modification"
+msgstr "Last modification"
+
+#: widgets/chart.php:514
+msgid "Derrière"
+msgstr "Behind"
+
+#: widgets/html-sitemap.php:493 widgets/html-sitemap.php:613
+#: widgets/post-grid.php:284 widgets/wc-product-grid.php:285
+msgid "Descendant"
+msgstr "Bottom-up"
+
+#: widgets/image-effects.php:192 widgets/image-effects_SELECT2.php:219
+#: widgets/image-gallery.php:264 widgets/image-gallery.php:792
+#: widgets/image-gallery.php:1013 widgets/modal-box.php:267
+#: widgets/off-canvas.php:263 widgets/wc-product-grid.php:700
+#: widgets/wc-product-grid.php:1246 widgets/wc-product-grid.php:1633
+#: includes/elementor/dynamic-tags/tags/featured-image-data.php:57
+#: includes/elementor/dynamic-tags/woo/tags/product-excerpt.php:51
+msgid "Description"
+msgstr "Description"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-excerpt.php:30
+msgid "Description du produit"
+msgstr "Product description"
+
+#: includes/elementor/injection/eac-injection-effect.php:126
+#: includes/elementor/injection/eac-injection-sticky.php:142
+msgid "Desktop"
+msgstr "Desktop"
+
+#: widgets/chart.php:513
+msgid "Devant"
+msgstr "In front"
+
+#: includes/elementor/dynamic-tags/tags/url-chart.php:51
+msgid "Diagramme Url"
+msgstr "Url chart"
+
+#: core/eac-load-config.php:467
+#: includes/elementor/dynamic-tags/tags/url-chart.php:33
+msgid "Diagrammes"
+msgstr "Charts"
+
+#: core/eac-load-config.php:705
+msgid "Diaporama d&#039;arrière-plan"
+msgstr "Background slideshow"
+
+#: widgets/traits/slider-trait.php:67
+msgid "Diapositives affichées"
+msgstr "Slides displayed"
+
+#: widgets/acf-relationship.php:413 widgets/author-infobox.php:668
+#: widgets/image-hotspots.php:449 widgets/image-promotion.php:644
+#: widgets/lottie-animations.php:212 widgets/modal-box.php:413
+#: widgets/off-canvas.php:514 widgets/post-grid.php:875
+#: widgets/post-grid.php:1270 widgets/team-members.php:871
+#: widgets/wc-product-grid.php:1939 widgets/traits/slider-trait.php:285
+#: includes/elementor/dynamic-tags/tags/author-picture.php:43
+#: includes/elementor/dynamic-tags/tags/user-picture.php:42
+msgid "Dimension"
+msgstr "Size"
+
+#: widgets/image-effects.php:473 widgets/image-effects_SELECT2.php:500
+msgid "Dimension (px)"
+msgstr "Size (px)"
+
+#: widgets/image-gallery.php:684
+msgid "Dimension des images"
+msgstr "Images size"
+
+#: widgets/modal-box.php:384 widgets/off-canvas.php:357
+#: widgets/pdf-viewer.php:286
+msgid "Dimension du bouton"
+msgstr "Button size"
+
+#: admin/settings/eac-admin_popup-menu.php:90
+#: admin/settings/eac-admin_popup-menu.php:120
+msgid "Dimensions (px)"
+msgstr "Sizes (px)"
+
+#: widgets/traits/slider-trait.php:79
+msgid "Direction"
+msgstr "Direction"
+
+#: widgets/news-ticker.php:323
+msgid "Direction de l'affichage"
+msgstr "Display direction"
+
+#: widgets/image-gallery.php:631
+msgid "Direction de l'overlay"
+msgstr "Overlay direction"
+
+#: widgets/acf-relationship.php:235 widgets/html-sitemap.php:623
+#: widgets/image-gallery.php:376 widgets/pinterest-rss.php:527
+#: widgets/post-grid.php:518 widgets/rss-reader.php:468
+#: widgets/team-members.php:577 widgets/wc-product-grid.php:509
+msgid "Disposition"
+msgstr "Layout"
+
+#: widgets/image-gallery.php:614
+msgid "Disposition du contenu"
+msgstr "Content layout"
+
+#: includes/elementor/dynamic-tags/tags/featured-image-data.php:29
+#| msgid "Données de l'image en avant"
+msgid "Données image en avant"
+msgstr "Featured image data"
+
+#: widgets/chart.php:215
+msgid "Donut"
+msgstr "Doughnut"
+
+#: admin/settings/eac-admin_popup-acf.php:6
+msgid "Dossier '/includes/acf' du plugin."
+msgstr "Folder '/includes/acf'"
+
+#: admin/settings/eac-admin_popup-acf.php:2
+msgid "Dossier ACF-JSON"
+msgstr "Folder ACF-JSON"
+
+#: widgets/open-streetmap.php:769
+msgid "Double click pour zoomer"
+msgstr "Double click to zoom"
+
+#: widgets/image-hotspots.php:375 widgets/image-hotspots.php:674
+#: widgets/off-canvas.php:195 widgets/open-streetmap.php:893
+msgid "Droit"
+msgstr "Right"
+
+#: widgets/acf-relationship.php:511 widgets/author-infobox.php:271
+#: widgets/html-sitemap.php:756 widgets/image-effects.php:366
+#: widgets/image-effects_SELECT2.php:393 widgets/image-gallery.php:510
+#: widgets/image-gallery.php:643 widgets/image-hotspots.php:196
+#: widgets/image-promotion.php:255 widgets/image-promotion.php:521
+#: widgets/image-promotion.php:632 widgets/images-comparison.php:210
+#: widgets/lottie-animations.php:250 widgets/modal-box.php:467
+#: widgets/news-ticker.php:331 widgets/off-canvas.php:386
+#: widgets/off-canvas.php:482 widgets/pdf-viewer.php:239
+#: widgets/pdf-viewer.php:314 widgets/post-grid.php:595
+#: widgets/post-grid.php:687 widgets/share-post.php:275
+#: widgets/table-of-contents.php:322 widgets/wc-product-grid.php:582
+#: widgets/wc-product-grid.php:666 widgets/wc-product-grid.php:832
+#: widgets/wc-product-grid.php:937 widgets/wc-product-grid.php:1335
+#: widgets/traits/badge-new-trait.php:45
+#: widgets/traits/badge-promo-trait.php:55
+#: widgets/traits/badge-stock-trait.php:36 widgets/traits/slider-trait.php:87
+msgid "Droite"
+msgstr "Right"
+
+#: includes/elementor/injection/eac-injection-effect.php:169
+msgid "Durée (s)"
+msgstr "Duration (s)"
+
+#: widgets/kenburn-slider.php:161
+msgid "Durée de l'effet (millisecondes)"
+msgstr "Effect length (ms)"
+
+#: widgets/author-infobox.php:364
+msgid "Dynamique tag 'Author/Author social networks'"
+msgstr "Dynamic tag 'Author/Author social networks'"
+
+#: widgets/post-grid.php:348 widgets/wc-product-grid.php:347
+msgid "Décimal"
+msgstr "Decimal"
+
+#: widgets/image-hotspots.php:221 widgets/lottie-animations.php:371
+#: widgets/modal-box.php:308 widgets/off-canvas.php:327
+#: widgets/off-canvas.php:333 widgets/pdf-viewer.php:261
+msgid "Déclencheur"
+msgstr "Trigger"
+
+#: widgets/lottie-animations.php:373
+msgid "Déclencheur de l'animation"
+msgstr "Animation trigger"
+
+#: widgets/acf-relationship.php:562 widgets/author-infobox.php:467
+#: widgets/image-gallery.php:829 widgets/image-promotion.php:595
+#: widgets/modal-box.php:563 widgets/modal-box.php:581
+#: widgets/news-ticker.php:411 widgets/pinterest-rss.php:580
+#: widgets/post-grid.php:1040 widgets/rss-reader.php:521
+#: widgets/syntax-highlighter.php:243 widgets/team-members.php:696
+#: widgets/wc-product-grid.php:1480 widgets/traits/slider-trait.php:102
+#: widgets/traits/slider-trait.php:159
+msgid "Défaut"
+msgstr "Default"
+
+#: widgets/modal-box.php:490
+msgid "Délai d'affichage (Sec)"
+msgstr "Delay in Popup Display (Sec)"
+
+#: widgets/modal-box.php:503
+msgid "Désactiver cette option avant de quitter la page"
+msgstr "Deactivate this option before leaving the page"
+
+#: widgets/image-hotspots.php:538
+msgid "Désactiver les infobulles avant d'ajouer/supprimer un marqueur"
+msgstr "Deactivate tooltips before adding / deleting a marker"
+
+#: widgets/team-members.php:206
+msgid "Développeur"
+msgstr "Developer"
+
+#: widgets/team-members.php:476
+msgid "Développeur CSS"
+msgstr "Developer CSS"
+
+#: widgets/team-members.php:472
+msgid "Développeur JS"
+msgstr "Developer JS"
+
+#: widgets/team-members.php:468
+msgid "Développeur PHP"
+msgstr "Developer PHP"
+
+#: includes/elementor/custom-attributes/eac-custom-attributes.php:58
+msgid "EAC attributs personnalisés"
+msgstr "EAC custom attributes"
+
+#: core/eac-load-elements.php:98
+msgid "EAC Avancés"
+msgstr "EAC Advanced"
+
+#: core/eac-load-elements.php:99
+msgid "EAC Basiques"
+msgstr "EAC basic"
+
+#: widgets/modal-box.php:483
+msgid "EAC Boîte modale"
+msgstr "EAC Modal box"
+
+#: widgets/modal-box.php:325
+msgid "EAC boîte modale"
+msgstr "EAC Modal box"
+
+#: admin/settings/eac-nav-menu.php:296
+#| msgid "EAC champs"
+msgid "EAC Champs"
+msgstr "EAC Fields"
+
+#: admin/settings/eac-load-components.php:91
+msgid "EAC composants"
+msgstr "EAC components"
+
+#: includes/elementor/custom-css/eac-custom-css.php:59
+msgid "EAC CSS personnalisé"
+msgstr "EAC custom CSS"
+
+#: includes/elementor/injection/eac-injection-sticky.php:148
+msgid "EAC effet sticky"
+msgstr "EAC sticky effect"
+
+#: includes/elementor/injection/eac-injection-effect.php:138
+msgid "EAC effets de mouvement"
+msgstr "EAC motion effects"
+
+#: includes/elementor/injection/eac-injection-links.php:68
+#| msgid "Lien container"
+msgid "EAC Lien container"
+msgstr "EAC Wrapper link"
+
+#: includes/elementor/injection/eac-injection-lottie.php:87
+msgid "EAC Lottie background"
+msgstr "EAC Lottie background"
+
+#: widgets/image-effects.php:291 widgets/image-effects_SELECT2.php:318
+msgid "Effet"
+msgstr "Effect"
+
+#: widgets/image-hotspots.php:261
+msgid "Effet 'Glow'"
+msgstr "'Glow' effect"
+
+#: widgets/image-effects.php:296 widgets/image-effects_SELECT2.php:323
+msgid "Effet 1"
+msgstr "Effect 1"
+
+#: widgets/image-effects.php:304 widgets/image-effects_SELECT2.php:331
+msgid "Effet 10"
+msgstr "Effect 10"
+
+#: widgets/image-effects.php:297 widgets/image-effects_SELECT2.php:324
+msgid "Effet 2"
+msgstr "Effect 2"
+
+#: widgets/image-effects.php:298 widgets/image-effects_SELECT2.php:325
+msgid "Effet 3"
+msgstr "Effect 3"
+
+#: widgets/image-effects.php:299 widgets/image-effects_SELECT2.php:326
+msgid "Effet 4"
+msgstr "Effect 4"
+
+#: widgets/image-effects.php:300 widgets/image-effects_SELECT2.php:327
+msgid "Effet 5"
+msgstr "Effect 5"
+
+#: widgets/image-effects.php:301 widgets/image-effects_SELECT2.php:328
+msgid "Effet 6"
+msgstr "Effect 6"
+
+#: widgets/image-effects.php:302 widgets/image-effects_SELECT2.php:329
+msgid "Effet 7"
+msgstr "Effect 7"
+
+#: widgets/image-effects.php:303 widgets/image-effects_SELECT2.php:330
+msgid "Effet 8"
+msgstr "Effect 8"
+
+#: widgets/modal-box.php:559
+msgid "Effet d'entrée"
+msgstr "Entry effect"
+
+#: widgets/image-promotion.php:855
+msgid "Effet d'ombre"
+msgstr "Shadow effect"
+
+#: widgets/kenburn-slider.php:232 widgets/modal-box.php:553
+msgid "Effets"
+msgstr "Effects"
+
+#: core/eac-load-config.php:733
+msgid "Effets d&#039;images"
+msgstr "Image effects"
+
+#: widgets/image-effects.php:165 widgets/image-effects_SELECT2.php:193
+msgid "Effets d'Image"
+msgstr "Image effects"
+
+#: core/eac-load-config.php:1149
+msgid "Effets de mouvement"
+msgstr "Motion effects"
+
+#. Name of the plugin
+#: admin/settings/eac-components_header.php:7
+msgid "Elementor Addon Components"
+msgstr "Elementor Addon Components"
+
+#: elementor-addon-components.php:203
+msgid ""
+"Elementor Addon Components ne fonctionne pas car vous devez activer le "
+"plugin Elementor !"
+msgstr ""
+"Elementor Addon Components is not working because you need to activate "
+"Elementor plugin !"
+
+#: widgets/modal-box.php:230 widgets/modal-box.php:286
+#: widgets/off-canvas.php:243 widgets/off-canvas.php:282
+msgid "Elementor modèle de page"
+msgstr "Elementor template page"
+
+#: widgets/modal-box.php:229 widgets/modal-box.php:276
+#: widgets/off-canvas.php:242 widgets/off-canvas.php:272
+msgid "Elementor modèle de section"
+msgstr "Elementor template section"
+
+#: includes/elementor/dynamic-tags/tags/author-info.php:62
+#: includes/elementor/dynamic-tags/tags/user-info.php:65
+msgid "Email"
+msgstr "Email"
+
+#: widgets/image-promotion.php:596
+msgid "Empilé"
+msgstr "Stacked"
+
+#: widgets/chart.php:305
+msgid "Empilées"
+msgstr "Stacked"
+
+#: widgets/chart.php:318
+msgid "En escalier"
+msgstr "Stepped"
+
+#: widgets/acf-relationship.php:396 widgets/acf-relationship.php:1162
+#: widgets/image-gallery.php:303 widgets/image-promotion.php:436
+#: widgets/image-promotion.php:437 widgets/post-grid.php:1682
+#: widgets/wc-product-grid.php:902 widgets/traits/button-read-more-trait.php:24
+msgid "En savoir plus"
+msgstr "Read more"
+
+#: widgets/image-promotion.php:597
+msgid "Encadré"
+msgstr "Framed"
+
+#: widgets/chart.php:796
+msgid "Enregistrer l'image"
+msgstr "Save image"
+
+#: admin/settings/eac-admin_popup-menu.php:133
+#: admin/settings/eac-components_tab1.php:107
+#: admin/settings/eac-components_tab2.php:107
+#: admin/settings/eac-components_tab3.php:57
+msgid "Enregistrer les modifications"
+msgstr "Save changes"
+
+#: includes/acf/options-page/eac-acf-options-page.php:502
+msgid "Enregistrés"
+msgstr "Saved"
+
+#: widgets/modal-box.php:239 widgets/off-canvas.php:253
+msgid "Entrer le shortcode du formulaire"
+msgstr "Enter the form shortcode"
+
+#: widgets/modal-box.php:678
+msgid "Entête boîte modale"
+msgstr "Modal box header"
+
+#: widgets/off-canvas.php:577
+msgid "Entête du container"
+msgstr "Container header"
+
+#: includes/elementor/controls/eac-select2-actions.php:43
+#: includes/elementor/controls/eac-select2-actions.php:152
+msgid "Erreur de sécurité"
+msgstr "Security error"
+
+#: includes/proxy/proxy_osm.php:55 includes/proxy/proxy_pdf.php:55
+#: includes/proxy/proxy_rss.php:165
+msgid "Erreur Interne du Serveur."
+msgstr "Internal Server Error."
+
+#: widgets/wc-product-grid.php:864
+msgid "Espace autour"
+msgstr "Space around"
+
+#: widgets/wc-product-grid.php:860
+msgid "Espace entre"
+msgstr "Space between"
+
+#: widgets/wc-product-grid.php:868
+msgid "Espace uniforme"
+msgstr "Space evenly"
+
+#: widgets/modal-box.php:1009 widgets/site-thumbnail.php:262
+msgid "Espacement"
+msgstr "Margin top"
+
+#: widgets/image-gallery.php:448
+msgid "Est appliqué uniquement à la première image"
+msgstr "Is applied only to the first image"
+
+#: widgets/html-sitemap.php:280
+msgid "Exclure des auteurs"
+msgstr "Exclude authors"
+
+#: widgets/html-sitemap.php:315
+msgid "Exclure des pages"
+msgstr "Exclude pages"
+
+#: widgets/html-sitemap.php:445
+msgid "Exclure des taxonomies"
+msgstr "Exclude taxonomies"
+
+#: widgets/html-sitemap.php:565
+msgid "Exclure des types d'articles"
+msgstr "Exclude post types"
+
+#: widgets/html-sitemap.php:469 widgets/html-sitemap.php:589
+#: widgets/post-grid.php:447 widgets/wc-product-grid.php:443
+msgid "Exclure IDs"
+msgstr "Exclude IDs"
+
+#: widgets/kenburn-slider.php:173 widgets/open-streetmap.php:675
+msgid "Facteur de zoom"
+msgstr "Zoom factor"
+
+#: widgets/open-streetmap.php:780
+msgid "Faire glisser la carte"
+msgstr "Dragging map"
+
+#: widgets/lottie-animations.php:378
+msgid "Fenêtre visible"
+msgstr "Viewport"
+
+#: widgets/pdf-viewer.php:485
+msgid "Fichier intégré"
+msgstr "Embedded file"
+
+#: widgets/image-effects.php:225 widgets/image-effects_SELECT2.php:252
+#: widgets/image-promotion.php:449 widgets/lottie-animations.php:170
+#: widgets/pdf-viewer.php:174
+#: includes/elementor/injection/eac-injection-lottie.php:109
+msgid "Fichier média"
+msgstr "Media file"
+
+#: core/eac-load-config.php:551
+msgid "Fil d&#039;actualité"
+msgstr "News ticker"
+
+#: widgets/image-gallery.php:904 widgets/post-grid.php:1113
+#: widgets/wc-product-grid.php:1542
+msgid "Filtre"
+msgstr "Filter"
+
+#: widgets/post-grid.php:220 widgets/wc-product-grid.php:202
+msgid "Filtre de requête"
+msgstr "Query filter"
+
+#: widgets/post-grid.php:651 widgets/post-grid.php:659
+#: widgets/wc-product-grid.php:634 widgets/wc-product-grid.php:642
+msgid "Filtres"
+msgstr "Filters"
+
+#: widgets/webradio-player.php:147
+msgid "Flux Audio"
+msgstr "WebRadio feeds"
+
+#: core/eac-load-config.php:761
+msgid "Flux Pinterest"
+msgstr "Pinterest feeds"
+
+#: widgets/news-ticker.php:159 widgets/off-canvas.php:1116
+#: widgets/rss-reader.php:167
+msgid "Flux RSS"
+msgstr "RSS feeds"
+
+#: core/eac-load-config.php:803
+msgid "Flux webradio"
+msgstr "WebRadio feeds"
+
+#: admin/settings/eac-admin_popup-grant-option.php:3
+msgid "Fonctionnalité 'ACF Page d'Options' est active."
+msgstr "'ACF Options Page' feature is active."
+
+#: admin/settings/eac-components_tabs-nav.php:5
+msgid "Fonctionnalités"
+msgstr "Features"
+
+#: widgets/image-promotion.php:552
+msgid "Fond"
+msgstr "Background"
+
+#: widgets/modal-box.php:564
+msgid "Fondu"
+msgstr "Fade"
+
+#: widgets/wc-product-grid.php:722
+msgid "Format avis"
+msgstr "Reviews format"
+
+#: widgets/open-streetmap.php:592
+msgid "Format de données 'geoJSON' avec 'json' comme extension de fichier."
+msgstr "'geoJSON' data format with 'json' as file extension."
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:63
+msgid "Format de la date"
+msgstr "Date format"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-stock.php:47
+msgid "Format long"
+msgstr "Long format"
+
+#: widgets/wc-product-grid.php:750
+msgid "Format prix"
+msgstr "Price format"
+
+#: widgets/wc-product-grid.php:777
+msgid "Format stock"
+msgstr "Stock format"
+
+#: widgets/image-hotspots.php:551 widgets/image-promotion.php:606
+msgid "Forme"
+msgstr "Shape"
+
+#: widgets/modal-box.php:228 widgets/off-canvas.php:239
+msgid "Formulaire"
+msgstr "Form"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:62
+msgid "Fuseau horaire"
+msgstr "Timezone"
+
+#: widgets/image-diaporama.php:134 widgets/image-gallery.php:203
+#: widgets/kenburn-slider.php:131
+msgid "Galerie"
+msgstr "Gallery"
+
+#: core/eac-load-config.php:495
+msgid "Galerie d&#039;images"
+msgstr "Images gallery"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-gallery-images.php:30
+msgid "Galerie d'images"
+msgstr "Images gallery"
+
+#: widgets/acf-relationship.php:503 widgets/author-infobox.php:263
+#: widgets/html-sitemap.php:748 widgets/image-effects.php:358
+#: widgets/image-effects_SELECT2.php:385 widgets/image-gallery.php:502
+#: widgets/image-gallery.php:639 widgets/image-hotspots.php:188
+#: widgets/image-hotspots.php:363 widgets/image-hotspots.php:666
+#: widgets/image-promotion.php:247 widgets/image-promotion.php:517
+#: widgets/image-promotion.php:624 widgets/images-comparison.php:162
+#: widgets/lottie-animations.php:242 widgets/modal-box.php:459
+#: widgets/news-ticker.php:327 widgets/off-canvas.php:183
+#: widgets/off-canvas.php:378 widgets/off-canvas.php:474
+#: widgets/open-streetmap.php:885 widgets/pdf-viewer.php:231
+#: widgets/pdf-viewer.php:306 widgets/post-grid.php:611
+#: widgets/post-grid.php:679 widgets/share-post.php:274
+#: widgets/table-of-contents.php:314 widgets/wc-product-grid.php:597
+#: widgets/wc-product-grid.php:658 widgets/wc-product-grid.php:824
+#: widgets/wc-product-grid.php:929 widgets/wc-product-grid.php:1331
+#: widgets/traits/badge-new-trait.php:41
+#: widgets/traits/badge-promo-trait.php:51
+#: widgets/traits/badge-stock-trait.php:32 widgets/traits/slider-trait.php:83
+msgid "Gauche"
+msgstr "Left"
+
+#: widgets/author-infobox.php:456 widgets/chart.php:595
+#: widgets/image-diaporama.php:255 widgets/news-ticker.php:400
+#: widgets/pinterest-rss.php:569 widgets/rss-reader.php:509
+#: widgets/site-thumbnail.php:224 widgets/team-members.php:685
+#: widgets/webradio-player.php:287
+msgid "Global"
+msgstr "Global"
+
+#: widgets/acf-relationship.php:249 widgets/image-gallery.php:392
+#: widgets/post-grid.php:531 widgets/wc-product-grid.php:521
+msgid "Grille"
+msgstr "Grid"
+
+#: core/eac-load-config.php:607
+msgid "Grille d&#039;articles"
+msgstr "Posts grid"
+
+#: widgets/chart.php:543
+msgid "Grille des abscisses (X)"
+msgstr "X axis grid"
+
+#: widgets/chart.php:555
+msgid "Grille des ordonnées (Y)"
+msgstr "Y axis grid"
+
+#: widgets/chart.php:567
+msgid "Grille des ordonnées (Y2)"
+msgstr "Y2 axis grid"
+
+#: includes/acf/options-page/eac-acf-options-page.php:500
+msgid "Groupes"
+msgstr "Groups"
+
+#: widgets/acf-relationship.php:551 widgets/image-gallery.php:817
+#: widgets/post-grid.php:1028 widgets/wc-product-grid.php:1469
+msgid "Général"
+msgstr "General"
+
+#: widgets/author-infobox.php:231 widgets/team-members.php:530
+msgid "Habillage"
+msgstr "Skin"
+
+#: widgets/image-effects.php:324 widgets/image-effects_SELECT2.php:351
+#: widgets/image-gallery.php:635 widgets/image-hotspots.php:367
+#: widgets/images-comparison.php:173 widgets/images-comparison.php:221
+#: widgets/off-canvas.php:187 widgets/wc-product-grid.php:848
+#: includes/elementor/injection/eac-injection-effect.php:185
+msgid "Haut"
+msgstr "Top"
+
+#: widgets/kenburn-slider.php:252
+msgid "Haut Droit"
+msgstr "Top right"
+
+#: widgets/modal-box.php:583
+msgid "Haut droite"
+msgstr "Top right"
+
+#: widgets/kenburn-slider.php:251
+msgid "Haut Gauche"
+msgstr "Top left"
+
+#: widgets/modal-box.php:582
+msgid "Haut gauche"
+msgstr "Top left"
+
+#: widgets/image-promotion.php:227 widgets/modal-box.php:538
+#: widgets/syntax-highlighter.php:226 widgets/traits/badge-new-trait.php:100
+#: widgets/traits/badge-promo-trait.php:110
+#: widgets/traits/badge-stock-trait.php:91
+msgid "Hauteur"
+msgstr "Height"
+
+#: widgets/news-ticker.php:309 widgets/pdf-viewer.php:505
+msgid "Hauteur (px)"
+msgstr "Height (px)"
+
+#: widgets/rss-reader.php:415
+msgid "Hauteur automatique"
+msgstr "Auto height"
+
+#: widgets/image-gallery.php:703 widgets/rss-reader.php:426
+#: widgets/team-members.php:643
+msgid "Hauteur de l'image"
+msgstr "Image height"
+
+#: widgets/team-members.php:547
+msgid "Hauteur de l'overlay (%)"
+msgstr "Overlay height (%)"
+
+#: widgets/traits/slider-trait.php:353
+msgid "Hauteur des puces"
+msgstr "Bullets height"
+
+#: widgets/traits/slider-trait.php:134
+msgid "Hauteur du slider (px)"
+msgstr "Slider height (px)"
+
+#: widgets/image-diaporama.php:223 widgets/open-streetmap.php:705
+msgid "Hauteur min."
+msgstr "Min. height"
+
+#: widgets/html-sitemap.php:360
+msgid "Hebdomadaire"
+msgstr "Weekly"
+
+#: widgets/image-hotspots.php:264 widgets/image-hotspots.php:540
+msgid "hide"
+msgstr "hide"
+
+#: core/eac-load-config.php:481
+msgid "HTML sitemap"
+msgstr "HTML sitemap"
+
+#: includes/proxy/proxy_osm.php:57 includes/proxy/proxy_pdf.php:57
+#: includes/proxy/proxy_rss.php:167
+msgid "HTTP: La requête a échoué."
+msgstr "HTTP: Request failed."
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://elementor-addon-components.com/"
+msgstr "https://elementor-addon-components.com/"
+
+#: admin/settings/eac-admin_popup-menu.php:73
+msgid "Icône"
+msgstr "Icon"
+
+#: includes/elementor/dynamic-tags/tags/user-info.php:58
+msgid "ID"
+msgstr "ID"
+
+#: core/utils/eac-tools.php:941
+msgid "Id"
+msgstr "ID"
+
+#: widgets/html-sitemap.php:281
+msgid "ID auteurs séparés par une virgule"
+msgstr "Authors IDs separated by comma"
+
+#: widgets/modal-box.php:1207 widgets/modal-box.php:1221
+#: core/utils/eac-shortcode.php:164
+#: includes/elementor/dynamic-tags/tags/post-elementor-tmpl.php:96
+msgid "ID du modèle ne peut pas être le même que le modèle actuel"
+msgstr "The Template ID cannot be the same as the currently edited template"
+
+#: includes/elementor/dynamic-tags/tags/user-info.php:61
+msgid "Identifiant de login"
+msgstr "Login ident"
+
+#: admin/settings/eac-admin_popup-menu.php:103 widgets/acf-relationship.php:405
+#: widgets/image-diaporama.php:150 widgets/image-effects.php:137
+#: widgets/image-effects.php:284 widgets/image-effects_SELECT2.php:129
+#: widgets/image-effects_SELECT2.php:311 widgets/image-gallery.php:214
+#: widgets/image-gallery.php:221 widgets/image-gallery.php:676
+#: widgets/image-gallery.php:984 widgets/image-hotspots.php:165
+#: widgets/image-hotspots.php:172 widgets/image-promotion.php:147
+#: widgets/images-comparison.php:146 widgets/images-comparison.php:194
+#: widgets/modal-box.php:313 widgets/modal-box.php:401
+#: widgets/pinterest-rss.php:490 widgets/post-grid.php:866
+#: widgets/post-grid.php:1183 widgets/rss-reader.php:393
+#: widgets/team-members.php:183 widgets/team-members.php:740
+#: widgets/wc-product-grid.php:1137 widgets/wc-product-grid.php:1575
+msgid "Image"
+msgstr "Image"
+
+#: widgets/image-diaporama.php:163 widgets/image-gallery.php:257
+msgid "Image #"
+msgstr "Image #"
+
+#: widgets/image-gallery.php:339
+msgid "Image #1"
+msgstr "Image #1"
+
+#: widgets/image-gallery.php:344
+msgid "Image #2"
+msgstr "Image #2"
+
+#: widgets/image-gallery.php:349
+msgid "Image #3"
+msgstr "Image #3"
+
+#: widgets/image-gallery.php:354
+msgid "Image #4"
+msgstr "Image #4"
+
+#: widgets/image-gallery.php:359
+msgid "Image #5"
+msgstr "Image #5"
+
+#: widgets/image-gallery.php:364
+msgid "Image #6"
+msgstr "Image #6"
+
+#: widgets/images-comparison.php:185
+msgid "Image de droite"
+msgstr "Right image"
+
+#: widgets/images-comparison.php:137
+msgid "Image de gauche"
+msgstr "Left image"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-featured-image.php:30
+msgid "Image du produit"
+msgstr "Product image"
+
+#: widgets/modal-box.php:854
+msgid "Image déclencheur"
+msgstr "Trigger image"
+
+#: widgets/acf-relationship.php:358 widgets/post-grid.php:710
+#: includes/elementor/dynamic-tags/tags/featured-image-url.php:28
+#: includes/elementor/dynamic-tags/tags/featured-image.php:29
+msgid "Image en avant"
+msgstr "Featured image"
+
+#: widgets/team-members.php:933 widgets/team-members.php:934
+#: includes/elementor/dynamic-tags/tags/url-image-widget.php:32
+msgid "Image externe"
+msgstr "External image"
+
+#: widgets/author-infobox.php:500 widgets/team-members.php:612
+msgid "Image ronde"
+msgstr "Round image"
+
+#: core/eac-load-config.php:509
+msgid "Image réactive"
+msgstr "Image hotspots"
+
+#: admin/settings/eac-admin_popup-menu.php:116
+msgid "Image sélectionnée"
+msgstr "Selected image"
+
+#: widgets/post-grid.php:596 widgets/wc-product-grid.php:584
+msgid "Image à gauche Contenu à droite"
+msgstr "Image on the left Content on the right"
+
+#: widgets/acf-relationship.php:634
+msgid "Images"
+msgstr "Images"
+
+#: widgets/open-streetmap.php:555
+msgid "Importer des marqueurs"
+msgstr "Import markers"
+
+#: widgets/chart.php:169
+msgid "Importer un fichier"
+msgstr "Import file"
+
+#: widgets/post-grid.php:457 widgets/wc-product-grid.php:453
+msgid "Inclure les enfants"
+msgstr "Include children"
+
+#: includes/elementor/dynamic-tags/tags/author-info.php:34
+msgid "Info Auteur"
+msgstr "Author info"
+
+#: includes/elementor/dynamic-tags/tags/user-info.php:33
+msgid "Info Utilisateur"
+msgstr "User info"
+
+#: widgets/image-hotspots.php:352
+msgid "Infobulle"
+msgstr "Tooltip"
+
+#: widgets/image-hotspots.php:529
+msgid "Infobulles"
+msgstr "Tooltips"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:64
+msgid "Inscrits"
+msgstr "Registered users"
+
+#: widgets/traits/slider-trait.php:36
+msgid "Interval d'affichage (ms)"
+msgstr "Autoplay speed (ms)"
+
+#: widgets/team-members.php:204 widgets/team-members.php:803
+msgid "Intitulé du poste"
+msgstr "Job title"
+
+#: widgets/author-infobox.php:385
+msgid "Intégration"
+msgstr "Embedding"
+
+#: widgets/wc-product-grid.php:1362
+msgid "Intégration Woocommerce"
+msgstr "Woocommerce integration"
+
+#: widgets/pdf-viewer.php:186
+msgid "Intégré"
+msgstr "Embedded"
+
+#: widgets/lottie-animations.php:325
+msgid "Inverser le sens"
+msgstr "Reverse direction"
+
+#: includes/proxy/proxy_osm.php:12 includes/proxy/proxy_pdf.php:12
+#: includes/proxy/proxy_rss.php:22
+msgid "Jeton invalide. Actualiser la page courante..."
+msgstr "Invalid token. Refresh the current page..."
+
+#: widgets/html-sitemap.php:359
+msgid "Journalière"
+msgstr "Daily"
+
+#: widgets/wc-product-grid.php:2528
+msgid "jusqu'au "
+msgstr "Until "
+
+#: widgets/image-gallery.php:393
+msgid "Justifier"
+msgstr "Justify"
+
+#: admin/settings/eac-admin_popup-acf.php:5
+msgid ""
+"L'idée est similaire à la mise en cache, et à la fois accélère "
+"considérablement ACF et permet le contrôle de version sur vos paramètres de "
+"champ."
+msgstr ""
+"The idea is similar to caching, and both greatly speeds up ACF and allows "
+"version control over your field settings."
+
+#: widgets/open-streetmap.php:357
+msgid ""
+"La géolocalisation vers la bonne ville peut être moins fiable pour les "
+"adresses IP distribuées par les opérateurs mobiles."
+msgstr ""
+"Geolocation to the correct city may be less reliable for IP addresses "
+"distributed by mobile operators."
+
+#: widgets/image-hotspots.php:174
+msgid ""
+"La meilleure pratique pour la réactivité serait d'utiliser une image avec "
+"une orientation paysage"
+msgstr ""
+"The best practice for responsiveness would be to use an image with a "
+"landscape orientation"
+
+#: includes/proxy/proxy_osm.php:31 includes/proxy/proxy_pdf.php:31
+#: includes/proxy/proxy_rss.php:141
+msgid "La page demandée n'existe pas."
+msgstr "File not found"
+
+#: includes/elementor/injection/eac-injection-sticky.php:168
+#| msgid ""
+#| "<strong>Attention:</strong> La zone de déplacement est à l'intérieur du "
+#| "conteneur parent. Section: viewport. Colonne & Widget: section."
+msgid ""
+"La zone de déplacement est à l'intérieur du conteneur parent. Section: "
+"viewport. Colonne & Widget: section."
+msgstr ""
+"Moving area is inside the parent container. Section: viewport. Colonne & "
+"Widget: section."
+
+#: widgets/traits/button-add-to-cart-trait.php:22
+#: widgets/traits/button-read-more-trait.php:22
+msgid "Label"
+msgstr "Label"
+
+#: widgets/acf-relationship.php:393 widgets/image-gallery.php:300
+#: widgets/modal-box.php:324
+msgid "Label du bouton"
+msgstr "Button label"
+
+#: widgets/image-gallery.php:278
+msgid "Labels du filtre"
+msgstr "Filters label"
+
+#: widgets/image-gallery.php:287
+msgid "Labels séparés par une virgule"
+msgstr "Labels separated by commas"
+
+#: widgets/author-infobox.php:417
+#| msgid ""
+#| "Laisser le champ vide pour intégrer le contenu du modèle à tous les "
+#| "documents du type de l'article sélectionné"
+msgid ""
+"Laisser le champ vide pour intégrer le contenu du modèle à tous les "
+"documents du type d'article sélectionné"
+msgstr ""
+"Leave the field blank to embed the template content in all documents for the "
+"selected post type"
+
+#: widgets/lottie-animations.php:389
+#| msgid "Quand l'animation est dans la partie visible de la fenêtre"
+msgid "Lance l'animation dans la partie visible de la fenêtre"
+msgstr "When the animation is in the visible part of the window"
+
+#: widgets/syntax-highlighter.php:170
+#: includes/elementor/dynamic-tags/tags/site-stats.php:61
+msgid "Langage"
+msgstr "Language"
+
+#: widgets/acf-relationship.php:420 widgets/image-gallery.php:691
+#: widgets/modal-box.php:390 widgets/modal-box.php:420
+#: widgets/off-canvas.php:363 widgets/pdf-viewer.php:292
+#: widgets/post-grid.php:882
+msgid "Large"
+msgstr "Large"
+
+#: widgets/image-gallery.php:801 widgets/modal-box.php:526
+#: widgets/table-of-contents.php:295 widgets/traits/badge-new-trait.php:87
+#: widgets/traits/badge-promo-trait.php:97
+#: widgets/traits/badge-stock-trait.php:78
+msgid "Largeur"
+msgstr "Width"
+
+#: widgets/pdf-viewer.php:468
+msgid "Largeur (%)"
+msgstr "Width (%)"
+
+#: widgets/image-hotspots.php:558 widgets/pdf-viewer.php:493
+msgid "Largeur (px)"
+msgstr "Width (px)"
+
+#: widgets/author-infobox.php:512 widgets/team-members.php:625
+msgid "Largeur de l'image"
+msgstr "Image width"
+
+#: widgets/post-grid.php:890
+msgid "Largeur de l'image (%)"
+msgstr "Image width (%)"
+
+#: widgets/traits/slider-trait.php:340
+msgid "Largeur des puces"
+msgstr "Bullets width"
+
+#: widgets/author-infobox.php:246
+#| msgid "Largeur du container"
+msgid "Largeur du conteneur"
+msgstr "Container width"
+
+#: widgets/traits/slider-trait.php:112
+#| msgid "Largeur du slider"
+msgid "Largeur du slider (%)"
+msgstr "Slider width (%)"
+
+#: widgets/wc-product-grid.php:1153
+msgid "Largeur image (%)"
+msgstr "Image width (%)"
+
+#: widgets/open-streetmap.php:400 widgets/open-streetmap.php:486
+msgid "Latitude"
+msgstr "Latitude"
+
+#: widgets/traits/badge-new-trait.php:30
+msgid ""
+"Le badge sera affiché pendant 'Nombre de jours' après la création de la "
+"fiche du produit"
+msgstr ""
+"The badge will be displayed for 'Number of days' after the product sheet has "
+"been created"
+
+#: widgets/author-infobox.php:444
+msgid "Le contenu du modèle ne sera pas visible dans l'éditeur"
+msgstr "Template content will not be visible in the editor"
+
+#: widgets/image-effects.php:201 widgets/image-effects_SELECT2.php:228
+#: widgets/image-gallery.php:267 widgets/image-gallery.php:340
+#: widgets/image-gallery.php:345 widgets/image-gallery.php:350
+#: widgets/image-gallery.php:355 widgets/image-gallery.php:360
+#: widgets/image-gallery.php:365 widgets/team-members.php:215
+msgid ""
+"Le faux-texte en imprimerie, est un texte sans signification, qui sert à "
+"calibrer le contenu d'une page..."
+msgstr ""
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, "
+"adipisci velit…"
+
+#: widgets/wc-product-grid.php:1439
+msgid ""
+"Le lien 'catégorie' du fil d'ariane de la page produit sera redirigé sur "
+"cette page"
+msgstr ""
+"The breadcrumb 'category' link of the product page will be redirected to "
+"this page"
+
+#: includes/elementor/injection/eac-injection-links.php:70
+msgid "Le lien n'est pas actif dans l'éditeur"
+msgstr "The link is not active in the editor"
+
+#: core/eac-load-config.php:621
+msgid "Lecteur RSS"
+msgstr "RSS reader"
+
+#: widgets/news-ticker.php:362 widgets/traits/slider-trait.php:18
+msgid "Lecture automatique"
+msgstr "Autoplay"
+
+#: widgets/kenburn-slider.php:195
+msgid "Lente et lente"
+msgstr "Ease-in-out"
+
+#: widgets/kenburn-slider.php:193
+msgid "Lente et rapide"
+msgstr "Ease-in"
+
+#: widgets/kenburn-slider.php:192
+msgid "Lente, rapide et lente"
+msgstr "Ease"
+
+#: widgets/wc-product-grid.php:1458
+msgid "Les balises metas seront supprimées de la page produit"
+msgstr "Meta tags will be removed from the product page"
+
+#: widgets/wc-product-grid.php:1391
+#| msgid ""
+#| "La page 'Boutique', les boutons 'Retourner à la vitrine' et 'Continuer "
+#| "les achats' de la page panier seront redirigés sur cette page"
+msgid ""
+"Les boutons 'Retourner à la vitrine' et 'Continuer les achats' de la page "
+"panier seront redirigés sur cette page"
+msgstr ""
+"'Return to shop' and 'Continue shopping' buttons on the cart page will be "
+"redirected to this page\n"
+
+#: widgets/wc-product-grid.php:755
+#: includes/elementor/dynamic-tags/woo/tags/product-prices.php:52
+msgid "Les deux"
+msgstr "Both"
+
+#: admin/settings/eac-admin_popup-acf.php:4
+msgid ""
+"Les groupes et les champs ACF seront enregistrés localement dans ce dossier "
+"au format JSON."
+msgstr ""
+"ACF groups and fields will be saved locally in this folder in JSON format."
+
+#: widgets/html-sitemap.php:470 widgets/html-sitemap.php:590
+#: widgets/post-grid.php:448 widgets/wc-product-grid.php:444
+msgid "Les ID séparés par une virgule sans espace"
+msgstr "ID separated by comma without space."
+
+#: widgets/kenburn-slider.php:147
+#| msgid ""
+#| "<b>Les images doivent être de mêmes dimensions.<br>Le container (Section -"
+#| " Largeur du contenu) doit être plus petit que les images !!</b>"
+msgid ""
+"Les images doivent être de mêmes dimensions. Le container (Section - Largeur "
+"du contenu) doit être plus petit que les images."
+msgstr ""
+"Images must be of the same size.The container (Section - Content width) must "
+"be smaller than the images"
+
+#: core/utils/eac-plugin-updater.php:63
+msgid "Les mises à jour automatiques ne sont pas disponibles pour ce plugin"
+msgstr "Auto-updates are not available for this plugin"
+
+#: admin/settings/eac-load-components.php:199
+#: admin/settings/eac-load-components.php:244
+#: admin/settings/eac-nav-menu.php:338
+msgid "Les réglages n'ont pu être enregistrés (champs)"
+msgstr "Settings could not be saved (fields)"
+
+#: admin/settings/eac-nav-menu.php:345
+msgid "Les réglages n'ont pu être enregistrés (ID)"
+msgstr "Settings could not be saved (ID)"
+
+#: admin/settings/eac-load-components.php:188
+#: admin/settings/eac-load-components.php:233
+msgid "Les réglages n'ont pu être enregistrés (nonce)"
+msgstr "Settings could not be saved (nonce)"
+
+#: admin/settings/eac-nav-menu.php:331
+msgid "Les réglages n'ont pu être entegistrés (nonce)"
+msgstr "Settings could not be saved (nonce)"
+
+#: widgets/off-canvas.php:346
+msgid "Libellé du bouton"
+msgstr "Button label"
+
+#: widgets/acf-relationship.php:369 widgets/image-gallery.php:551
+#: widgets/post-grid.php:852 widgets/rss-reader.php:454
+msgid "Lien de l'article sur l'image"
+msgstr "Post link on picture"
+
+#: widgets/image-effects.php:247 widgets/image-effects_SELECT2.php:274
+#: widgets/image-promotion.php:471
+msgid "Lien de page"
+msgstr "Page link"
+
+#: widgets/image-gallery.php:314
+msgid "Lien du bouton"
+msgstr "Button link"
+
+#: widgets/modal-box.php:226
+msgid "Lien HTML"
+msgstr "Link HTML"
+
+#: widgets/wc-product-grid.php:1118
+msgid "Lien sur l'image"
+msgstr "Link on image"
+
+#: widgets/image-promotion.php:320
+msgid "Lien sur le titre"
+msgstr "Link on title"
+
+#: widgets/modal-box.php:225
+msgid "Lien Vidéo ou Carte"
+msgstr "Link Video or Map"
+
+#: core/eac-load-config.php:1127
+msgid "Lien élément"
+msgstr "Link element"
+
+#: widgets/image-effects.php:212 widgets/image-effects_SELECT2.php:239
+#: widgets/post-grid.php:830 widgets/wc-product-grid.php:1099
+msgid "Liens"
+msgstr "Links"
+
+#: widgets/chart.php:213 widgets/chart.php:417
+msgid "Ligne"
+msgstr "Line"
+
+#: widgets/kenburn-slider.php:191
+msgid "Linéaire"
+msgstr "Linear"
+
+#: widgets/lottie-animations.php:306 widgets/traits/slider-trait.php:48
+msgid "Lire en boucle"
+msgstr "Loop"
+
+#: widgets/pinterest-rss.php:774 widgets/rss-reader.php:699
+msgid "Lire le flux"
+msgstr "Read the feed"
+
+#: includes/acf/options-page/eac-acf-options-page.php:428
+msgid "Liste Archives"
+msgstr "Archives List"
+
+#: widgets/open-streetmap.php:604
+msgid ""
+"Liste de 'propriété|label' séparée par le caractère '|' avec une paire par "
+"ligne."
+msgstr ""
+"List of 'property|label' separated by the character '|' with one pair per "
+"line."
+
+#: widgets/image-promotion.php:375
+msgid "Liste des caractéristiques"
+msgstr "List of features"
+
+#: widgets/chart.php:247 widgets/chart.php:374 widgets/chart.php:498
+msgid "Liste des données"
+msgstr "Data"
+
+#: widgets/image-gallery.php:333
+msgid "Liste des images"
+msgstr "Images list"
+
+#: widgets/image-hotspots.php:396 widgets/open-streetmap.php:627
+msgid "Liste des marqueurs"
+msgstr "Markers list"
+
+#: widgets/team-members.php:166 widgets/team-members.php:462
+msgid "Liste des membres"
+msgstr "Members list"
+
+#: includes/acf/options-page/eac-acf-options-page.php:443
+msgid "Liste des Pages d'Options"
+msgstr "Options Page List"
+
+#: widgets/open-streetmap.php:573
+msgid "Local"
+msgstr "Local"
+
+#: widgets/open-streetmap.php:567
+#| msgid "Local = le fichier est dans le répertoire '/includes/config'."
+msgid ""
+"Local = le fichier est dans le répertoire '/includes/config/osm/markers'."
+msgstr "Local = the file is in the '/includes/config/osm/markers' directory."
+
+#: widgets/open-streetmap.php:339
+#| msgid ""
+#| "Localisation par l'adresse IP.<br>Ne fonctionne pas sur un serveur local."
+msgid "Localisation par l'adresse IP ne fonctionne pas sur un serveur local."
+msgstr "Localization by IP address does not work on a local server."
+
+#: widgets/open-streetmap.php:337
+msgid "Localiser le visiteur (Adresse IP)"
+msgstr "Locate the visitor (IP address)"
+
+#: includes/elementor/dynamic-tags/tags/site-logo.php:28
+msgid "Logo du site"
+msgstr "Site logo"
+
+#: widgets/open-streetmap.php:410 widgets/open-streetmap.php:495
+msgid "Longitude"
+msgstr "Longitude"
+
+#: core/eac-load-config.php:523
+msgid "Lottie animation"
+msgstr "Lottie animation"
+
+#: core/eac-load-config.php:1138
+msgid "Lottie d&#039;arrière-plan"
+msgstr "Lottie background"
+
+#: widgets/chart.php:532 widgets/kenburn-slider.php:215
+#: widgets/modal-box.php:429 widgets/pinterest-rss.php:479
+#: widgets/pinterest-rss.php:672 widgets/site-thumbnail.php:211
+#: widgets/site-thumbnail.php:254
+#: includes/elementor/dynamic-tags/tags/featured-image-data.php:56
+msgid "Légende"
+msgstr "Caption"
+
+#: widgets/modal-box.php:1001
+msgid "Légende de l'image"
+msgstr "Image caption"
+
+#: widgets/modal-box.php:434 widgets/modal-box.php:443
+msgid "Légende personnalisée"
+msgstr "Custom caption"
+
+#: widgets/pinterest-rss.php:594
+msgid "Marge entre les colonnes"
+msgstr "Columns margin"
+
+#: widgets/image-gallery.php:853
+msgid "Marge entre les images"
+msgstr "Margin between images"
+
+#: widgets/acf-relationship.php:585 widgets/post-grid.php:1064
+#: widgets/wc-product-grid.php:1500
+msgid "Marge entre les items"
+msgstr "Margin between items"
+
+#: widgets/modal-box.php:372 widgets/off-canvas.php:447
+#: widgets/pdf-viewer.php:362 widgets/site-thumbnail.php:231
+#: widgets/traits/button-add-to-cart-trait.php:71
+#: widgets/traits/button-read-more-trait.php:71
+msgid "Marges"
+msgstr "Margin"
+
+#: widgets/acf-relationship.php:811 widgets/image-gallery.php:1120
+#: widgets/image-gallery.php:1218 widgets/lottie-animations.php:473
+#: widgets/modal-box.php:709 widgets/modal-box.php:871
+#: widgets/traits/button-add-to-cart-trait.php:115
+#: widgets/traits/button-read-more-trait.php:115
+msgid "Marges internes"
+msgstr "Padding"
+
+#: widgets/image-hotspots.php:230
+msgid "Marqueur #"
+msgstr "Marker #"
+
+#: widgets/image-hotspots.php:401
+msgid "Marqueur #1"
+msgstr "Marker #1"
+
+#: widgets/image-hotspots.php:406
+msgid "Marqueur #2"
+msgstr "Marker #2"
+
+#: widgets/image-hotspots.php:411
+msgid "Marqueur #3"
+msgstr "Marker #3"
+
+#: widgets/image-hotspots.php:210 widgets/open-streetmap.php:452
+msgid "Marqueurs"
+msgstr "Markers"
+
+#: widgets/team-members.php:177
+msgid "Membre"
+msgstr "Member"
+
+#: core/eac-load-config.php:663
+#| msgid "Membres de l`équipe"
+msgid "Membres de l&#039;équipe"
+msgstr "Team members"
+
+#: widgets/html-sitemap.php:361
+msgid "Mensuelle"
+msgstr "Monthly"
+
+#: widgets/off-canvas.php:240 widgets/off-canvas.php:292
+msgid "Menu"
+msgstr "Menu"
+
+#: includes/elementor/dynamic-tags/tags/author-info.php:64
+msgid "Meta auteur"
+msgstr "Meta author"
+
+#: includes/elementor/dynamic-tags/tags/user-info.php:67
+msgid "Meta utilisateur"
+msgstr "User meta"
+
+#: widgets/wc-product-grid.php:965
+msgid "Metas"
+msgstr "Metas"
+
+#: widgets/images-comparison.php:174 widgets/images-comparison.php:222
+msgid "Milieu"
+msgstr "Middle"
+
+#: admin/settings/eac-admin_popup-menu.php:83 widgets/acf-relationship.php:417
+#: widgets/image-gallery.php:688 widgets/modal-box.php:417
+#: widgets/post-grid.php:879
+msgid "Miniature"
+msgstr "Thumbnail"
+
+#: core/eac-load-config.php:789
+msgid "Miniature de site"
+msgstr "Site thumbnail"
+
+#: widgets/acf-relationship.php:245 widgets/image-gallery.php:387
+#: widgets/post-grid.php:526 widgets/wc-product-grid.php:516
+msgid "Mode"
+msgstr "Mode"
+
+#: widgets/modal-box.php:617 widgets/off-canvas.php:545
+msgid "Mode de fusion"
+msgstr "Blend mode"
+
+#: includes/acf/options-page/eac-acf-options-page.php:435
+msgid "Modifier une Page d'Options"
+msgstr "Edit Options Page"
+
+#: includes/elementor/dynamic-tags/tags/post-elementor-tmpl.php:30
+#: includes/elementor/dynamic-tags/tags/site-stats.php:75
+msgid "Modèles Elementor"
+msgstr "Elementor templates"
+
+#: widgets/image-gallery.php:391 widgets/post-grid.php:530
+#: widgets/wc-product-grid.php:520
+msgid "Mosaïque"
+msgstr "Masonry"
+
+#: widgets/open-streetmap.php:603
+msgid "Mots-clés"
+msgstr "Keywords"
+
+#: widgets/modal-box.php:389 widgets/off-canvas.php:362
+#: widgets/pdf-viewer.php:291
+msgid "Moyen"
+msgstr "Medium"
+
+#: widgets/acf-relationship.php:418 widgets/image-gallery.php:689
+#: widgets/modal-box.php:418 widgets/post-grid.php:880
+msgid "Moyenne"
+msgstr "Medium"
+
+#: widgets/wc-product-grid.php:725 widgets/wc-product-grid.php:2492
+#: includes/elementor/dynamic-tags/woo/tags/product-rating.php:50
+msgid "Moyenne des notes"
+msgstr "Average notes"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-rating.php:51
+msgid "Moyenne des notes HTML"
+msgstr "Average notes HTML"
+
+#: widgets/wc-product-grid.php:726
+msgid "Moyenne HTML"
+msgstr "Average HTML"
+
+#: widgets/wc-product-grid.php:727
+msgid "Moyenne HTML + Avis"
+msgstr "Average HTML + Reviews"
+
+#: widgets/acf-relationship.php:419 widgets/image-gallery.php:690
+#: widgets/modal-box.php:419 widgets/post-grid.php:881
+msgid "Moyenne-large"
+msgstr "Medium-large"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:69
+msgid "Médias"
+msgstr "Medias"
+
+#: includes/proxy/proxy_osm.php:43 includes/proxy/proxy_pdf.php:43
+#: includes/proxy/proxy_rss.php:153
+msgid "Méthode non autorisée."
+msgstr "Method not allowed"
+
+#: widgets/news-ticker.php:431
+msgid "N'oubliez-pas d'activer la lecture automatique."
+msgstr "Don't forget to enable autoplay."
+
+#: includes/woocommerce/eac-woo-hooks.php:258
+msgid "N/A"
+msgstr "N/A"
+
+#: widgets/kenburn-slider.php:203 widgets/traits/slider-trait.php:199
+#: widgets/traits/slider-trait.php:277
+msgid "Navigation"
+msgstr "Navigation"
+
+#: widgets/pdf-viewer.php:439
+msgid "Niveau de zoom"
+msgstr "Zoom level"
+
+#: widgets/author-infobox.php:569 widgets/team-members.php:194
+#: widgets/team-members.php:774
+#: includes/elementor/dynamic-tags/tags/user-info.php:63
+msgid "Nom"
+msgstr "Name"
+
+#: includes/elementor/dynamic-tags/tags/author-name.php:27
+msgid "Nom auteur"
+msgstr "Author name"
+
+#: includes/elementor/dynamic-tags/tags/cookies.php:49
+msgid "Nom du cookie"
+msgstr "Cookie name"
+
+#: includes/elementor/dynamic-tags/tags/site-title.php:26
+msgid "Nom du site"
+msgstr "Site name"
+
+#: widgets/pinterest-rss.php:201
+msgid "Nom du tableau"
+msgstr "Name of the board"
+
+#: widgets/acf-relationship.php:213 widgets/news-ticker.php:254
+#: widgets/pinterest-rss.php:467 widgets/post-grid.php:473
+#: widgets/rss-reader.php:358
+msgid "Nombre d'articles"
+msgstr "Posts count"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:68
+msgid "Nombre d'articles personnalisés"
+msgstr "Custom Post Type count"
+
+#: widgets/wc-product-grid.php:729 widgets/wc-product-grid.php:2504
+#: includes/elementor/dynamic-tags/woo/tags/product-rating.php:53
+msgid "Nombre d'avis"
+msgstr "Reviews count"
+
+#: widgets/news-ticker.php:298
+#| msgid ""
+#| "Nombre d'itération du contenu de chaque flux avant de charger le flux "
+#| "suivant."
+msgid ""
+"Nombre d'itération du contenu de chaque flux avant de charger le flux "
+"suivant. 0 = infini"
+msgstr ""
+"Number of iterations of the contents of each feed before loading the next "
+"feed. 0 = infinite"
+
+#: widgets/news-ticker.php:297
+msgid "Nombre d'itérations"
+msgstr "Number of iterations "
+
+#: widgets/acf-relationship.php:284 widgets/html-sitemap.php:647
+#: widgets/image-gallery.php:425 widgets/pinterest-rss.php:549
+#: widgets/post-grid.php:564 widgets/rss-reader.php:489
+#: widgets/team-members.php:576 widgets/wc-product-grid.php:554
+msgid "Nombre de colonnes"
+msgstr "Columns count"
+
+#: core/utils/eac-tools.php:946
+msgid "Nombre de commentaires"
+msgstr "Comments count"
+
+#: widgets/traits/badge-new-trait.php:28
+msgid "Nombre de jours"
+msgstr "Number of days"
+
+#: widgets/acf-relationship.php:535 widgets/pinterest-rss.php:478
+#: widgets/post-grid.php:1012 widgets/rss-reader.php:369
+#: widgets/wc-product-grid.php:1254
+msgid "Nombre de mots"
+msgstr "Words count"
+
+#: widgets/off-canvas.php:304
+msgid "Nombre de niveaux"
+msgstr "Number of levels"
+
+#: widgets/wc-product-grid.php:728 widgets/wc-product-grid.php:2501
+#: includes/elementor/dynamic-tags/woo/tags/product-rating.php:52
+msgid "Nombre de notes"
+msgstr "Notes count"
+
+#: widgets/wc-product-grid.php:465
+msgid "Nombre de produits"
+msgstr "Products count"
+
+#: widgets/lottie-animations.php:269 widgets/lottie-animations.php:314
+#: widgets/lottie-animations.php:333 widgets/news-ticker.php:352
+#: widgets/news-ticker.php:370 widgets/news-ticker.php:388
+#: widgets/traits/badge-promo-trait.php:27 widgets/traits/slider-trait.php:26
+#: widgets/traits/slider-trait.php:56 widgets/traits/slider-trait.php:207
+#: widgets/traits/slider-trait.php:226 widgets/traits/slider-trait.php:244
+#: widgets/traits/slider-trait.php:263
+#: includes/acf/options-page/eac-acf-options-page.php:582
+#: includes/acf/options-page/eac-acf-options-page.php:588
+#: includes/elementor/injection/eac-injection-lottie.php:161
+msgid "Non"
+msgstr "No"
+
+#: widgets/acf-relationship.php:339 widgets/acf-relationship.php:350
+#: widgets/acf-relationship.php:361 widgets/acf-relationship.php:372
+#: widgets/acf-relationship.php:385 widgets/acf-relationship.php:432
+#: widgets/author-infobox.php:300 widgets/author-infobox.php:311
+#: widgets/author-infobox.php:322 widgets/author-infobox.php:333
+#: widgets/author-infobox.php:344 widgets/author-infobox.php:396
+#: widgets/author-infobox.php:503 widgets/chart.php:172 widgets/chart.php:285
+#: widgets/chart.php:308 widgets/chart.php:321 widgets/chart.php:353
+#: widgets/chart.php:434 widgets/chart.php:456 widgets/chart.php:468
+#: widgets/chart.php:535 widgets/chart.php:546 widgets/chart.php:558
+#: widgets/chart.php:570 widgets/chart.php:582 widgets/chart.php:632
+#: widgets/chart.php:645 widgets/chart.php:717 widgets/html-sitemap.php:186
+#: widgets/html-sitemap.php:197 widgets/html-sitemap.php:208
+#: widgets/html-sitemap.php:219 widgets/html-sitemap.php:230
+#: widgets/html-sitemap.php:261 widgets/html-sitemap.php:272
+#: widgets/html-sitemap.php:348 widgets/html-sitemap.php:404
+#: widgets/html-sitemap.php:415 widgets/html-sitemap.php:426
+#: widgets/html-sitemap.php:437 widgets/html-sitemap.php:460
+#: widgets/html-sitemap.php:524 widgets/html-sitemap.php:535
+#: widgets/html-sitemap.php:546 widgets/html-sitemap.php:557
+#: widgets/html-sitemap.php:580 widgets/image-diaporama.php:214
+#: widgets/image-effects.php:274 widgets/image-effects_SELECT2.php:301
+#: widgets/image-gallery.php:450 widgets/image-gallery.php:488
+#: widgets/image-gallery.php:528 widgets/image-gallery.php:539
+#: widgets/image-gallery.php:554 widgets/image-gallery.php:570
+#: widgets/image-gallery.php:718 widgets/image-promotion.php:158
+#: widgets/image-promotion.php:169 widgets/image-promotion.php:272
+#: widgets/image-promotion.php:367 widgets/image-promotion.php:494
+#: widgets/kenburn-slider.php:207 widgets/kenburn-slider.php:219
+#: widgets/modal-box.php:200 widgets/modal-box.php:339
+#: widgets/modal-box.php:505 widgets/off-canvas.php:207
+#: widgets/off-canvas.php:401 widgets/off-canvas.php:413
+#: widgets/open-streetmap.php:341 widgets/open-streetmap.php:367
+#: widgets/open-streetmap.php:558 widgets/open-streetmap.php:651
+#: widgets/open-streetmap.php:750 widgets/open-streetmap.php:761
+#: widgets/open-streetmap.php:772 widgets/open-streetmap.php:783
+#: widgets/open-streetmap.php:794 widgets/pdf-viewer.php:328
+#: widgets/pdf-viewer.php:398 widgets/pdf-viewer.php:409
+#: widgets/pdf-viewer.php:420 widgets/pdf-viewer.php:431
+#: widgets/pinterest-rss.php:192 widgets/pinterest-rss.php:493
+#: widgets/pinterest-rss.php:504 widgets/pinterest-rss.php:517
+#: widgets/post-grid.php:413 widgets/post-grid.php:438
+#: widgets/post-grid.php:460 widgets/post-grid.php:486
+#: widgets/post-grid.php:599 widgets/post-grid.php:615
+#: widgets/post-grid.php:662 widgets/post-grid.php:713
+#: widgets/post-grid.php:724 widgets/post-grid.php:735
+#: widgets/post-grid.php:756 widgets/post-grid.php:776
+#: widgets/post-grid.php:788 widgets/post-grid.php:800
+#: widgets/post-grid.php:811 widgets/post-grid.php:822
+#: widgets/post-grid.php:842 widgets/post-grid.php:855
+#: widgets/post-grid.php:930 widgets/rss-reader.php:384
+#: widgets/rss-reader.php:396 widgets/rss-reader.php:418
+#: widgets/rss-reader.php:444 widgets/rss-reader.php:457
+#: widgets/share-post.php:144 widgets/share-post.php:155
+#: widgets/share-post.php:166 widgets/share-post.php:177
+#: widgets/share-post.php:188 widgets/share-post.php:199
+#: widgets/share-post.php:210 widgets/share-post.php:221
+#: widgets/share-post.php:232 widgets/share-post.php:243
+#: widgets/share-post.php:254 widgets/share-post.php:295
+#: widgets/site-thumbnail.php:190 widgets/site-thumbnail.php:202
+#: widgets/syntax-highlighter.php:197 widgets/table-of-contents.php:240
+#: widgets/table-of-contents.php:254 widgets/table-of-contents.php:275
+#: widgets/team-members.php:615 widgets/wc-product-grid.php:409
+#: widgets/wc-product-grid.php:434 widgets/wc-product-grid.php:456
+#: widgets/wc-product-grid.php:478 widgets/wc-product-grid.php:586
+#: widgets/wc-product-grid.php:601 widgets/wc-product-grid.php:645
+#: widgets/wc-product-grid.php:703 widgets/wc-product-grid.php:714
+#: widgets/wc-product-grid.php:741 widgets/wc-product-grid.php:768
+#: widgets/wc-product-grid.php:799 widgets/wc-product-grid.php:905
+#: widgets/wc-product-grid.php:916 widgets/wc-product-grid.php:975
+#: widgets/wc-product-grid.php:986 widgets/wc-product-grid.php:997
+#: widgets/wc-product-grid.php:1008 widgets/wc-product-grid.php:1036
+#: widgets/wc-product-grid.php:1050 widgets/wc-product-grid.php:1065
+#: widgets/wc-product-grid.php:1080 widgets/wc-product-grid.php:1109
+#: widgets/wc-product-grid.php:1121 widgets/wc-product-grid.php:1179
+#: widgets/wc-product-grid.php:1380 widgets/wc-product-grid.php:1401
+#: widgets/wc-product-grid.php:1429 widgets/wc-product-grid.php:1448
+#: widgets/traits/button-add-to-cart-trait.php:33
+#: widgets/traits/button-read-more-trait.php:33
+#: includes/elementor/injection/eac-injection-effect.php:149
+#: includes/elementor/injection/eac-injection-lottie.php:97
+#: includes/elementor/injection/eac-injection-sticky.php:158
+#: includes/elementor/dynamic-tags/woo/tags/product-gallery-images.php:50
+#: includes/elementor/dynamic-tags/woo/tags/product-onsale.php:50
+msgid "non"
+msgstr "no"
+
+#: includes/proxy/proxy_osm.php:37 includes/proxy/proxy_pdf.php:37
+#: includes/proxy/proxy_rss.php:147
+msgid "Non autorisé."
+msgstr "Forbidden."
+
+#: includes/elementor/dynamic-tags/tags/user-info.php:89
+msgid "Non logué"
+msgstr "Not logged-in"
+
+#: widgets/modal-box.php:864
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-rating.php:47
+msgid "Notation"
+msgstr "Notation"
+
+#: widgets/traits/badge-new-trait.php:21
+msgid "Nouveau"
+msgstr "New"
+
+#: includes/acf/options-page/eac-acf-options-page.php:431
+#: includes/acf/options-page/eac-acf-options-page.php:433
+msgid "Nouvelle Page d'Options"
+msgstr "New Options Page"
+
+#: widgets/off-canvas.php:1113
+msgid "Nuage de Tags"
+msgstr "Tags cloud"
+
+#: widgets/post-grid.php:347 widgets/wc-product-grid.php:346
+msgid "Numérique"
+msgstr "Numeric"
+
+#: widgets/syntax-highlighter.php:194
+msgid "Numéros de ligne"
+msgstr "Line numbers"
+
+#: widgets/lottie-animations.php:196
+#: includes/elementor/injection/eac-injection-lottie.php:136
+msgid ""
+"Obtenez l'URL de l'animation <a href='https://lottiefiles.com/' "
+"target='_blank' rel='nofollow noopener noreferrer'>ici</a>"
+msgstr ""
+"Get animation URL <a href='https://lottiefiles.com/' target='_blank' "
+"rel='nofollow noopener noreferrer'>here</a>"
+
+#: widgets/acf-relationship.php:825 widgets/author-infobox.php:557
+#: widgets/image-gallery.php:1133 widgets/image-gallery.php:1231
+#: widgets/lottie-animations.php:466 widgets/modal-box.php:822
+#: widgets/modal-box.php:913 widgets/news-ticker.php:554
+#: widgets/off-canvas.php:894 widgets/open-streetmap.php:833
+#: widgets/pdf-viewer.php:528 widgets/pdf-viewer.php:578
+#: widgets/post-grid.php:1321 widgets/site-thumbnail.php:245
+#: widgets/table-of-contents.php:433 widgets/wc-product-grid.php:1989
+#: widgets/traits/button-add-to-cart-trait.php:128
+#: widgets/traits/button-read-more-trait.php:128
+msgid "Ombre"
+msgstr "Shadow"
+
+#: widgets/image-hotspots.php:620
+msgid "Ombre portée"
+msgstr "Box shadow"
+
+#: widgets/lottie-animations.php:432 widgets/modal-box.php:647
+#: widgets/modal-box.php:929
+#: includes/elementor/injection/eac-injection-lottie.php:186
+msgid "Opacitée"
+msgstr "Opacity"
+
+#: core/eac-load-config.php:579
+msgid "OpenStreetMap"
+msgstr "OpenStreetMap"
+
+#: widgets/modal-box.php:301 widgets/pdf-viewer.php:253
+msgid "Options de déclenchement"
+msgstr "Trigger options"
+
+#: widgets/pdf-viewer.php:388
+msgid "Options de la visionneuse"
+msgstr "Viewer options"
+
+#: widgets/post-grid.php:358 widgets/wc-product-grid.php:357
+msgid "Opérateur de comparaison"
+msgstr "Comparison operator"
+
+#: widgets/chart.php:263
+msgid "Ordonnée (Y)"
+msgstr "Y Axis"
+
+#: widgets/chart.php:274
+msgid "Ordonnées"
+msgstr "Y axis"
+
+#: widgets/chart.php:445
+msgid "Ordonnées 2"
+msgstr "Y axis 2"
+
+#: includes/elementor/injection/eac-injection-sticky.php:212
+msgid "Ordre de l'élément (z-index)"
+msgstr "Element order (z-index)"
+
+#: widgets/acf-relationship.php:421 widgets/image-gallery.php:692
+#: widgets/modal-box.php:421 widgets/post-grid.php:883
+msgid "Originale"
+msgstr "Original"
+
+#: widgets/lottie-animations.php:166 widgets/pdf-viewer.php:170
+#: includes/elementor/injection/eac-injection-lottie.php:105
+msgid "Origine"
+msgstr "Origin"
+
+#: widgets/lottie-animations.php:265 widgets/lottie-animations.php:310
+#: widgets/lottie-animations.php:329 widgets/news-ticker.php:348
+#: widgets/news-ticker.php:366 widgets/news-ticker.php:384
+#: widgets/traits/badge-promo-trait.php:23 widgets/traits/slider-trait.php:22
+#: widgets/traits/slider-trait.php:52 widgets/traits/slider-trait.php:203
+#: widgets/traits/slider-trait.php:222 widgets/traits/slider-trait.php:240
+#: widgets/traits/slider-trait.php:259
+#: includes/acf/options-page/eac-acf-options-page.php:565
+#: includes/elementor/injection/eac-injection-lottie.php:157
+msgid "Oui"
+msgstr "Yes"
+
+#: widgets/acf-relationship.php:338 widgets/acf-relationship.php:349
+#: widgets/acf-relationship.php:360 widgets/acf-relationship.php:371
+#: widgets/acf-relationship.php:384 widgets/acf-relationship.php:431
+#: widgets/author-infobox.php:299 widgets/author-infobox.php:310
+#: widgets/author-infobox.php:321 widgets/author-infobox.php:332
+#: widgets/author-infobox.php:343 widgets/author-infobox.php:395
+#: widgets/author-infobox.php:502 widgets/chart.php:171 widgets/chart.php:284
+#: widgets/chart.php:307 widgets/chart.php:320 widgets/chart.php:352
+#: widgets/chart.php:433 widgets/chart.php:455 widgets/chart.php:467
+#: widgets/chart.php:534 widgets/chart.php:545 widgets/chart.php:557
+#: widgets/chart.php:569 widgets/chart.php:581 widgets/chart.php:631
+#: widgets/chart.php:644 widgets/chart.php:716 widgets/html-sitemap.php:185
+#: widgets/html-sitemap.php:196 widgets/html-sitemap.php:207
+#: widgets/html-sitemap.php:218 widgets/html-sitemap.php:229
+#: widgets/html-sitemap.php:260 widgets/html-sitemap.php:271
+#: widgets/html-sitemap.php:347 widgets/html-sitemap.php:403
+#: widgets/html-sitemap.php:414 widgets/html-sitemap.php:425
+#: widgets/html-sitemap.php:436 widgets/html-sitemap.php:459
+#: widgets/html-sitemap.php:523 widgets/html-sitemap.php:534
+#: widgets/html-sitemap.php:545 widgets/html-sitemap.php:556
+#: widgets/html-sitemap.php:579 widgets/image-diaporama.php:213
+#: widgets/image-effects.php:273 widgets/image-effects_SELECT2.php:300
+#: widgets/image-gallery.php:449 widgets/image-gallery.php:487
+#: widgets/image-gallery.php:527 widgets/image-gallery.php:538
+#: widgets/image-gallery.php:553 widgets/image-gallery.php:569
+#: widgets/image-gallery.php:717 widgets/image-promotion.php:157
+#: widgets/image-promotion.php:168 widgets/image-promotion.php:271
+#: widgets/image-promotion.php:366 widgets/image-promotion.php:493
+#: widgets/kenburn-slider.php:206 widgets/kenburn-slider.php:218
+#: widgets/modal-box.php:199 widgets/modal-box.php:338
+#: widgets/modal-box.php:504 widgets/off-canvas.php:206
+#: widgets/off-canvas.php:400 widgets/off-canvas.php:412
+#: widgets/open-streetmap.php:340 widgets/open-streetmap.php:366
+#: widgets/open-streetmap.php:557 widgets/open-streetmap.php:650
+#: widgets/open-streetmap.php:749 widgets/open-streetmap.php:760
+#: widgets/open-streetmap.php:771 widgets/open-streetmap.php:782
+#: widgets/open-streetmap.php:793 widgets/pdf-viewer.php:327
+#: widgets/pdf-viewer.php:397 widgets/pdf-viewer.php:408
+#: widgets/pdf-viewer.php:419 widgets/pdf-viewer.php:430
+#: widgets/pinterest-rss.php:191 widgets/pinterest-rss.php:492
+#: widgets/pinterest-rss.php:503 widgets/pinterest-rss.php:516
+#: widgets/post-grid.php:412 widgets/post-grid.php:437
+#: widgets/post-grid.php:459 widgets/post-grid.php:485
+#: widgets/post-grid.php:598 widgets/post-grid.php:614
+#: widgets/post-grid.php:661 widgets/post-grid.php:712
+#: widgets/post-grid.php:723 widgets/post-grid.php:734
+#: widgets/post-grid.php:755 widgets/post-grid.php:775
+#: widgets/post-grid.php:787 widgets/post-grid.php:799
+#: widgets/post-grid.php:810 widgets/post-grid.php:821
+#: widgets/post-grid.php:841 widgets/post-grid.php:854
+#: widgets/post-grid.php:929 widgets/rss-reader.php:383
+#: widgets/rss-reader.php:395 widgets/rss-reader.php:417
+#: widgets/rss-reader.php:443 widgets/rss-reader.php:456
+#: widgets/share-post.php:143 widgets/share-post.php:154
+#: widgets/share-post.php:165 widgets/share-post.php:176
+#: widgets/share-post.php:187 widgets/share-post.php:198
+#: widgets/share-post.php:209 widgets/share-post.php:220
+#: widgets/share-post.php:231 widgets/share-post.php:242
+#: widgets/share-post.php:253 widgets/share-post.php:294
+#: widgets/site-thumbnail.php:189 widgets/site-thumbnail.php:201
+#: widgets/syntax-highlighter.php:196 widgets/table-of-contents.php:239
+#: widgets/table-of-contents.php:253 widgets/table-of-contents.php:274
+#: widgets/team-members.php:614 widgets/wc-product-grid.php:408
+#: widgets/wc-product-grid.php:433 widgets/wc-product-grid.php:455
+#: widgets/wc-product-grid.php:477 widgets/wc-product-grid.php:585
+#: widgets/wc-product-grid.php:600 widgets/wc-product-grid.php:644
+#: widgets/wc-product-grid.php:702 widgets/wc-product-grid.php:713
+#: widgets/wc-product-grid.php:740 widgets/wc-product-grid.php:767
+#: widgets/wc-product-grid.php:798 widgets/wc-product-grid.php:904
+#: widgets/wc-product-grid.php:915 widgets/wc-product-grid.php:974
+#: widgets/wc-product-grid.php:985 widgets/wc-product-grid.php:996
+#: widgets/wc-product-grid.php:1007 widgets/wc-product-grid.php:1035
+#: widgets/wc-product-grid.php:1049 widgets/wc-product-grid.php:1064
+#: widgets/wc-product-grid.php:1079 widgets/wc-product-grid.php:1108
+#: widgets/wc-product-grid.php:1120 widgets/wc-product-grid.php:1178
+#: widgets/wc-product-grid.php:1379 widgets/wc-product-grid.php:1400
+#: widgets/wc-product-grid.php:1428 widgets/wc-product-grid.php:1447
+#: widgets/traits/button-add-to-cart-trait.php:32
+#: widgets/traits/button-read-more-trait.php:32
+#: includes/elementor/injection/eac-injection-effect.php:148
+#: includes/elementor/injection/eac-injection-lottie.php:96
+#: includes/elementor/injection/eac-injection-sticky.php:157
+#: includes/elementor/dynamic-tags/woo/tags/product-gallery-images.php:49
+#: includes/elementor/dynamic-tags/woo/tags/product-onsale.php:49
+msgid "oui"
+msgstr "yes"
+
+#: widgets/modal-box.php:315
+msgid "Ouverture automatique"
+msgstr "On page load"
+
+#: widgets/modal-box.php:1233
+msgid "Ouverture automatique ne supporte pas les formats HTML, Vidéo ou Carte"
+msgstr "'On page load' does not support HTML, Video or Map formats"
+
+#: widgets/share-post.php:292
+msgid "Ouvrir dans une nouvelle fenêtre"
+msgstr "Open on a new window"
+
+#: widgets/off-canvas.php:347 widgets/off-canvas.php:460
+msgid "Ouvrir la barre latérale"
+msgstr "Open Off-canvas"
+
+#: widgets/pdf-viewer.php:275 widgets/pdf-viewer.php:375
+msgid "Ouvrir le fichier"
+msgstr "Open file"
+
+#: widgets/html-sitemap.php:809
+#: includes/elementor/dynamic-tags/tags/post-elementor-tmpl.php:55
+msgid "Page"
+msgstr "Page"
+
+#: widgets/pdf-viewer.php:447
+msgid "Page entière"
+msgstr "Full page"
+
+#: widgets/html-sitemap.php:307
+#: includes/elementor/dynamic-tags/tags/site-stats.php:66
+#: includes/elementor/dynamic-tags/tags/url-page.php:32
+#: includes/elementor/dynamic-tags/tags/url-page_SELECT2.php:34
+msgid "Pages"
+msgstr "Pages"
+
+#: includes/elementor/dynamic-tags/tags/url-page.php:50
+msgid "Pages Url"
+msgstr "Page Url"
+
+#: widgets/post-grid.php:483 widgets/wc-product-grid.php:475
+#: widgets/traits/slider-trait.php:218 widgets/traits/slider-trait.php:309
+msgid "Pagination"
+msgstr "Paging"
+
+#: widgets/kenburn-slider.php:244
+msgid "Panoramique bas"
+msgstr "Pan down"
+
+#: widgets/kenburn-slider.php:246
+msgid "Panoramique droit"
+msgstr "Pan right"
+
+#: widgets/kenburn-slider.php:245
+msgid "Panoramique gauche"
+msgstr "Pan left"
+
+#: widgets/kenburn-slider.php:243
+msgid "Panoramique haut"
+msgstr "Pan top"
+
+#: includes/acf/options-page/eac-acf-options-page.php:429
+msgid "Parent"
+msgstr "Parent"
+
+#: widgets/share-post.php:285 widgets/share-post.php:286
+msgid "Partager avec:"
+msgstr "Share with:"
+
+#: widgets/share-post.php:135
+#| msgid "Partager cette page/article avec les réseaux sociaux."
+msgid "Partager cette article sur les réseaux sociaux."
+msgstr "Share this post on social networks"
+
+#: core/eac-load-config.php:817
+msgid "Partager un article"
+msgstr "Share a post"
+
+#: includes/elementor/dynamic-tags/tags/post-excerpt.php:42
+msgid "Pas de résumé"
+msgstr "No excerpt"
+
+#: includes/acf/options-page/eac-acf-options-page.php:438
+msgid "Pas trouvé"
+msgstr "Not found"
+
+#: includes/acf/options-page/eac-acf-options-page.php:439
+msgid "Pas trouvé dans la poubelle"
+msgstr "Not found in the trash"
+
+#: core/eac-load-config.php:1193
+msgid "Personnaliser le menu de navigation"
+msgstr "Customize nav menu"
+
+#: widgets/modal-box.php:388 widgets/off-canvas.php:361
+#: widgets/pdf-viewer.php:290
+msgid "Petit"
+msgstr "Small"
+
+#: includes/elementor/dynamic-tags/tags/author-picture.php:29
+msgid "Photo auteur"
+msgstr "Author photo"
+
+#: includes/elementor/dynamic-tags/tags/user-picture.php:28
+#| msgid "Photo de l'utilisateur"
+msgid "Photo utilisateur"
+msgstr "User photo"
+
+#: widgets/image-hotspots.php:240 widgets/image-hotspots.php:250
+#: widgets/image-promotion.php:584
+#: widgets/traits/button-add-to-cart-trait.php:41
+#: widgets/traits/button-read-more-trait.php:41
+msgid "Pictogramme"
+msgstr "Pictogram"
+
+#: widgets/image-hotspots.php:241 widgets/image-hotspots.php:272
+msgid "Pictogramme animée"
+msgstr "Animated pictogram"
+
+#: widgets/table-of-contents.php:284
+msgid "Pictogramme du contenu"
+msgstr "Content pictogram"
+
+#: widgets/image-hotspots.php:427
+msgid "Pictogramme déclencheur"
+msgstr "Trigger pictogram"
+
+#: widgets/author-infobox.php:658 widgets/image-effects.php:458
+#: widgets/image-effects_SELECT2.php:485 widgets/modal-box.php:348
+#: widgets/off-canvas.php:422 widgets/pdf-viewer.php:338
+#: widgets/pinterest-rss.php:703 widgets/post-grid.php:1330
+#: widgets/rss-reader.php:636 widgets/team-members.php:861
+msgid "Pictogrammes"
+msgstr "Pictograms"
+
+#: widgets/pinterest-rss.php:154
+msgid "Pinterest RSS"
+msgstr "Pinterest RSS"
+
+#: widgets/pdf-viewer.php:448
+msgid "Pleine largeur"
+msgstr "Full width"
+
+#: admin/settings/eac-admin_popup-grant-option.php:2
+msgid "Plugin 'ACF' est installé et actif."
+msgstr "Plugin 'ACF' is installed and active."
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:77
+msgid "Plugins actifs"
+msgstr "Active plugins"
+
+#: widgets/post-grid.php:1740 widgets/wc-product-grid.php:2655
+msgid "Plus d'article"
+msgstr "No more post"
+
+#: widgets/post-grid.php:1522
+msgid "Plus d'articles"
+msgstr "More posts"
+
+#: widgets/wc-product-grid.php:2232
+msgid "Plus de produits"
+msgstr "More products"
+
+#: widgets/chart.php:217
+msgid "Polaire"
+msgstr "Polar"
+
+#: widgets/author-infobox.php:429 widgets/chart.php:509
+#: widgets/image-hotspots.php:306 widgets/image-hotspots.php:358
+#: widgets/images-comparison.php:169 widgets/images-comparison.php:217
+#: widgets/modal-box.php:359 widgets/modal-box.php:577
+#: widgets/off-canvas.php:177 widgets/off-canvas.php:434
+#: widgets/off-canvas.php:846 widgets/pdf-viewer.php:349
+#: widgets/share-post.php:270 widgets/wc-product-grid.php:1327
+#: widgets/traits/badge-new-trait.php:37
+#: widgets/traits/badge-promo-trait.php:47
+#: widgets/traits/badge-stock-trait.php:28
+#: widgets/traits/button-add-to-cart-trait.php:52
+#: widgets/traits/button-read-more-trait.php:52
+msgid "Position"
+msgstr "Position"
+
+#: widgets/off-canvas.php:714
+msgid "Position (%)"
+msgstr "Position (%)"
+
+#: widgets/image-promotion.php:533
+msgid "Position (px)"
+msgstr "Position (px)"
+
+#: widgets/off-canvas.php:178
+msgid "Position de l'Off-canvas et du bouton (collant)"
+msgstr "Position of the Off-canvas and the button (sticky)"
+
+#: widgets/chart.php:702
+msgid "Position de l'étiquette"
+msgstr "Position"
+
+#: widgets/image-hotspots.php:313
+msgid "Position horizontale (%)"
+msgstr "Horizontal position (%)"
+
+#: widgets/image-effects.php:320 widgets/image-effects_SELECT2.php:347
+msgid "Position Texte/Liens"
+msgstr "Position Text/Links"
+
+#: widgets/acf-relationship.php:460 widgets/image-gallery.php:749
+#: widgets/post-grid.php:962 widgets/wc-product-grid.php:1203
+#: widgets/traits/slider-trait.php:179
+msgid "Position verticale"
+msgstr "Vertical position"
+
+#: widgets/image-effects.php:343 widgets/image-effects_SELECT2.php:370
+#: widgets/image-hotspots.php:328 widgets/team-members.php:658
+msgid "Position verticale (%)"
+msgstr "Vertical position (%)"
+
+#: widgets/image-diaporama.php:239
+msgid "Position verticale de l'image"
+msgstr "Vertical position of the image"
+
+#: includes/acf/options-page/eac-acf-options-page.php:424
+msgctxt "Post Type General Name"
+msgid "ACF Page d'Options"
+msgstr "ACF Options Page"
+
+#: includes/acf/options-page/eac-acf-options-page.php:425
+msgctxt "Post Type Singular Name"
+msgid "ACF Option"
+msgstr "ACF Option"
+
+#: admin/settings/eac-admin_popup-grant-option.php:6
+msgid ""
+"Pour ce qui concerne du rôle 'shop_manager', l'administrateur du site doit "
+"s'assurer que ce rôle dispose des capacités d'édition et de modification des "
+"pages créées d'un type de contenu personnalisé."
+msgstr ""
+"Regarding the 'shop_manager' role, the site administrator must ensure that "
+"this role has the ability to edit and modify pages created from a custom "
+"post type."
+
+#: widgets/wc-product-grid.php:1940
+msgid "Pour les Gravatars"
+msgstr "For Gravatar"
+
+#: widgets/acf-relationship.php:259 widgets/image-gallery.php:403
+#: widgets/post-grid.php:542 widgets/wc-product-grid.php:531
+#| msgid ""
+#| "Pour un ajustement parfait vous pouvez appliquer un ratio sur les images "
+#| "'Style/Image'"
+msgid ""
+"Pour un ajustement parfait vous pouvez appliquer un ratio sur les images "
+"dans la section 'Image'"
+msgstr ""
+"For a perfect fit you can apply a ratio on the images in the section 'Image'"
+
+#: widgets/traits/badge-promo-trait.php:19
+msgid "Pourcentage"
+msgstr "Percentage"
+
+#: widgets/wc-product-grid.php:738 widgets/wc-product-grid.php:1701
+#: includes/elementor/dynamic-tags/woo/tags/product-prices.php:47
+msgid "Prix"
+msgstr "Price"
+
+#: widgets/image-promotion.php:414
+msgid "Prix de vente"
+msgstr "Selling price"
+
+#: widgets/image-promotion.php:400 widgets/image-promotion.php:769
+#: includes/elementor/dynamic-tags/woo/tags/product-prices.php:30
+msgid "Prix du produit"
+msgstr "Product price"
+
+#: widgets/lottie-animations.php:358
+msgid "Problèmes de performance ? Essayer la méthode 'Canvas'"
+msgstr "Performance issues ? Try the 'Canvas' method"
+
+#: widgets/wc-product-grid.php:693 widgets/wc-product-grid.php:1524
+msgid "Produit"
+msgstr "Product"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-add-to-cart.php:30
+msgid "Produit ajouter au panier"
+msgstr "Product add to cart"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-onsale.php:30
+msgid "Produit en promotion"
+msgstr "Product sale"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-category-image.php:29
+msgid "Produit image de la catégorie"
+msgstr "Product category image"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-sku.php:30
+msgid "Produit UGS"
+msgstr "Product SKU"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-sale.php:30
+msgid "Produit ventes"
+msgstr "Product sold"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-rating.php:30
+msgid "Produit évaluation"
+msgstr "Product reviews"
+
+#: widgets/wc-product-grid.php:211
+msgid "Produits"
+msgstr "Products"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-url.php:30
+msgid "Produits URLs"
+msgstr "Product URLs"
+
+#: widgets/traits/badge-promo-trait.php:40
+msgid "Promo!"
+msgstr "Sale!"
+
+#: widgets/wc-product-grid.php:754
+#: includes/elementor/dynamic-tags/woo/tags/product-prices.php:51
+msgid "Promotion"
+msgstr "Sale"
+
+#: core/eac-load-config.php:775
+msgid "Promotion de produit"
+msgstr "Promoted product"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-onsale.php:60
+msgid "Promotion!"
+msgstr "Sale!"
+
+#: widgets/team-members.php:232
+#| msgid "Protéger contre les spams"
+msgid "Protégé contre les spams"
+msgstr "Protected against spam"
+
+#: includes/elementor/dynamic-tags/tags/user-info.php:62
+msgid "Prénom"
+msgstr "First name"
+
+#: widgets/html-sitemap.php:356
+msgid "Publication"
+msgstr "Publication"
+
+#: widgets/modal-box.php:492
+msgid "Quand le popup doit-il apparaître ? (En secondes)"
+msgstr "When should the popup appear after page load ? (In seconds)"
+
+#: widgets/wc-product-grid.php:2549
+#: includes/elementor/dynamic-tags/woo/tags/product-add-to-cart.php:47
+msgid "Quantité"
+msgstr "Quantity"
+
+#: widgets/wc-product-grid.php:796 widgets/wc-product-grid.php:2556
+msgid "Quantité vendue"
+msgstr "Quantity sold"
+
+#: widgets/image-diaporama.php:190
+msgid "Qui-ét-ude"
+msgstr "Sti-ll-ness"
+
+#: widgets/chart.php:216
+msgid "Radar"
+msgstr "Radar"
+
+#: widgets/kenburn-slider.php:194
+msgid "Rapide et lente"
+msgstr "Ease-out"
+
+#: widgets/acf-relationship.php:445 widgets/image-gallery.php:732
+#: widgets/post-grid.php:944 widgets/wc-product-grid.php:1189
+msgid "Ratio"
+msgstr "Ratio"
+
+#: widgets/traits/slider-trait.php:153
+msgid "Ratio image"
+msgstr "Image ratio"
+
+#: widgets/acf-relationship.php:643 widgets/acf-relationship.php:842
+#: widgets/image-gallery.php:992 widgets/image-gallery.php:1148
+#: widgets/image-gallery.php:1246 widgets/image-hotspots.php:514
+#: widgets/image-hotspots.php:604 widgets/lottie-animations.php:451
+#: widgets/modal-box.php:838 widgets/modal-box.php:898
+#: widgets/news-ticker.php:484 widgets/off-canvas.php:910
+#: widgets/open-streetmap.php:822 widgets/pdf-viewer.php:594
+#: widgets/post-grid.php:1192 widgets/post-grid.php:1283
+#: widgets/wc-product-grid.php:1583 widgets/wc-product-grid.php:1951
+#: widgets/traits/badge-new-trait.php:112
+#: widgets/traits/badge-promo-trait.php:122
+#: widgets/traits/badge-stock-trait.php:103
+#: widgets/traits/button-add-to-cart-trait.php:143
+#: widgets/traits/button-read-more-trait.php:143
+#: widgets/traits/slider-trait.php:368
+msgid "Rayon de la bordure"
+msgstr "Border radius"
+
+#: widgets/off-canvas.php:1112
+msgid "Rechercher"
+msgstr "Search"
+
+#: widgets/open-streetmap.php:364
+msgid "Rechercher une adresse"
+msgstr "Search an address"
+
+#: widgets/wc-product-grid.php:1426
+#| msgid "Supprimer le fil d'ariane"
+msgid "Rediriger le fil d'ariane"
+msgstr "Redirect breadcrumb"
+
+#: widgets/wc-product-grid.php:1377
+msgid "Rediriger les URLs"
+msgstr "Redirect URLs"
+
+#: widgets/image-diaporama.php:182
+msgid "Rel-a-xation"
+msgstr "Rel-a-xation"
+
+#: widgets/post-grid.php:398 widgets/wc-product-grid.php:395
+msgid "Relation entre les requêtes"
+msgstr "Relation between queries"
+
+#: widgets/wc-product-grid.php:230
+#| msgid "Relatives au produit"
+msgid "Relative au produit"
+msgstr "Product related"
+
+#: widgets/wc-product-grid.php:253
+msgid "Relatives à la taxonomie"
+msgstr "Related to taxonomy"
+
+#: widgets/image-promotion.php:416
+msgid "Renseigner le prix..."
+msgstr "Enter the price"
+
+#: widgets/image-effects.php:163 widgets/image-effects_SELECT2.php:191
+msgid "Renseigner le titre"
+msgstr "Enter the title"
+
+#: widgets/post-grid.php:388 widgets/wc-product-grid.php:386
+msgid "Requête #1"
+msgstr "Query #1"
+
+#: widgets/post-grid.php:294 widgets/post-grid.php:383
+#: widgets/wc-product-grid.php:295 widgets/wc-product-grid.php:381
+msgid "Requêtes"
+msgstr "Queries"
+
+#: widgets/modal-box.php:1214 widgets/modal-box.php:1228
+msgid "Rien à afficher"
+msgstr "Nothing to display"
+
+#: includes/proxy/proxy_rss.php:43
+msgid "Rien à afficher..."
+msgstr "Noting to display..."
+
+#: widgets/image-promotion.php:609
+msgid "Ronde"
+msgstr "Circle"
+
+#: widgets/image-hotspots.php:339 widgets/lottie-animations.php:228
+msgid "Rotation"
+msgstr "Rotation"
+
+#: widgets/image-promotion.php:484 widgets/image-promotion.php:505
+#: widgets/image-promotion.php:506 widgets/image-promotion.php:867
+msgid "Ruban"
+msgstr "Ribbon"
+
+#: widgets/traits/badge-stock-trait.php:22
+msgid "Rupture de stock"
+msgstr "Out of stock"
+
+#: widgets/table-of-contents.php:272
+msgid "Réduire le contenu au chargement"
+msgstr "Collapse content on load"
+
+#: widgets/html-sitemap.php:327
+msgid "Réglage Archive"
+msgstr "Setting Archive"
+
+#: widgets/html-sitemap.php:503
+msgid "Réglage Article"
+msgstr "Setting Post"
+
+#: widgets/html-sitemap.php:240
+msgid "Réglage Auteur"
+msgstr "Setting Author"
+
+#: widgets/html-sitemap.php:297
+msgid "Réglage Page"
+msgstr "Setting Page"
+
+#: widgets/html-sitemap.php:383
+msgid "Réglage Taxonomie"
+msgstr "Setting Taxonomy"
+
+#: elementor-addon-components.php:177 widgets/acf-relationship.php:186
+#: widgets/chart.php:163 widgets/image-diaporama.php:205
+#: widgets/images-comparison.php:233 widgets/kenburn-slider.php:155
+#: widgets/lottie-animations.php:159 widgets/news-ticker.php:247
+#: widgets/off-canvas.php:170 widgets/open-streetmap.php:640
+#: widgets/pdf-viewer.php:163 widgets/post-grid.php:428
+#: widgets/share-post.php:264 widgets/site-thumbnail.php:157
+#: widgets/table-of-contents.php:173 widgets/team-members.php:487
+#: widgets/wc-product-grid.php:424
+msgid "Réglages"
+msgstr "Settings"
+
+#: admin/settings/eac-load-components.php:217
+#: admin/settings/eac-load-components.php:262
+#: admin/settings/eac-nav-menu.php:403
+msgid "Réglages enregistrés"
+msgstr "Settings saved"
+
+#: widgets/author-infobox.php:176
+msgid "Réglages généraux"
+msgstr "General settings"
+
+#: widgets/rss-reader.php:407 widgets/team-members.php:597
+msgid "Réglages image"
+msgstr "Image settings"
+
+#: widgets/wc-product-grid.php:753
+#: includes/elementor/dynamic-tags/woo/tags/product-prices.php:50
+msgid "Régulier"
+msgstr "Regular"
+
+#: widgets/author-infobox.php:354 widgets/author-infobox.php:362
+#: widgets/share-post.php:129 widgets/team-members.php:224
+msgid "Réseaux sociaux"
+msgstr "Social networks"
+
+#: widgets/acf-relationship.php:347 widgets/acf-relationship.php:527
+#: widgets/acf-relationship.php:735 widgets/image-effects.php:199
+#: widgets/image-effects_SELECT2.php:226 widgets/post-grid.php:732
+#: widgets/post-grid.php:1004 widgets/post-grid.php:1216
+#: widgets/rss-reader.php:370 widgets/rss-reader.php:605
+#: includes/elementor/dynamic-tags/tags/post-excerpt.php:26
+#: includes/elementor/dynamic-tags/woo/tags/product-excerpt.php:55
+msgid "Résumé"
+msgstr "Excerpt"
+
+#: widgets/author-infobox.php:598
+#: includes/elementor/dynamic-tags/tags/author-info.php:60
+#: includes/elementor/dynamic-tags/tags/user-info.php:59
+msgid "Rôle"
+msgstr "Role"
+
+#: widgets/site-thumbnail.php:181
+#| msgid ""
+#| "<strong>SAMEORIGIN:</strong> Certains sites interdisent le chargement de "
+#| "la ressource dans une iframe en dehors de leur domaine."
+msgid ""
+"SAMEORIGIN: Certains sites interdisent le chargement de la ressource dans "
+"une iframe en dehors de leur domaine."
+msgstr ""
+"SAMEORIGIN: Some sites prohibit the loading of the resource in an iframe "
+"outside their domain."
+
+#: includes/elementor/dynamic-tags/tags/post-elementor-tmpl.php:56
+msgid "Section"
+msgstr "Section"
+
+#: widgets/image-effects_SELECT2.php:136
+msgid "Selec2 multiple"
+msgstr ""
+
+#: widgets/image-effects_SELECT2.php:148
+msgid "Selec2 pas multiple"
+msgstr ""
+
+#: includes/woocommerce/eac-woo-hooks.php:411
+msgid "Select the variations, yo!"
+msgstr ""
+
+#: widgets/acf-relationship.php:1188 core/utils/eac-tools.php:492
+#: core/utils/eac-tools.php:586 core/utils/eac-tools.php:615
+#: core/utils/eac-tools.php:1157 core/utils/eac-tools.php:1175
+#: includes/elementor/dynamic-tags/eac-dynamic-tags.php:167
+#: includes/elementor/dynamic-tags/acf/eac-acf-tags.php:175
+#: includes/elementor/dynamic-tags/acf/eac-acf-tags.php:253
+#: includes/elementor/dynamic-tags/tags/author-info.php:59
+#: includes/elementor/dynamic-tags/tags/post-custom-field-keys.php:55
+#: includes/elementor/dynamic-tags/tags/post-custom-field-values.php:64
+#: includes/elementor/dynamic-tags/tags/site-server.php:46
+#: includes/elementor/dynamic-tags/tags/site-stats.php:54
+#: includes/elementor/dynamic-tags/tags/url-chart.php:70
+#: includes/elementor/dynamic-tags/tags/url-cpt.php:69
+#: includes/elementor/dynamic-tags/tags/user-info.php:57
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-keys.php:53
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-values.php:59
+#: includes/elementor/dynamic-tags/woo/tags/product-field-keys.php:53
+#: includes/elementor/dynamic-tags/woo/tags/product-field-values.php:61
+msgid "Select..."
+msgstr "Select..."
+
+#: widgets/post-grid.php:301 widgets/wc-product-grid.php:301
+msgid "Selection des auteurs"
+msgstr "Select authors"
+
+#: widgets/chart.php:489 widgets/chart.php:490
+msgid "Serie ligne"
+msgstr "Line serie"
+
+#: includes/proxy/proxy_osm.php:40 includes/proxy/proxy_pdf.php:40
+#: includes/proxy/proxy_rss.php:150
+msgid "Service indisponible. Réessayer plus tard."
+msgstr "Service unavailable. Retry later."
+
+#: includes/elementor/injection/eac-injection-sticky.php:200
+msgid "Seuil inférieur de déclenchement"
+msgstr "Bottom trigger threshold"
+
+#: includes/elementor/injection/eac-injection-sticky.php:188
+msgid "Seuil supérieur de déclenchement"
+msgstr "Top trigger threshold"
+
+#: includes/elementor/injection/eac-injection-effect.php:181
+msgid "Seuils de déclenchement"
+msgstr "Trigger thresholds"
+
+#: core/utils/eac-shortcode.php:180
+#: includes/elementor/dynamic-tags/tags/shortcode-image.php:26
+#: includes/elementor/dynamic-tags/tags/shortcode-image.php:40
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: widgets/image-hotspots.php:263 widgets/image-hotspots.php:539
+msgid "show"
+msgstr "show"
+
+#: widgets/wc-product-grid.php:810
+#: includes/elementor/dynamic-tags/woo/tags/product-sale.php:48
+msgid "Si la quantité est égale à zero"
+msgstr "If quantity is zero"
+
+#: widgets/kenburn-slider.php:174
+msgid "Si les images se chevauchent, augmenter le facteur de zoom."
+msgstr "Overlapping images, increase zoom factor"
+
+#: widgets/table-of-contents.php:251
+msgid "Si les titres ne sont pas uniques dans la page"
+msgstr "If the titles are not unique on the page"
+
+#: includes/elementor/dynamic-tags/eac-dynamic-tags.php:111
+msgid "Site"
+msgstr "Site"
+
+#: includes/elementor/dynamic-tags/tags/site-url.php:27
+msgid "Site URL"
+msgstr "Site URL"
+
+#: widgets/team-members.php:247
+#: includes/elementor/dynamic-tags/tags/author-info.php:63
+#: includes/elementor/dynamic-tags/tags/user-info.php:66
+msgid "Site Web"
+msgstr "Website"
+
+#: includes/elementor/dynamic-tags/tags/author-website-url.php:27
+#| msgid "Site web de l'auteur"
+msgid "Site web auteur"
+msgstr "Author website"
+
+#: widgets/html-sitemap.php:205
+msgid "Sitemap Archive"
+msgstr "Sitemap Archive"
+
+#: widgets/html-sitemap.php:227
+msgid "Sitemap Article"
+msgstr "Sitemap Post"
+
+#: widgets/html-sitemap.php:183
+msgid "Sitemap Auteur"
+msgstr "Sitemap Author"
+
+#: widgets/html-sitemap.php:194
+msgid "Sitemap Page"
+msgstr "Sitemap Page"
+
+#: widgets/html-sitemap.php:216
+msgid "Sitemap Taxonomie"
+msgstr "Sitemap Taxonomy"
+
+#: includes/elementor/dynamic-tags/tags/site-tagline.php:26
+msgid "Slogan du site"
+msgstr "Baseline"
+
+#: widgets/wc-product-grid.php:811
+#: includes/elementor/dynamic-tags/woo/tags/product-sale.php:49
+msgid "Soyez le premier à acheter ce produit"
+msgstr "Be the first to buy this product"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:29
+msgid "Statistiques"
+msgstr "Statistics"
+
+#: core/eac-load-config.php:1160
+msgid "Sticky élément"
+msgstr "Sticky element"
+
+#: widgets/wc-product-grid.php:765 widgets/wc-product-grid.php:1732
+msgid "Stock"
+msgstr "Stock"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-stock.php:30
+msgid "Stock du produit"
+msgstr "Product stock"
+
+#: widgets/acf-relationship.php:558 widgets/author-infobox.php:463
+#: widgets/image-diaporama.php:262 widgets/image-gallery.php:825
+#: widgets/news-ticker.php:407 widgets/pinterest-rss.php:576
+#: widgets/post-grid.php:1036 widgets/rss-reader.php:517
+#: widgets/syntax-highlighter.php:219 widgets/team-members.php:692
+#: widgets/wc-product-grid.php:1476
+msgid "Style"
+msgstr "Style"
+
+#: widgets/chart.php:295 widgets/chart.php:477
+msgid "Suffixe"
+msgstr "Suffix"
+
+#: widgets/image-gallery.php:618
+msgid "Superposer"
+msgstr "Overlay"
+
+#: admin/settings/eac-admin_popup-menu.php:111
+#: admin/settings/eac-admin_popup-menu.php:112
+msgid "Supprimer"
+msgstr "Remove"
+
+#: widgets/wc-product-grid.php:1445
+msgid "Supprimer les balises metas"
+msgstr "Remove meta tags"
+
+#: includes/elementor/dynamic-tags/tags/user-info.php:60
+msgid "Surnom"
+msgstr "Nickname"
+
+#: widgets/lottie-animations.php:362
+msgid "SVG"
+msgstr "SVG"
+
+#: widgets/image-diaporama.php:174
+msgid "Sé-ré-nité"
+msgstr "Se-re-nity"
+
+#: widgets/kenburn-slider.php:238
+msgid "Sélection"
+msgstr "Selection"
+
+#: widgets/post-grid.php:368 widgets/wc-product-grid.php:366
+msgid "Sélection des valeurs"
+msgstr "Select values"
+
+#: admin/settings/eac-admin_popup-menu.php:106
+#: includes/elementor/controls/file-viewer-control.php:81
+#| msgid "Selectionner"
+msgid "Sélectionner"
+msgstr "Select"
+
+#: widgets/image-effects.php:294 widgets/image-effects_SELECT2.php:321
+msgid "Sélectionner l'effet d'image"
+msgstr "Select image effect"
+
+#: widgets/pdf-viewer.php:205
+msgid "Sélectionner l'URL"
+msgstr "Select URL"
+
+#: includes/elementor/dynamic-tags/woo/tags/traits/product-trait.php:35
+msgid "Sélectionner la catégorie"
+msgstr "Select category"
+
+#: widgets/wc-product-grid.php:227
+#: includes/elementor/dynamic-tags/woo/tags/traits/product-trait.php:22
+msgid "Sélectionner la taxonomie"
+msgstr "Select taxonomy"
+
+#: widgets/open-streetmap.php:717
+msgid "Sélectionner le calque par défaut"
+msgstr "Select the default layer"
+
+#: widgets/modal-box.php:310 widgets/off-canvas.php:335
+#: widgets/pdf-viewer.php:263
+msgid "Sélectionner le déclencheur"
+msgstr "Select a trigger"
+
+#: widgets/lottie-animations.php:184 widgets/open-streetmap.php:591
+#: widgets/pdf-viewer.php:194
+#: includes/elementor/injection/eac-injection-lottie.php:124
+msgid "Sélectionner le fichier"
+msgstr "Select file"
+
+#: widgets/lottie-animations.php:187 widgets/pdf-viewer.php:197
+#: includes/elementor/injection/eac-injection-lottie.php:127
+msgid "Sélectionner le fichier de la librairie des médias"
+msgstr "Select the file from the media library"
+
+#: widgets/post-grid.php:246
+msgid "Sélectionner les catégories"
+msgstr "Select categories"
+
+#: widgets/acf-relationship.php:202
+msgid "Sélectionner les types d'articles"
+msgstr "Select Post types"
+
+#: widgets/post-grid.php:259 widgets/wc-product-grid.php:250
+msgid "Sélectionner les étiquettes"
+msgstr "Select tags"
+
+#: includes/elementor/dynamic-tags/tags/traits/page-post-trait.php:12
+#: includes/elementor/dynamic-tags/tags/traits/page-post-trait.php:23
+#: includes/elementor/dynamic-tags/woo/tags/traits/product-trait.php:10
+msgid "Sélectionner un titre"
+msgstr "Select title"
+
+#: widgets/wc-product-grid.php:326
+msgid "Sélectionner une clé"
+msgstr "Select key"
+
+#: admin/settings/eac-admin_popup-menu.php:76 widgets/open-streetmap.php:541
+#: widgets/open-streetmap.php:616
+msgid "Sélectionner une icône"
+msgstr "Select an icon"
+
+#: widgets/post-grid.php:327
+msgid "Sélectionner UNE seule clé"
+msgstr "Select ONE key"
+
+#: widgets/image-effects.php:173 widgets/image-effects_SELECT2.php:201
+msgid "Sélectionner une étiquette pour le titre."
+msgstr "Select a title tag"
+
+#: widgets/news-ticker.php:582
+msgid "Séparateur"
+msgstr "Separator"
+
+#: includes/elementor/custom-attributes/eac-custom-attributes.php:68
+#| msgid ""
+#| "Séparer la clé de sa valeur avec le caractère pipe '|'<br/>Chaque "
+#| "attribut sur une ligne distincte."
+msgid ""
+"Séparer la clé de sa valeur avec le caractère pipe '|'. Chaque attribut sur "
+"une ligne distincte."
+msgstr ""
+"Separate the attribute key from the value using the character pipe '|'. Each "
+"attribute on a separate line"
+
+#: widgets/chart.php:368
+msgid "Série"
+msgstr "Serie"
+
+#: widgets/table-of-contents.php:182
+msgid "Table des Matières"
+msgstr "Table of Contents"
+
+#: core/eac-load-config.php:649
+msgid "Table des matières"
+msgstr "Table of contents"
+
+#: widgets/pinterest-rss.php:189
+msgid "Tableau"
+msgstr "Board"
+
+#: widgets/chart.php:615
+msgid "Taille de la police"
+msgstr "Font size"
+
+#: widgets/html-sitemap.php:887
+msgid "Taxonomie"
+msgstr "Taxonomy"
+
+#: widgets/html-sitemap.php:393
+msgid "Taxonomies"
+msgstr "Taxonomies"
+
+#. Author of the plugin
+msgid "Team EAC"
+msgstr "Team EAC"
+
+#: widgets/html-sitemap.php:669 widgets/image-effects.php:422
+#: widgets/image-effects_SELECT2.php:449 widgets/image-hotspots.php:242
+#: widgets/image-hotspots.php:293 widgets/image-promotion.php:354
+#: widgets/image-promotion.php:434 widgets/image-promotion.php:502
+#: widgets/modal-box.php:314 widgets/modal-box.php:479
+#: widgets/off-canvas.php:338 widgets/off-canvas.php:459
+#: widgets/pdf-viewer.php:266 widgets/pdf-viewer.php:374
+#: widgets/share-post.php:282 widgets/traits/badge-new-trait.php:19
+#: widgets/traits/badge-promo-trait.php:37
+#: widgets/traits/badge-stock-trait.php:19
+msgid "Texte"
+msgstr "Text"
+
+#: widgets/wc-product-grid.php:808
+#: includes/elementor/dynamic-tags/woo/tags/product-sale.php:46
+msgid "Texte alternatif"
+msgstr "Alternate text"
+
+#: widgets/modal-box.php:211 widgets/off-canvas.php:226
+#: widgets/off-canvas.php:227
+msgid "Texte de l'entête"
+msgstr "Header text"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-onsale.php:58
+msgid "Texte du badge"
+msgstr "Badge label"
+
+#: widgets/pdf-viewer.php:274
+msgid "Texte du bouton"
+msgstr "Button text"
+
+#: widgets/share-post.php:283
+msgid "Texte du partage"
+msgstr "Shared text"
+
+#: widgets/image-hotspots.php:466 widgets/modal-box.php:960
+#: widgets/off-canvas.php:926 widgets/pdf-viewer.php:610
+msgid "Texte déclencheur"
+msgstr "Trigger text"
+
+#: widgets/modal-box.php:227 widgets/off-canvas.php:241
+msgid "Texte personnalisé"
+msgstr "Custom text"
+
+#: widgets/wc-product-grid.php:349
+msgid "TimeStamp"
+msgstr "TimeStamp"
+
+#: widgets/acf-relationship.php:474 widgets/acf-relationship.php:667
+#: widgets/html-sitemap.php:248 widgets/html-sitemap.php:305
+#: widgets/html-sitemap.php:335 widgets/html-sitemap.php:391
+#: widgets/html-sitemap.php:511 widgets/html-sitemap.php:712
+#: widgets/image-diaporama.php:161 widgets/image-diaporama.php:278
+#: widgets/image-effects.php:162 widgets/image-effects.php:335
+#: widgets/image-effects_SELECT2.php:190 widgets/image-effects_SELECT2.php:362
+#: widgets/image-gallery.php:254 widgets/image-gallery.php:763
+#: widgets/image-gallery.php:940 widgets/image-hotspots.php:227
+#: widgets/image-promotion.php:283 widgets/image-promotion.php:290
+#: widgets/image-promotion.php:677 widgets/modal-box.php:208
+#: widgets/news-ticker.php:176 widgets/news-ticker.php:440
+#: widgets/off-canvas.php:223 widgets/pinterest-rss.php:162
+#: widgets/pinterest-rss.php:640 widgets/post-grid.php:318
+#: widgets/post-grid.php:721 widgets/post-grid.php:976
+#: widgets/post-grid.php:1149 widgets/rss-reader.php:184
+#: widgets/rss-reader.php:573 widgets/table-of-contents.php:180
+#: widgets/wc-product-grid.php:318 widgets/wc-product-grid.php:1217
+#: widgets/wc-product-grid.php:1605 widgets/webradio-player.php:164
+#: core/utils/eac-tools.php:943
+#: includes/elementor/dynamic-tags/tags/featured-image-data.php:54
+msgid "Titre"
+msgstr "Title"
+
+#: widgets/chart.php:235 widgets/chart.php:270 widgets/chart.php:442
+msgid "Titre de l'axe"
+msgstr "Axis title"
+
+#: widgets/open-streetmap.php:429 widgets/open-streetmap.php:431
+#: widgets/open-streetmap.php:520 widgets/open-streetmap.php:522
+#: widgets/open-streetmap.php:850 widgets/open-streetmap.php:963
+msgid "Titre de l'infobulle"
+msgstr "Tooltip title"
+
+#: widgets/chart.php:196
+msgid "Titre du diagramme"
+msgstr "Chart title"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-title.php:30
+msgid "Titre du produit"
+msgstr "Product title"
+
+#: widgets/image-effects.php:155 widgets/image-effects_SELECT2.php:183
+msgid "Titre et texte"
+msgstr "Title and text"
+
+#: widgets/table-of-contents.php:379
+msgid "TOC Contenu"
+msgstr "TOC Content"
+
+#: widgets/table-of-contents.php:334
+msgid "TOC Entête"
+msgstr "TOC Header"
+
+#: widgets/image-gallery.php:1621 widgets/image-gallery.php:1630
+#: core/utils/eac-helpers.php:368 core/utils/eac-helpers.php:380
+#: core/utils/eac-helpers.php:457 core/utils/eac-helpers.php:466
+#: core/utils/eac-helpers.php:536 core/utils/eac-helpers.php:545
+msgid "Tous"
+msgstr "All"
+
+#: includes/acf/options-page/eac-acf-options-page.php:430
+msgid "Toutes les Pages d'Options"
+msgstr "All Options Pages"
+
+#: widgets/image-diaporama.php:194
+msgid "Tranq-uil-lité"
+msgstr "tranq-uil-ity"
+
+#: widgets/wc-product-grid.php:1412
+msgid "Transforme la vitrine en catalogue de produits sans possibilité d'achat"
+msgstr ""
+"Turns the store into a product catalog without the possibility of purchase"
+
+#: widgets/wc-product-grid.php:1398
+msgid "Transformez la boutique en catalogue de produits"
+msgstr "Turn the store into a product catalog"
+
+#: widgets/kenburn-slider.php:186 widgets/traits/slider-trait.php:98
+msgid "Transition"
+msgstr "Transition"
+
+#: widgets/chart.php:654
+msgid "Transparence des couleurs"
+msgstr "Color transparency"
+
+#: widgets/html-sitemap.php:479 widgets/html-sitemap.php:599
+#: widgets/post-grid.php:270 widgets/wc-product-grid.php:271
+msgid "Triés par"
+msgstr "Sorted by"
+
+#: includes/proxy/proxy_osm.php:46 includes/proxy/proxy_pdf.php:46
+#: includes/proxy/proxy_rss.php:156
+msgid "Trop de requêtes."
+msgstr "Too many requests"
+
+#: widgets/kenburn-slider.php:239
+msgid "Très consommateur de ressources..."
+msgstr "High consumption of resources"
+
+#: widgets/modal-box.php:569
+msgid "Tube"
+msgstr "Tube"
+
+#: widgets/image-hotspots.php:236
+#: includes/acf/options-page/eac-acf-options-page.php:499
+#: includes/elementor/injection/eac-injection-effect.php:157
+#: includes/elementor/dynamic-tags/tags/post-elementor-tmpl.php:51
+msgid "Type"
+msgstr "Type"
+
+#: widgets/pdf-viewer.php:182
+msgid "Type d'affichage"
+msgstr "Display type"
+
+#: widgets/author-infobox.php:404 widgets/html-sitemap.php:371
+#: widgets/post-grid.php:229 widgets/post-grid.php:235
+msgid "Type d'article"
+msgstr "Post type"
+
+#: widgets/modal-box.php:220 widgets/off-canvas.php:234
+msgid "Type de contenu"
+msgstr "Content type"
+
+#: widgets/modal-box.php:222 widgets/off-canvas.php:236
+msgid "Type de contenu à afficher"
+msgstr "Content type to display"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-excerpt.php:47
+msgid "Type de description"
+msgstr "Description type"
+
+#: widgets/chart.php:207
+msgid "Type de diagramme"
+msgstr "Chart type"
+
+#: widgets/image-effects.php:219 widgets/image-effects_SELECT2.php:246
+#: widgets/image-promotion.php:443 widgets/open-streetmap.php:566
+msgid "Type de lien"
+msgstr "Link type"
+
+#: widgets/wc-product-grid.php:217
+#| msgid "Type de produits"
+msgid "Type de produit"
+msgstr "Product type"
+
+#: widgets/lottie-animations.php:356
+msgid "Type de rendu"
+msgstr "Render type"
+
+#: widgets/post-grid.php:343 widgets/wc-product-grid.php:341
+msgid "Type des données"
+msgstr "Data type"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:67
+msgid "Types d'articles personnalisés"
+msgstr "Custom Post Types"
+
+#: widgets/acf-relationship.php:691 widgets/acf-relationship.php:725
+#: widgets/acf-relationship.php:759 widgets/acf-relationship.php:793
+#: widgets/author-infobox.php:588 widgets/author-infobox.php:618
+#: widgets/author-infobox.php:648 widgets/html-sitemap.php:702
+#: widgets/html-sitemap.php:736 widgets/image-diaporama.php:315
+#: widgets/image-effects.php:412 widgets/image-effects.php:447
+#: widgets/image-effects_SELECT2.php:439 widgets/image-effects_SELECT2.php:474
+#: widgets/image-gallery.php:930 widgets/image-gallery.php:973
+#: widgets/image-gallery.php:1037 widgets/image-gallery.php:1104
+#: widgets/image-gallery.php:1202 widgets/image-hotspots.php:488
+#: widgets/image-hotspots.php:653 widgets/image-promotion.php:702
+#: widgets/image-promotion.php:736 widgets/image-promotion.php:790
+#: widgets/image-promotion.php:833 widgets/image-promotion.php:890
+#: widgets/images-comparison.php:325 widgets/modal-box.php:770
+#: widgets/modal-box.php:804 widgets/modal-box.php:983
+#: widgets/modal-box.php:1038 widgets/news-ticker.php:458
+#: widgets/news-ticker.php:518 widgets/news-ticker.php:600
+#: widgets/off-canvas.php:599 widgets/off-canvas.php:661
+#: widgets/off-canvas.php:705 widgets/off-canvas.php:875
+#: widgets/off-canvas.php:949 widgets/open-streetmap.php:872
+#: widgets/open-streetmap.php:927 widgets/pdf-viewer.php:560
+#: widgets/pdf-viewer.php:633 widgets/pinterest-rss.php:661
+#: widgets/pinterest-rss.php:693 widgets/post-grid.php:1139
+#: widgets/post-grid.php:1173 widgets/post-grid.php:1246
+#: widgets/rss-reader.php:594 widgets/rss-reader.php:626
+#: widgets/site-thumbnail.php:287 widgets/syntax-highlighter.php:266
+#: widgets/team-members.php:793 widgets/team-members.php:822
+#: widgets/team-members.php:851 widgets/wc-product-grid.php:1565
+#: widgets/wc-product-grid.php:1624 widgets/wc-product-grid.php:1654
+#: widgets/wc-product-grid.php:1689 widgets/wc-product-grid.php:1722
+#: widgets/wc-product-grid.php:1753 widgets/wc-product-grid.php:1784
+#: widgets/wc-product-grid.php:1860 widgets/traits/badge-new-trait.php:79
+#: widgets/traits/badge-promo-trait.php:89
+#: widgets/traits/badge-stock-trait.php:70
+#: widgets/traits/button-add-to-cart-trait.php:98
+#: widgets/traits/button-read-more-trait.php:98
+msgid "Typographie"
+msgstr "Typography"
+
+#: widgets/table-of-contents.php:401
+msgid "Typographie des entrées"
+msgstr "Entries typography"
+
+#: widgets/off-canvas.php:812
+msgid "Typographie du texte"
+msgstr "Text typography"
+
+#: widgets/modal-box.php:701 widgets/off-canvas.php:753
+#: widgets/table-of-contents.php:356
+msgid "Typographie du titre"
+msgstr "Title typography"
+
+#: includes/woocommerce/eac-woo-hooks.php:258
+msgid "UGS:"
+msgstr "SKU:"
+
+#: widgets/chart.php:252
+msgid "Un,Deux,Trois,Quatre,Cinq,Six"
+msgstr "One,Two,Three,Four,Five,Six"
+
+#: includes/proxy/proxy_rss.php:186
+msgid "Une erreur s'est produite lors de la lecture de la source"
+msgstr "An error occurred while reading the source"
+
+#: widgets/post-grid.php:1271
+msgid "Uniquement pour les Gravatars"
+msgstr "Only for Gravatars"
+
+#: widgets/chart.php:180 widgets/image-effects.php:224
+#: widgets/image-effects.php:232 widgets/image-effects_SELECT2.php:251
+#: widgets/image-effects_SELECT2.php:259 widgets/image-promotion.php:448
+#: widgets/image-promotion.php:456 widgets/lottie-animations.php:174
+#: widgets/lottie-animations.php:194 widgets/lottie-animations.php:280
+#: widgets/modal-box.php:252 widgets/news-ticker.php:183
+#: widgets/open-streetmap.php:572 widgets/open-streetmap.php:581
+#: widgets/pdf-viewer.php:175 widgets/pinterest-rss.php:169
+#: widgets/rss-reader.php:191 widgets/site-thumbnail.php:164
+#: widgets/webradio-player.php:171
+#: includes/elementor/injection/eac-injection-lottie.php:113
+#: includes/elementor/injection/eac-injection-lottie.php:134
+#: includes/elementor/dynamic-tags/tags/url-image-widget.php:46
+msgid "URL"
+msgstr "URL"
+
+#: includes/elementor/dynamic-tags/tags/featured-image-data.php:59
+#| msgid "URL de l'Attachement"
+msgid "URL attachement"
+msgstr "Attachment URL"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:60
+msgid "URL du site"
+msgstr "Site url"
+
+#: includes/elementor/dynamic-tags/tags/featured-image-data.php:58
+msgid "URL image"
+msgstr "URL image"
+
+#: includes/elementor/dynamic-tags/eac-dynamic-tags.php:112
+msgid "URLs"
+msgstr "URLs"
+
+#: widgets/pinterest-rss.php:181
+msgid "Utilisateur"
+msgstr "Username"
+
+#: includes/elementor/custom-css/eac-custom-css.php:86
+msgid ""
+"Utiliser 'selector' pour le container.<br>\n"
+"\t\t\t\t\tselector {color: red;} // Pour l'élément principal<br>\n"
+"\t\t\t\t\tselector .child-element {margin: 10px;} // Pour un élément fils<br>"
+"\n"
+"\t\t\t\t\t.my-class {text-align:center;} // .my-class dans la page<br>\n"
+"\t\t\t\t\tselector .my-class {text-align:center;} // .my-class pour un seul "
+"élément"
+msgstr ""
+"Use 'selector' for the container.<br>\n"
+"selector {color: red;} // For the main element<br>\n"
+"selector .child-element {margin: 10px;} // For a child element<br>\n"
+".my-class {text-align: center;} // .my-class in the page<br>\n"
+"selector .my-class {text-align: center;} // .my-class for a single element"
+
+#: widgets/wc-product-grid.php:342
+msgid "Utiliser le type 'TIMESTAMP' pour comparer des dates"
+msgstr "Use the 'TIMESTAMP' type to compare dates"
+
+#: widgets/image-gallery.php:316
+msgid "Utiliser les balises dynamiques pour les liens internes"
+msgstr "Use dynamic tags for internal links"
+
+#: core/utils/eac-tools.php:947
+msgid "Valeur meta numérique"
+msgstr "Numeric meta value"
+
+#: widgets/chart.php:694
+#: includes/elementor/dynamic-tags/acf/tags/acf-field-values.php:69
+#: includes/elementor/dynamic-tags/woo/tags/product-field-values.php:71
+msgid "Valeurs"
+msgstr "Values"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-field-values.php:40
+msgid "Valeurs des champs"
+msgstr "Fields value"
+
+#: includes/elementor/dynamic-tags/tags/post-custom-field-values.php:43
+msgid "Valeurs des champs personnalisés"
+msgstr "Custom field values"
+
+#: widgets/image-gallery.php:237
+#: includes/elementor/injection/eac-injection-image.php:71
+#: includes/elementor/injection/eac-injection-image.php:107
+msgid "Valoriser l'attribut 'ALT' pour une image externe (SEO)"
+msgstr "Set 'ALT' attribut for external image (SEO)"
+
+#: includes/elementor/dynamic-tags/tags/site-server.php:28
+msgid "Variables serveur"
+msgstr "Server variables"
+
+#: widgets/wc-product-grid.php:1763
+msgid "Vendu"
+msgstr "Sold"
+
+#: widgets/modal-box.php:568
+msgid "Vers la droite"
+msgstr "To the right"
+
+#: widgets/modal-box.php:567
+msgid "Vers la gauche"
+msgstr "To the left"
+
+#: widgets/modal-box.php:565
+msgid "Vers le bas"
+msgstr "To the bottom"
+
+#: widgets/modal-box.php:566
+msgid "Vers le haut"
+msgstr "To the top"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:59
+msgid "Version ACF"
+msgstr "ACF version"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:57
+msgid "Version EAC"
+msgstr "EAC version"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:74
+msgid "Version Elementor"
+msgstr "Elementor version"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:56
+msgid "Version PHP"
+msgstr "PHP version"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:58
+msgid "Version Woocommerce"
+msgstr "Woocommerce version"
+
+#: includes/elementor/dynamic-tags/tags/site-stats.php:55
+msgid "Version Wordpress"
+msgstr "Wordpress version"
+
+#: widgets/chart.php:248
+msgid "Virgule pour séparer les valeurs"
+msgstr "Comma to separate values"
+
+#: widgets/chart.php:499
+msgid "Virgule pour séparer les valeurs. Point comme séparateur de décimal"
+msgstr "Comma to separate values. Point as decimal separator"
+
+#: widgets/chart.php:375
+msgid "Virgule pour séparer les valeurs<br>Point comme séparateur de décimal"
+msgstr "Comma to separate values<br>Point as decimal separator"
+
+#: widgets/image-effects.php:271 widgets/image-effects_SELECT2.php:298
+#: widgets/image-gallery.php:567 widgets/image-promotion.php:269
+#: widgets/pinterest-rss.php:501 widgets/post-grid.php:839
+#: widgets/rss-reader.php:441
+msgid "Visionneuse"
+msgstr "Lightbox"
+
+#: core/eac-load-config.php:593
+msgid "Visionneuse PDF"
+msgstr "PDF viewer"
+
+#: widgets/wc-product-grid.php:1106
+msgid "Visionneuse sur l'image"
+msgstr "Lightbox on image"
+
+#: widgets/lottie-animations.php:344
+msgid "Vitesse"
+msgstr "Speed"
+
+#: widgets/news-ticker.php:265
+msgid "Vitesse de défilement (secondes)"
+msgstr "Scroll speed (seconds)"
+
+#: widgets/kenburn-slider.php:187
+msgid "Vitesse de transition. Début/Fin"
+msgstr "Transition speed. Start/End"
+
+#: widgets/author-infobox.php:845
+msgid "Voir les archives"
+msgstr "Consult archives"
+
+#: includes/acf/options-page/eac-acf-options-page.php:436
+msgid "Voir une Page d'Options"
+msgstr "Open Options Page"
+
+#: widgets/modal-box.php:447
+msgid "Votre légende personnalisée"
+msgstr "Your custom caption"
+
+#: widgets/image-effects.php:202 widgets/image-effects_SELECT2.php:229
+#: widgets/image-hotspots.php:295 widgets/image-hotspots.php:296
+msgid "Votre texte"
+msgstr "Your text"
+
+#: widgets/image-promotion.php:291 widgets/image-promotion.php:292
+msgid "Votre titre"
+msgstr "Your title"
+
+#: widgets/modal-box.php:618 widgets/off-canvas.php:546
+msgid "Vous avez sélectionné une couleur et une image"
+msgstr "You have selected a color and an image"
+
+#: admin/settings/eac-load-components.php:192
+#: admin/settings/eac-load-components.php:237
+msgid "Vous ne pouvez pas modifier les réglages"
+msgstr "You cannot change the settings"
+
+#: core/eac-load-config.php:1171
+msgid "WC balises dynamiques"
+msgstr "WC dynamic tags"
+
+#: core/eac-load-config.php:677
+msgid "WC Grille de produits"
+msgstr "WC Products grid"
+
+#: widgets/off-canvas.php:244
+msgid "Widget"
+msgstr "Widget"
+
+#: widgets/off-canvas.php:314
+msgid "Widgets"
+msgstr "Widgets"
+
+#: includes/elementor/dynamic-tags/woo/eac-woo-tags.php:77
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: widgets/image-promotion.php:417
+msgid "XXX €"
+msgstr "XXX €"
+
+#: widgets/open-streetmap.php:647
+msgid "Zoom automatique"
+msgstr "Auto zoom"
+
+#: widgets/open-streetmap.php:747
+msgid "Zoom en bas à gauche"
+msgstr "Zoom Bottom-Left"
+
+#: widgets/kenburn-slider.php:248
+msgid "Zoom externe"
+msgstr "Zoom out"
+
+#: widgets/kenburn-slider.php:247
+msgid "Zoom interne"
+msgstr "Zoom in"
+
+#: widgets/open-streetmap.php:758
+msgid "Zoomer avec la souris"
+msgstr "Zoom with the mouse"
+
+#: widgets/chart.php:707
+msgid "À l'extérieur"
+msgstr "Outside"
+
+#: widgets/chart.php:706
+msgid "À l'intérieur"
+msgstr "Inside"
+
+#: widgets/author-infobox.php:726
+msgid "À propos de "
+msgstr "About "
+
+#: widgets/image-promotion.php:364
+msgid "Élément inclus"
+msgstr "Element included"
+
+#: widgets/image-promotion.php:380
+msgid "Élément liste #1"
+msgstr "Element list #1"
+
+#: widgets/image-promotion.php:383
+msgid "Élément liste #2"
+msgstr "Element list #2"
+
+#: widgets/image-promotion.php:386
+msgid "Élément liste #3"
+msgstr "Element list #3"
+
+#: widgets/image-promotion.php:389
+msgid "Élément liste #4"
+msgstr "Element list #4"
+
+#: widgets/image-promotion.php:344
+msgid "Éléments"
+msgstr "Elements"
+
+#: widgets/image-diaporama.php:178
+msgid "Équ-a-nimité"
+msgstr "Equ-a-nimity "
+
+#: widgets/acf-relationship.php:481 widgets/image-diaporama.php:285
+#: widgets/image-promotion.php:301 widgets/images-comparison.php:159
+#: widgets/images-comparison.php:207 widgets/post-grid.php:984
+#: widgets/wc-product-grid.php:1225
+msgid "Étiquette"
+msgstr "Tag"
+
+#: widgets/images-comparison.php:209
+msgid "Étiquette de droite"
+msgstr "Right tag"
+
+#: widgets/images-comparison.php:161
+msgid "Étiquette de gauche"
+msgstr "Left tag"
+
+#: widgets/team-members.php:512
+msgid "Étiquette de l'intitulé du poste"
+msgstr "Job title"
+
+#: widgets/chart.php:365 widgets/chart.php:487
+msgid "Étiquette de la série"
+msgstr "Serie label"
+
+#: widgets/image-effects.php:172 widgets/image-effects_SELECT2.php:200
+msgid "Étiquette de titre"
+msgstr "Title tag"
+
+#: widgets/author-infobox.php:195 widgets/team-members.php:494
+msgid "Étiquette du nom"
+msgstr "Name tag"
+
+#: widgets/author-infobox.php:213
+msgid "Étiquette du rôle"
+msgstr "Role tag"
+
+#: widgets/image-gallery.php:771
+msgid "Étiquette du titre"
+msgstr "Title tag"
+
+#: includes/woocommerce/eac-woo-hooks.php:336
+#: includes/woocommerce/eac-woo-hooks.php:356
+msgid "Étiquette: "
+msgid_plural "Étiquettes: "
+msgstr[0] "Tag: "
+msgstr[1] "Tags: "
+
+#: widgets/images-comparison.php:285 widgets/post-grid.php:773
+#: widgets/wc-product-grid.php:972
+#: includes/elementor/dynamic-tags/tags/site-stats.php:73
+msgid "Étiquettes"
+msgstr "Tags"
+
+#: includes/elementor/dynamic-tags/woo/tags/product-terms.php:32
+msgid "Étiquettes du produit"
+msgstr "Product tags"
+
+#: includes/woocommerce/eac-woo-hooks.php:336
+msgid "Étiquettes: "
+msgstr "Tags: "

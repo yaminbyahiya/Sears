@@ -1,0 +1,36 @@
+{% set componentName = "wiloke-hero-slider" %}
+
+<div class="component">
+	<h2 class="component__title" data-animated-in="animate__bounceInDown" data-animated-out="animate__bounceOutUp">
+		{{content.title}}
+	</h2>
+	<div class="component__text" data-animated-in-class="animate__delay-1s" data-animated-in="animate__lightSpeedInRight" data-animated-out="animate__lightSpeedOutRight">
+		{{content.description}}
+	</div>
+	{% if content.textParam1 %}
+		<div class="component__text" data-animated-in-class="animate__delay-02s" data-animated-out-class="animate__delay-06s" data-animated-in="animate__fadeInUp" data-animated-out="animate__fadeOutDown">
+			{{content.textParam1}}
+		</div>
+	{% endif %}
+
+  {% if content.textParam2 %}
+    <div class="component__text" data-animated-in-class="animate__delay-04s" data-animated-out-class="animate__delay-04s" data-animated-in="animate__fadeInUp" data-animated-out="animate__fadeOutDown">
+      {{content.textParam2}}
+    </div>
+  {% endif %}
+
+  {% if content.textParam3 %}
+    <div class="component__text" data-animated-in-class="animate__delay-06s" data-animated-out-class="animate__delay-02s" data-animated-in="animate__fadeInUp" data-animated-out="animate__fadeOutDown">
+      {{content.textParam3}}
+    </div>
+  {% endif %}
+
+	<img class="component__background" data-animated-in="animate__fadeIn" data-animated-out="animate__fadeOut" src="https://img.freepik.com/free-photo/bright-cozy-modern-living-room-interior-have-sofa-lamp-with-white-wall_41470-1045.jpg?size=1200&ext=jpg" alt=""/>
+</div>
+
+
+
+
+
+
+
